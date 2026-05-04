@@ -21,6 +21,9 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Copy .env from runner host
+        run: cp $HOME/edu_sys_v7_secrets/.env .env
+
       - name: Pull and up
         run: |
           docker compose -p edu_sys_v7 -f docker-compose.yml pull
