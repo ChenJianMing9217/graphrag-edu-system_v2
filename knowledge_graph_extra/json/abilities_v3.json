@@ -1,0 +1,4713 @@
+[
+  {
+    "id": "abl_e68aa910e78e",
+    "name": "上下樓梯",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_e1baba27e071",
+    "name": "下肢控制",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_104b2720df34",
+    "name": "下肢肌力",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ab6034985e97",
+    "name": "不需支撐就能坐穩",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Sits without support",
+    "original_texts": [
+      "Sits without support"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_94496ab6bbbf",
+    "name": "主動碰觸玩具",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "會動手臂去揮打玩具"
+    ],
+    "description": "Uses her arm to swing at toys",
+    "original_texts": [
+      "Uses her arm to swing at toys"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_957e3532871b",
+    "name": "前臂撐起",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "趴著時會用手肘或前臂"
+    ],
+    "description": "Pushes up onto elbows/forearms when on tummy",
+    "original_texts": [
+      "Pushes up onto elbows/forearms when on tummy"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_009d6bef25a9",
+    "name": "動作時機",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_4ca48977a655",
+    "name": "動態平衡",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_66a196728277",
+    "name": "半坐姿持瓶餵食",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Starts to sit up in cradle position and holds breast or bottle during feeding.",
+    "original_texts": [
+      "Starts to sit up in cradle position and holds breast or bottle during feeding."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_7ec6b8592217",
+    "name": "協調",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_483f79dedc4d",
+    "name": "單腳站立",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_0d4eaadee731",
+    "name": "單腳跳",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Hops on one foot",
+    "original_texts": [
+      "Hops on one foot"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_7e2826b0d756",
+    "name": "四肢活動",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "會同時移動手臂和腿"
+    ],
+    "description": "Moves both arms and both legs",
+    "original_texts": [
+      "Moves both arms and both legs"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_deb956c68862",
+    "name": "坐姿支撐",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Leans on hands to support himself when sitting",
+    "original_texts": [
+      "Leans on hands to support himself when sitting"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_927a518cf8f9",
+    "name": "坐姿穩定進食",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Sits upright with feet on floor or on a flat surface.",
+    "original_texts": [
+      "Sits upright with feet on floor or on a flat surface."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_bc1bedc62be3",
+    "name": "姿勢控制",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_6b4ef5250f59",
+    "name": "手到口",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Brings hands to mouth",
+    "original_texts": [
+      "Brings hands to mouth"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2401b7338336",
+    "name": "扶站",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Pulls up to stand",
+    "original_texts": [
+      "Pulls up to stand"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_909914f72302",
+    "name": "扶著家具走",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Walks, holding on to furniture",
+    "original_texts": [
+      "Walks, holding on to furniture"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6752519153e2",
+    "name": "接大球",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Catches a large ball most of the time",
+    "original_texts": [
+      "Catches a large ball most of the time"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b801078fdab2",
+    "name": "核心穩定",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2959dfade95d",
+    "name": "步態穩定",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_98be40d2d06b",
+    "name": "無支撐坐姿",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Sits without support.",
+    "original_texts": [
+      "Sits without support."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_5721b9e9a1dc",
+    "name": "獨立爬上爬下",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "能不需幫忙爬上或爬下"
+    ],
+    "description": "Climbs on and off a couch or chair without help",
+    "original_texts": [
+      "Climbs on and off a couch or chair without help"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_3f8062b891f9",
+    "name": "獨立行走",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Walks without holding on to anyone or anything",
+    "original_texts": [
+      "Walks without holding on to anyone or anything"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_f990ad5c0a6f",
+    "name": "獨走數步",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Takes a few steps on his own",
+    "original_texts": [
+      "Takes a few steps on his own"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_df8efa0c9f85",
+    "name": "球類操作",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_1318d4cfa30a",
+    "name": "穩定抬頭",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Holds head steady without support when you are holding her",
+    "original_texts": [
+      "Holds head steady without support when you are holding her"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_4d17d6b85e08",
+    "name": "翻身",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Rolls from tummy to back",
+    "original_texts": [
+      "Rolls from tummy to back"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_f75f734930ba",
+    "name": "肌耐力",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_0fcca287a88e",
+    "name": "自行坐起",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Gets to a sitting position by herself",
+    "original_texts": [
+      "Gets to a sitting position by herself"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_7b3b67467b67",
+    "name": "趴姿抬頭",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "在趴著時能抬起頭"
+    ],
+    "description": "Holds head up when on tummy",
+    "original_texts": [
+      "Holds head up when on tummy"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_d6558ae7923b",
+    "name": "趴姿撐起",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Pushes up with straight arms when on tummy",
+    "original_texts": [
+      "Pushes up with straight arms when on tummy"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_7b385d028431",
+    "name": "跑步",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_72b24392d76c",
+    "name": "跳躍",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_183b78b90cc8",
+    "name": "踢球",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Kicks a ball",
+    "original_texts": [
+      "Kicks a ball"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_34b1ebabd99b",
+    "name": "雙腳離地跳",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Jumps off the ground with both feet",
+    "original_texts": [
+      "Jumps off the ground with both feet"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_afb2e9e3a01d",
+    "name": "靜態平衡",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_88843ffcb2c1",
+    "name": "高腳椅支撐坐姿",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Sits supported in highchair with straps and when reclined.",
+    "original_texts": [
+      "Sits supported in highchair with straps and when reclined."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2de467b1634a",
+    "name": "一手持物一手操作",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Holds something in one hand while using the other hand",
+    "original_texts": [
+      "Holds something in one hand while using the other hand"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_5f74b87792cf",
+    "name": "串大珠/通心粉",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Strings items together, like large beads or macaroni",
+    "original_texts": [
+      "Strings items together, like large beads or macaroni"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_0369d81cc1af",
+    "name": "主動抓取",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "會伸手去抓他想要的玩"
+    ],
+    "description": "Reaches to grab a toy he wants",
+    "original_texts": [
+      "Reaches to grab a toy he wants"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_492e56a8645e",
+    "name": "仿畫",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_e64332110c11",
+    "name": "伸手拿物",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "By age 10 months, reaches for objects.",
+    "original_texts": [
+      "By age 10 months, reaches for objects."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_80551120bb0a",
+    "name": "剪刀使用",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_0c3e35aeb53f",
+    "name": "力量控制",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_1e03d02f3258",
+    "name": "堆疊兩個小物",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Stacks at least two small objects, like blocks",
+    "original_texts": [
+      "Stacks at least two small objects, like blocks"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2d7ea17ca815",
+    "name": "塗鴉",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Scribbles",
+    "original_texts": [
+      "Scribbles"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_468b255d360c",
+    "name": "成熟握筆",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Holds crayon or pencil between fingers and thumb (not a fist)",
+    "original_texts": [
+      "Holds crayon or pencil between fingers and thumb (not a fist)"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_92f369aa9f9d",
+    "name": "手指分化",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_692b4561e73e",
+    "name": "手指操作",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_01147d48d8f2",
+    "name": "手眼協調",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_89ca4d02d8f8",
+    "name": "手腕控制",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_6a63031b8973",
+    "name": "手部張開",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "手會稍微張開"
+    ],
+    "description": "Opens hands briefly",
+    "original_texts": [
+      "Opens hands briefly"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_4babf06f6ccb",
+    "name": "手部控制",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_7d03f660ff96",
+    "name": "手部操作",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2438a662e465",
+    "name": "手部旋轉操作",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "會用手轉動東西 (如"
+    ],
+    "description": "Uses hands to twist things, like turning doorknobs or unscrewing lids",
+    "original_texts": [
+      "Uses hands to twist things, like turning doorknobs or unscrewing lids"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_f183cb5db34c",
+    "name": "手部轉移",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Moves things from one hand to her other hand",
+    "original_texts": [
+      "Moves things from one hand to her other hand"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_310e42a65c41",
+    "name": "抓握",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_af85c28cfdab",
+    "name": "拇食指捏取",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "能用大拇指和食指抓起"
+    ],
+    "description": "Picks things up between thumb and pointer finger",
+    "original_texts": [
+      "Picks things up between thumb and pointer finger"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_15d8bafd6401",
+    "name": "捏取",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_a78276602384",
+    "name": "握持玩具",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "當你把玩具放在他手中"
+    ],
+    "description": "Holds a toy when you put it in his hand",
+    "original_texts": [
+      "Holds a toy when you put it in his hand"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_61c37187f1a0",
+    "name": "握筆",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_429260297e8d",
+    "name": "精細操作",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_dba000d4c0f9",
+    "name": "視動整合",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_daae6eb372f1",
+    "name": "逐頁翻書",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [
+      "看書時能一次翻一頁"
+    ],
+    "description": "Turns book pages, one at a time, when you read to her",
+    "original_texts": [
+      "Turns book pages, one at a time, when you read to her"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_089ede9fde17",
+    "name": "雙手協調",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b433ceae7b05",
+    "name": "前庭刺激尋求",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ed8e69b089d4",
+    "name": "前庭調節",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_bd606d964c66",
+    "name": "口腔感覺接受",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_3c08cc6dc1e6",
+    "name": "口腔感覺需求",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_4c005221864c",
+    "name": "對發聲玩具反應",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Reacts to toys that make sounds, like those with bells or music.",
+    "original_texts": [
+      "Reacts to toys that make sounds, like those with bells or music."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_12a17479ba70",
+    "name": "感覺接受",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_764feb595017",
+    "name": "感覺調節",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_348b5790a5ab",
+    "name": "本體覺",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c96c1dab256d",
+    "name": "材質適應",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_3da313cb01a0",
+    "name": "活動量調整",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_bce83ba71832",
+    "name": "穿著耐受",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_b68adc2a7406",
+    "name": "聽覺調節",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_9eab33e81645",
+    "name": "觸覺接受",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_9b568f39fbc1",
+    "name": "觸覺調節",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_898c338cb305",
+    "name": "身體控制",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_5ac3129efaba",
+    "name": "追視感興趣物品",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Looks at objects of interest and follows objects with their eyes.",
+    "original_texts": [
+      "Looks at objects of interest and follows objects with their eyes."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ef6226e93916",
+    "name": "口唇控制",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_5637f4a154b9",
+    "name": "口腔動作協調",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_0b51d97024e6",
+    "name": "口腔動作控制",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_92a428d3d66c",
+    "name": "口腔接受",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_41a1b2165511",
+    "name": "口腔控制",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b7051b27c40f",
+    "name": "口腔肌力",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_d3c4b6c408cf",
+    "name": "吐舌吹氣發聲",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [
+      "發出 raspberries",
+      "會吹噴嚏 (吐舌吹氣"
+    ],
+    "description": "Blows “raspberries”",
+    "original_texts": [
+      "Blows “raspberries”"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_075debf2deda",
+    "name": "吸管飲",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_b971cf82df80",
+    "name": "吹口水音",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Blows “raspberries.”",
+    "original_texts": [
+      "Blows “raspberries.”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_50323095fbe0",
+    "name": "呼氣控制",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_9cc4873ca591",
+    "name": "咀嚼",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_34f3a3064c20",
+    "name": "咀嚼模式",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_ff4bfac11660",
+    "name": "咬合",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_3b8f1b08c271",
+    "name": "張口控制",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_eb51bf3d5cb9",
+    "name": "手或玩具帶入口",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Brings hands or toys to mouth.",
+    "original_texts": [
+      "Brings hands or toys to mouth."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_53edca300a14",
+    "name": "手碰奶瓶或乳房",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Brings hands to the breast or bottle.",
+    "original_texts": [
+      "Brings hands to the breast or bottle."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2c5d7aadf246",
+    "name": "拍奶瓶或乳房",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Pats breast or bottle.",
+    "original_texts": [
+      "Pats breast or bottle."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_9caaedb87071",
+    "name": "支持下抬頭",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Holds head up when supported.",
+    "original_texts": [
+      "Holds head up when supported."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6a48fe73f0e6",
+    "name": "朝乳頭轉頭張口",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Turns head towards nipple and opens mouth.",
+    "original_texts": [
+      "Turns head towards nipple and opens mouth."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6ec7ca2ad82f",
+    "name": "構音動作",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_c5126aa8751e",
+    "name": "為湯匙張口",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Opens mouth for spoon.",
+    "original_texts": [
+      "Opens mouth for spoon."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_4845ac78c9d6",
+    "name": "舌頭左右移動食物",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Uses tongue to move food from side to side in mouth.",
+    "original_texts": [
+      "Uses tongue to move food from side to side in mouth."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_e3bee9034a54",
+    "name": "舌頭控制",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_a3f240f0701b",
+    "name": "閉唇",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_8de70522c8d4",
+    "name": "口內清除",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_20f5884b68e8",
+    "name": "口內移動",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_5f59b627f9f1",
+    "name": "口內移動與咀嚼吞嚥連貫",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [
+      "口內移動-咀嚼-吞嚥連貫"
+    ],
+    "description": "Moves food around mouth, chews, and swallows without spilling.",
+    "original_texts": [
+      "Moves food around mouth, chews, and swallows without spilling."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_db61e4f59e54",
+    "name": "吞嚥",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_c97f6580766e",
+    "name": "吞嚥協調",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_bb2c07c96e10",
+    "name": "吞嚥啟動",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_88ad5afd7b85",
+    "name": "吞嚥安全",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_e22e3abb10fb",
+    "name": "吞嚥準備",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_b798d83c05f2",
+    "name": "吞嚥耐力",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_0918f2652366",
+    "name": "吸吮與吞嚥",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Sucks and swallows.",
+    "original_texts": [
+      "Sucks and swallows."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2e446052b7c6",
+    "name": "舌頭把食物往後送",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Uses tongue to move food to back of mouth for swallowing.",
+    "original_texts": [
+      "Uses tongue to move food to back of mouth for swallowing."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_8932ad24e70b",
+    "name": "較硬食物處理",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [
+      "可處理較硬食物不 gagging/choking"
+    ],
+    "description": "Chews all foods, including those with tougher textures, without gagging or choking.",
+    "original_texts": [
+      "Chews all foods, including those with tougher textures, without gagging or choking."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_1d355e2f07fd",
+    "name": "進食姿勢",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_baa6ac913084",
+    "name": "WH問句理解",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "理解 where 問題"
+    ],
+    "description": "Looks around when asked “where” questions—like “Where’s your blanket?”",
+    "original_texts": [
+      "Looks around when asked “where” questions—like “Where’s your blanket?”"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_bd40b8c9bc5b",
+    "name": "一步驟指令理解",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_f19343fb2a42",
+    "name": "二步驟指令理解",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_b48fe40708ea",
+    "name": "位置詞理解與使用",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "位置詞 inside/on/under"
+    ],
+    "description": "Understands and uses more location words, like inside, on, and under.",
+    "original_texts": [
+      "Understands and uses more location words, like inside, on, and under."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_952cf4b7d3e2",
+    "name": "依規則玩遊戲",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Follows simple directions and rules to play games.",
+    "original_texts": [
+      "Follows simple directions and rules to play games."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_4f1927db2350",
+    "name": "問句理解",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_248da11de120",
+    "name": "回答情境問題",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Answers questions like “What do you do when you are sleepy?”",
+    "original_texts": [
+      "Answers questions like “What do you do when you are sleepy?”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_3c90ce289b0a",
+    "name": "回答故事問題",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Answers simple questions about a book or story after you read or tell it to him",
+    "original_texts": [
+      "Answers simple questions about a book or story after you read or tell it to him"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b7b7d85ef589",
+    "name": "回答簡單功能問題",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "能回答簡單問題 (例"
+    ],
+    "description": "Answers simple questions like “What is a coat for?”",
+    "original_texts": [
+      "Answers simple questions like “What is a coat for?”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c3aa96a7a530",
+    "name": "圖書中指物",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Points to things in a book when you ask",
+    "original_texts": [
+      "Points to things in a book when you ask"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_85209ef89e37",
+    "name": "指出兩個身體部位",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Points to at least two body parts when you ask him to show you",
+    "original_texts": [
+      "Points to at least two body parts when you ask him to show you"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c18c593d8050",
+    "name": "指認熟悉物品",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Looks at a familiar object when you name it",
+    "original_texts": [
+      "Looks at a familiar object when you name it"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_1c77830aa005",
+    "name": "故事理解",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_0509723b8c3f",
+    "name": "明白「不行」的意思",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Understands 'no' (pauses briefly or stops when you say it)",
+    "original_texts": [
+      "Understands 'no' (pauses briefly or stops when you say it)"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_033b97d7fc39",
+    "name": "理解一步驟指令",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "能不看手勢理解一步驟"
+    ],
+    "description": "Follows one-step directions without any gestures",
+    "original_texts": [
+      "Follows one-step directions without any gestures"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_8f662d4b5d0c",
+    "name": "理解不要",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "明白「不行」的意思 "
+    ],
+    "description": "Understands “no”",
+    "original_texts": [
+      "Understands “no”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_5392f8d1976a",
+    "name": "理解二步驟指令",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "能執行兩步驟指令 ("
+    ],
+    "description": "Follows two-step instructions like “Put the toy down and close the door.”",
+    "original_texts": [
+      "Follows two-step instructions like “Put the toy down and close the door.”",
+      "Follows two-step directions—like “Get the spoon, and put it on the table.”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_69b26ed18837",
+    "name": "理解簡單指令",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Follows directions—like “Give me the ball,” “Hug the teddy bear,” “Come here,” or “Show me your nose.”",
+    "original_texts": [
+      "Follows directions—like “Give me the ball,” “Hug the teddy bear,” “Come here,” or “Show me your nose.”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_a28e447a24f9",
+    "name": "看向說話者/聲音",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Turns or looks toward voices or people talking.",
+    "original_texts": [
+      "Turns or looks toward voices or people talking."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6cbf6768785a",
+    "name": "短暫停止於 no",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Stops for a moment when you say, “No.”",
+    "original_texts": [
+      "Stops for a moment when you say, “No.”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_1d8f84afe860",
+    "name": "禁止語理解",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_c4614d26a142",
+    "name": "聽覺反應",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "對聲音有反應",
+      "對大聲響有反應"
+    ],
+    "description": "Alerts to sound",
+    "original_texts": [
+      "Alerts to sound"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_18a09f7f392b",
+    "name": "聽覺定向",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "朝向聲音轉頭"
+    ],
+    "description": "Turns head towards the sound of your voice",
+    "original_texts": [
+      "Turns head towards the sound of your voice"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_61acb5a8de22",
+    "name": "詞彙理解",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "理解並使用常見物件、動作、人名詞"
+    ],
+    "description": "Understands and uses words for common objects, some actions, and people in their lives.",
+    "original_texts": [
+      "Understands and uses words for common objects, some actions, and people in their lives."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_08eb7dd09247",
+    "name": "語意理解",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_721b067e4ca6",
+    "name": "語言理解",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_9b59fe2fc7a8",
+    "name": "說出熟悉故事下一步",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Tells what comes next in a well-known story",
+    "original_texts": [
+      "Tells what comes next in a well-known story"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_8da14d4d799e",
+    "name": "辨認身體部位",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Identifies one or more body parts.",
+    "original_texts": [
+      "Identifies one or more body parts."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6550f5c016a1",
+    "name": "進階位置詞理解與使用",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "behind/beside/between 位置詞"
+    ],
+    "description": "Understands and uses location words, like behind, beside, and between.",
+    "original_texts": [
+      "Understands and uses location words, like behind, beside, and between."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_bbd1e3b89342",
+    "name": "配合手勢與語詞指令",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "能配合手勢與語詞理解"
+    ],
+    "description": "Follows directions given with both a gesture and words",
+    "original_texts": [
+      "Follows directions given with both a gesture and words"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_46a049b71e36",
+    "name": "1-2個詞",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Tries to say one or two words besides “mama” or “dada”",
+    "original_texts": [
+      "Tries to say one or two words besides “mama” or “dada”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_daeddc45e824",
+    "name": "三個以上詞",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Tries to say three or more words besides “mama” or “dada”",
+    "original_texts": [
+      "Tries to say three or more words besides “mama” or “dada”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_69ab6250aeb9",
+    "name": "不同情緒不同聲音",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Makes sounds that differ depending on whether they are happy or upset.",
+    "original_texts": [
+      "Makes sounds that differ depending on whether they are happy or upset."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b9674950c419",
+    "name": "不規則複數",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Uses at least one irregular plural form, like feet or men.",
+    "original_texts": [
+      "Uses at least one irregular plural form, like feet or men."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c933e61c346c",
+    "name": "主動溝通",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_32ba0fc7dee6",
+    "name": "主動表達",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_d76255b2e8d5",
+    "name": "事件描述",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_ae7a2b2e537c",
+    "name": "使用代名詞",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "會說「我」或「我們」",
+      "使用 me/mine/you"
+    ],
+    "description": "Says words like “I,” “me,” or “we”",
+    "original_texts": [
+      "Says words like “I,” “me,” or “we”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c85a3e84692d",
+    "name": "來回發聲",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Makes sounds back and forth with you.",
+    "original_texts": [
+      "Makes sounds back and forth with you."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2bf99beed2ff",
+    "name": "兩詞組合",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "兩詞句"
+    ],
+    "description": "Says at least two words together, like “More milk.”",
+    "original_texts": [
+      "Says at least two words together, like “More milk.”",
+      "Puts two or more words together—like more water or go outside."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_08bc72290397",
+    "name": "冠詞 a/the",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Uses words like a or the when talking, like a book or the dog.",
+    "original_texts": [
+      "Uses words like a or the when talking, like a book or the dog."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_591ef47b7946",
+    "name": "功能性溝通",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_4a1408f36c7a",
+    "name": "句子組織",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_2dafad115b1e",
+    "name": "句子表達",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_00b4019d9a8d",
+    "name": "叫爸爸媽媽",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "對父母喊「媽媽」或「"
+    ],
+    "description": "Calls a parent “mama” or “dada” or another special name",
+    "original_texts": [
+      "Calls a parent “mama” or “dada” or another special name"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_bbd1be0876f3",
+    "name": "命名書中物品",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "指著書中圖片問「這是"
+    ],
+    "description": "Names things in a book when you point and ask, “What is this?”",
+    "original_texts": [
+      "Names things in a book when you point and ask, “What is this?”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b604d69aaa38",
+    "name": "咕咕聲",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Coos, makes sounds like ooooo, aahh, and mmmmm.",
+    "original_texts": [
+      "Coos, makes sounds like ooooo, aahh, and mmmmm."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_a7f8bc46f674",
+    "name": "咿呀發聲",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "發出咕咕聲",
+      "會發出像 'oooo"
+    ],
+    "description": "Makes sounds like “oooo”, “aahh” (cooing)",
+    "original_texts": [
+      "Makes sounds like “oooo”, “aahh” (cooing)"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ffc8c59fcd09",
+    "name": "問 why/how",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Asks why and how.",
+    "original_texts": [
+      "Asks why and how."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_358a83697dae",
+    "name": "單字表達",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_5b4ef7f23852",
+    "name": "四詞以上句子",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Says sentences with four or more words",
+    "original_texts": [
+      "Says sentences with four or more words"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_d7150494c6df",
+    "name": "回應表達",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_a3d8e8d41c0c",
+    "name": "回應說話聲",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Makes sounds back when you talk to him",
+    "original_texts": [
+      "Makes sounds back when you talk to him"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_f10af7cbb93f",
+    "name": "多樣化手勢",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Uses more gestures than just waving and pointing, like blowing a kiss or nodding yes",
+    "original_texts": [
+      "Uses more gestures than just waving and pointing, like blowing a kiss or nodding yes"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b910edab5e8f",
+    "name": "多樣化發聲",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "會發出多樣化的聲音，"
+    ],
+    "description": "Makes different sounds like 'mamamama' and 'babababa'",
+    "original_texts": [
+      "Makes different sounds like 'mamamama' and 'babababa'"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_606f6a4b8fbf",
+    "name": "多樣母音與子音組合",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Vocalizes different vowel sounds—sometimes combined with a consonant.",
+    "original_texts": [
+      "Vocalizes different vowel sounds—sometimes combined with a consonant."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c843d76090f9",
+    "name": "對聲音警覺",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Alerts to sound.",
+    "original_texts": [
+      "Alerts to sound."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_568f3f1f7eb9",
+    "name": "尖叫發聲",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "會尖叫或發出尖銳聲"
+    ],
+    "description": "Makes squealing noises",
+    "original_texts": [
+      "Makes squealing noises"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_4f80fd5c9ef0",
+    "name": "帶動詞的短句",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "會說包含動作詞的短句"
+    ],
+    "description": "Says two or more words, with one action word, like “Doggie run”",
+    "original_texts": [
+      "Says two or more words, with one action word, like “Doggie run”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_f7c4c41d9ae4",
+    "name": "常用詞組",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Uses word combinations often but may occasionally repeat some words or phrases.",
+    "original_texts": [
+      "Uses word combinations often but may occasionally repeat some words or phrases."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_0c2f29530651",
+    "name": "所有格表達",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Uses possessives, like Daddy’s sock.",
+    "original_texts": [
+      "Uses possessives, like Daddy’s sock."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_d2097fcf5929",
+    "name": "指、揮手、展示或給物",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Points, waves, and shows or gives objects.",
+    "original_texts": [
+      "Points, waves, and shows or gives objects."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6ca6f4a2e2c8",
+    "name": "指點求助",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "指點提出要求/評論/資訊需求"
+    ],
+    "description": "Points to ask for something or to get help",
+    "original_texts": [
+      "Points to ask for something or to get help"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_9a7349a62c5c",
+    "name": "描述圖片中的動作",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "能說出圖中正在做的動"
+    ],
+    "description": "Says what action is happening in a picture or book when asked",
+    "original_texts": [
+      "Says what action is happening in a picture or book when asked"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_f40d422b4740",
+    "name": "提問",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "會問「誰」、「什麼」"
+    ],
+    "description": "Asks 'who,' 'what,' 'where,' or 'why' questions, like 'Where is mommy/daddy?'",
+    "original_texts": [
+      "Asks 'who,' 'what,' 'where,' or 'why' questions, like 'Where is mommy/daddy?'"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_e741c57bc205",
+    "name": "提問 who/what/where/why",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Asks “who,” “what,” “where,” or “why” questions",
+    "original_texts": [
+      "Asks “who,” “what,” “where,” or “why” questions"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_a7c1526bb710",
+    "name": "揮手再見",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "會揮手說「再見」"
+    ],
+    "description": "Waves “bye-bye”",
+    "original_texts": [
+      "Waves “bye-bye”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c84309e9615a",
+    "name": "故事結構",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Includes (1) main characters, settings, and words like and to connect information and (2) ideas to tell stories.",
+    "original_texts": [
+      "Includes (1) main characters, settings, and words like and to connect information and (2) ideas to tell stories."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_0a5e9875e90c",
+    "name": "敘事",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_980a6aa380b3",
+    "name": "敘說熟悉兒歌故事詞句",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "會說出兒歌或故事中的"
+    ],
+    "description": "Says some words from a song, story, or nursery rhyme",
+    "original_texts": [
+      "Says some words from a song, story, or nursery rhyme"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_a6132c53677b",
+    "name": "早期詞彙表達",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "除了「媽媽」或「爸爸"
+    ],
+    "description": "Tries to say one or two words besides 'mama' or 'dada,' like 'ba' for ball or 'da' for dog",
+    "original_texts": [
+      "Tries to say one or two words besides 'mama' or 'dada,' like 'ba' for ball or 'da' for dog"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_e2cecabf4197",
+    "name": "模仿聲音",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Tries to copy sounds that you make.",
+    "original_texts": [
+      "Tries to copy sounds that you make."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_10c662334f1c",
+    "name": "比較詞",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Compares things, with words like bigger or shorter.",
+    "original_texts": [
+      "Compares things, with words like bigger or shorter."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6aa39492c528",
+    "name": "片語表達",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_72960638bbb1",
+    "name": "用語言求助",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Uses words to ask for help.",
+    "original_texts": [
+      "Uses words to ask for help."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_01b3f4ac8250",
+    "name": "社交手勢",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Uses gestures when excited, like clapping or giving a high-five, or when being silly, like sticking out their tongue or making funny faces.",
+    "original_texts": [
+      "Uses gestures when excited, like clapping or giving a high-five, or when being silly, like sticking out their tongue or making funny faces."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_17a45737c6a7",
+    "name": "社交溝通",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_475377bfc148",
+    "name": "約50個詞",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Says about 50 words",
+    "original_texts": [
+      "Says about 50 words"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6b074b6e9d97",
+    "name": "維持對話",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Keeps a conversation going with more than three back-and-forth exchanges",
+    "original_texts": [
+      "Keeps a conversation going with more than three back-and-forth exchanges"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_239483a78bf5",
+    "name": "聽到人聲安靜或微笑",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Quiets or smiles when you talk.",
+    "original_texts": [
+      "Quiets or smiles when you talk."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_9d9bfcda9f0f",
+    "name": "至少50個詞彙",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Uses and understands at least 50 different words for food, toys, animals, and body parts.",
+    "original_texts": [
+      "Uses and understands at least 50 different words for food, toys, animals, and body parts."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_1794f577ff53",
+    "name": "舉手求抱",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Lifts arms up to be picked up",
+    "original_texts": [
+      "Lifts arms up to be picked up"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_fce5eee4dbd6",
+    "name": "複數詞",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Uses some plural words like birds or toys.",
+    "original_texts": [
+      "Uses some plural words like birds or toys."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_449bc8b510cf",
+    "name": "複雜句表達",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "更長更複雜且語法正確的句子"
+    ],
+    "description": "Produces grammatically correct sentences. Sentences are longer and more complex.",
+    "original_texts": [
+      "Produces grammatically correct sentences. Sentences are longer and more complex."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_534f041fc4f9",
+    "name": "詞彙提取",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_b4bd247b22f1",
+    "name": "詞彙表達",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_b2ac104e1fb6",
+    "name": "語法變化",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "-ing 與 -ed 變化"
+    ],
+    "description": "Uses –ing verbs ... Adds –ed to the end of words to talk about past actions.",
+    "original_texts": [
+      "Uses –ing verbs ... Adds –ed to the end of words to talk about past actions."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_762f3c740340",
+    "name": "語言延展",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_04f7e49ab1b6",
+    "name": "說出名字",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Says first name, when asked",
+    "original_texts": [
+      "Says first name, when asked",
+      "Says their name when asked."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_025108f31f62",
+    "name": "說出字的音節",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Says all the syllables in a word.",
+    "original_texts": [
+      "Says all the syllables in a word."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_00b34a8468cc",
+    "name": "說出理由",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Gives reasons for things and events.",
+    "original_texts": [
+      "Gives reasons for things and events."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_3524a04623e2",
+    "name": "說出詞首中尾音",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Says the sounds at the beginning, middle, and end of words.",
+    "original_texts": [
+      "Says the sounds at the beginning, middle, and end of words."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c43e121f3f3c",
+    "name": "談論當天發生的事",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "能敘述當天發生的一件"
+    ],
+    "description": "Talks about at least one thing that happened during his day",
+    "original_texts": [
+      "Talks about at least one thing that happened during his day"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_7bfbcf5d51da",
+    "name": "講兩事件故事",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "能講述包含至少兩個情"
+    ],
+    "description": "Tells a story she heard or made up with at least two events",
+    "original_texts": [
+      "Tells a story she heard or made up with at least two events"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_75e08dbb4fa7",
+    "name": "講故事",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Tells you a story from a book or a video.",
+    "original_texts": [
+      "Tells you a story from a book or a video."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ab1c51cda0c4",
+    "name": "輪替發聲",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Takes turns making sounds with you",
+    "original_texts": [
+      "Takes turns making sounds with you"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_8255dceabbb1",
+    "name": "遊戲中發聲",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Vocalizes during play or with objects in mouth.",
+    "original_texts": [
+      "Vocalizes during play or with objects in mouth."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_bed0edbbc7b5",
+    "name": "重複音節咿呀",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Makes different sounds like “mamamama” and “babababa”",
+    "original_texts": [
+      "Makes different sounds like “mamamama” and “babababa”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_8ed291048649",
+    "name": "長串咿呀",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Babbles long strings of sounds, like mamamama, upup, or babababa.",
+    "original_texts": [
+      "Babbles long strings of sounds, like mamamama, upup, or babababa."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_966d7e1e7f05",
+    "name": "雙向對話",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Talks with you in conversation using at least two back-and-forth exchanges",
+    "original_texts": [
+      "Talks with you in conversation using at least two back-and-forth exchanges"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_008da68c098c",
+    "name": "需求表達",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_e31fd3846b97",
+    "name": "點頭搖頭",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Shakes head for “no” and nods head for “yes.”",
+    "original_texts": [
+      "Shakes head for “no” and nods head for “yes.”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ff882a11e2aa",
+    "name": "共鳴",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_49265101549a",
+    "name": "動作計畫",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_440feb352aa4",
+    "name": "嗓音品質",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_3e0d96c7b393",
+    "name": "大多可被理解",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Talks well enough for others to understand, most of the time",
+    "original_texts": [
+      "Talks well enough for others to understand, most of the time"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c2a414d23521",
+    "name": "構音",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "產生 t k g f y 與 -ing 音"
+    ],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_56d15691367e",
+    "name": "構音模仿",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_a432498ff7f4",
+    "name": "清晰度",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_70f4564341af",
+    "name": "特定音構音",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_aa5c3288b8e0",
+    "name": "發聲",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [
+      "會發出除大哭以外的聲"
+    ],
+    "description": "Makes sounds other than crying",
+    "original_texts": [
+      "Makes sounds other than crying"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_bb58f5ffc237",
+    "name": "發聲持續",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_896d8f1d6adf",
+    "name": "語暢",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_2ab4e65a6eff",
+    "name": "語速控制",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_a69949b4db1c",
+    "name": "語音清晰度",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_b09a14d18be4",
+    "name": "音量控制",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_f0e096a392ed",
+    "name": "音韻歷程",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_d7420fdc802b",
+    "name": "任務維持",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_f4628ac070db",
+    "name": "使用時間詞",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "會使用時間詞 (如昨"
+    ],
+    "description": "Uses words about time, like “yesterday,” “tomorrow,” “morning,” or “night”",
+    "original_texts": [
+      "Uses words about time, like “yesterday,” “tomorrow,” “morning,” or “night”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_710683a372be",
+    "name": "假裝閱讀",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Pretends to read alone or with others.",
+    "original_texts": [
+      "Pretends to read alone or with others."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_e740046d8c5f",
+    "name": "分類",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_aee5b129b626",
+    "name": "動作排序",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_59addc64bd74",
+    "name": "口腔探索",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Puts things in her mouth to explore them",
+    "original_texts": [
+      "Puts things in her mouth to explore them"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_0409f3d8913b",
+    "name": "命名顏色",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Names a few colors of items",
+    "original_texts": [
+      "Names a few colors of items"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_0a3e10a16da2",
+    "name": "問題解決",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_08b01a899fc8",
+    "name": "啟動能力",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_92c5ccb3d0c3",
+    "name": "執行功能",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6f376f7a968a",
+    "name": "字母辨識與姓名書寫",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "辨認10個以上字母並能寫自己名字"
+    ],
+    "description": "Recognizes and names 10 or more letters and can usually write their own name.",
+    "original_texts": [
+      "Recognizes and names 10 or more letters and can usually write their own name."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_7fe6e6fdda73",
+    "name": "寫名字中的一些字母",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Writes some letters in her name",
+    "original_texts": [
+      "Writes some letters in her name"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_98febf3e0831",
+    "name": "專注5到10分鐘",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Pays attention for 5 to 10 minutes during activities",
+    "original_texts": [
+      "Pays attention for 5 to 10 minutes during activities"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_96aa31c20672",
+    "name": "尋找掉落物",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Looks for objects when dropped out of sight",
+    "original_texts": [
+      "Looks for objects when dropped out of sight"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_9b4a962e09bd",
+    "name": "工作記憶",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_85fa25813f0a",
+    "name": "找被藏起來的東西",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "會找被隱藏起來的物品"
+    ],
+    "description": "Looks for things he sees you hide",
+    "original_texts": [
+      "Looks for things he sees you hide"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_3c24bcfe940d",
+    "name": "把物品放進容器",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Puts something in a container, like a block in a cup",
+    "original_texts": [
+      "Puts something in a container, like a block in a cup"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_723f0708b0c9",
+    "name": "抑制控制",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_fc21147c80a6",
+    "name": "持續注意",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_5a9e9e1ff94b",
+    "name": "操作玩具開關旋鈕",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Tries to use switches, knobs, or buttons on a toy",
+    "original_texts": [
+      "Tries to use switches, knobs, or buttons on a toy"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_3be22b9f18c5",
+    "name": "數到10",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Counts to 10",
+    "original_texts": [
+      "Counts to 10"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_71243074ec55",
+    "name": "早期書寫",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "假裝寫字/拼字，會寫部分字母"
+    ],
+    "description": "Pretends to write or spell and can write some letters.",
+    "original_texts": [
+      "Pretends to write or spell and can write some letters."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_3efb5777a823",
+    "name": "時間詞理解與使用",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "正確使用 yesterday/tomorrow"
+    ],
+    "description": "Uses more words for time—like yesterday and tomorrow—correctly.",
+    "original_texts": [
+      "Uses more words for time—like yesterday and tomorrow—correctly."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_86427296a731",
+    "name": "概念形成",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_0dbdaa90c976",
+    "name": "模仿做家事",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Copies you doing chores, like sweeping with a broom",
+    "original_texts": [
+      "Copies you doing chores, like sweeping with a broom"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_8ef46dcfa1a5",
+    "name": "模仿畫圓",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Draws a circle, when you show him how",
+    "original_texts": [
+      "Draws a circle, when you show him how"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_94248a9d040d",
+    "name": "正確使用物品",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Tries to use things the right way, like a phone, cup, or book",
+    "original_texts": [
+      "Tries to use things the right way, like a phone, cup, or book"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_5603277681fd",
+    "name": "步驟執行",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_ccd258fbcd66",
+    "name": "活動時能持續專注 5",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Pays attention for 5 to 10 minutes during activities. For example, during story time or making arts and crafts (screen time does not count)",
+    "original_texts": [
+      "Pays attention for 5 to 10 minutes during activities. For example, during story time or making arts and crafts (screen time does not count)"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_a9528a3af109",
+    "name": "物體恆存前驅",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "物品掉出視線外會尋找"
+    ],
+    "description": "Looks for objects when dropped out of sight (like his spoon or toy)",
+    "original_texts": [
+      "Looks for objects when dropped out of sight (like his spoon or toy)"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_50402c8bf0bb",
+    "name": "畫出人像",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Draws a person with three or more body parts",
+    "original_texts": [
+      "Draws a person with three or more body parts"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_71919a5fef2e",
+    "name": "知道書的封面/書名",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Locates the front of a book and its title.",
+    "original_texts": [
+      "Locates the front of a book and its title."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_0a2317254c8b",
+    "name": "空間概念",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_beb9b635eee2",
+    "name": "簡單解決問題",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "能表現出簡單的問題解"
+    ],
+    "description": "Shows simple problem-solving skills",
+    "original_texts": [
+      "Shows simple problem-solving skills"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2b9f0ae378de",
+    "name": "自我手部注視",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "會帶著興趣看著自己的"
+    ],
+    "description": "Looks at his hands with interest",
+    "original_texts": [
+      "Looks at his hands with interest"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_46c98d765c50",
+    "name": "視知覺",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_b5b5f9cbbc6d",
+    "name": "視覺注意",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "會看著玩具好幾秒"
+    ],
+    "description": "Looks at a toy for several seconds",
+    "original_texts": [
+      "Looks at a toy for several seconds"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_29ce221dface",
+    "name": "視覺追視",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "會看著你移動"
+    ],
+    "description": "Watches you as you move",
+    "original_texts": [
+      "Watches you as you move"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_60bff506daab",
+    "name": "認知彈性",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6f2c9c716019",
+    "name": "轉換",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_497410ac9cf4",
+    "name": "辨認1到5部分數字",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Names some numbers between 1 and 5 when you point to them",
+    "original_texts": [
+      "Names some numbers between 1 and 5 when you point to them"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_eceda3f89e5e",
+    "name": "辨認一些字母",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Names some letters when you point to them",
+    "original_texts": [
+      "Names some letters when you point to them"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_a4354ac461b8",
+    "name": "辨識標誌",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Recognizes signs and logos like STOP.",
+    "original_texts": [
+      "Recognizes signs and logos like STOP."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_0695b93f3ea7",
+    "name": "辨識簡單押韻",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "能辨認或使用簡單對韻"
+    ],
+    "description": "Uses or recognizes simple rhymes",
+    "original_texts": [
+      "Uses or recognizes simple rhymes"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_83766e83fe76",
+    "name": "配對",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_07ab0dc94746",
+    "name": "雙物對敲",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "會把兩個東西對敲"
+    ],
+    "description": "Bangs two things together",
+    "original_texts": [
+      "Bangs two things together"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_506a7efae0f3",
+    "name": "順序執行",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b2e8d00c50b6",
+    "name": "順序概念",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_e18de5af360a",
+    "name": "顏色概念",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [
+      "能辨認至少一種顏色"
+    ],
+    "description": "Shows he knows at least one color",
+    "original_texts": [
+      "Shows he knows at least one color"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_575a79a7fd0a",
+    "name": "主動微笑",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Smiles on his own to get your attention",
+    "original_texts": [
+      "Smiles on his own to get your attention"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6c163f7c998e",
+    "name": "主動邀請同儕遊戲",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "沒人玩時會主動詢問是"
+    ],
+    "description": "Asks to go play with children if none are around",
+    "original_texts": [
+      "Asks to go play with children if none are around"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b79892c62a53",
+    "name": "互動遊戲反應",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "peek-a-boo 反應"
+    ],
+    "description": "Smiles or laughs when you play peek-a-boo",
+    "original_texts": [
+      "Smiles or laughs when you play peek-a-boo"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_8ca6ff4b6c75",
+    "name": "依場所調整行為",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "會根據場所調整行為 "
+    ],
+    "description": "Changes behavior based on where she is",
+    "original_texts": [
+      "Changes behavior based on where she is"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_735abcd202d1",
+    "name": "依規則輪流",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Follows rules or takes turns when playing games with other children",
+    "original_texts": [
+      "Follows rules or takes turns when playing games with other children"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ce44fb2cc82b",
+    "name": "共同注意力",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_79965e6641c0",
+    "name": "分享喜歡的物品",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Shows you an object she likes",
+    "original_texts": [
+      "Shows you an object she likes"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_9f4d5c47fb80",
+    "name": "分離反應",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "當你離開時會有反應 "
+    ],
+    "description": "Reacts when you leave (looks, reaches for you, or cries)",
+    "original_texts": [
+      "Reacts when you leave (looks, reaches for you, or cries)"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_77f58c36ae83",
+    "name": "分離後平復",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "被送到托嬰或幼稚園後"
+    ],
+    "description": "Calms down within 10 minutes after you leave her",
+    "original_texts": [
+      "Calms down within 10 minutes after you leave her"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b44b321ab513",
+    "name": "參與拍手歌遊戲",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Plays games with you, like pat-a-cake",
+    "original_texts": [
+      "Plays games with you, like pat-a-cake"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_a6764111bae4",
+    "name": "叫名看向對方",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Looks at you when you call their name.",
+    "original_texts": [
+      "Looks at you when you call their name."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_760342c7feb2",
+    "name": "同儕互動",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_60a3dfcf13cc",
+    "name": "同理",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_cadffc318c96",
+    "name": "吸引注意",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "會透過看你、移動或發"
+    ],
+    "description": "Looks at you, moves, or makes sounds to get or keep your attention",
+    "original_texts": [
+      "Looks at you, moves, or makes sounds to get or keep your attention"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_7dd3d9429085",
+    "name": "咯咯笑",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Chuckles (not yet a full laugh) when you try to make her laugh",
+    "original_texts": [
+      "Chuckles (not yet a full laugh) when you try to make her laugh"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_f0054a385a27",
+    "name": "咯咯笑和大笑",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Giggles and laughs.",
+    "original_texts": [
+      "Giggles and laughs."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_22cfad53ac78",
+    "name": "喜歡當小幫手",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Likes to be a 'helper'",
+    "original_texts": [
+      "Likes to be a 'helper'"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_831192b85971",
+    "name": "回應叫名",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Looks when you call her name",
+    "original_texts": [
+      "Looks when you call her name"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6c5aa5bdcdf7",
+    "name": "回應臉部表情",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Responds to facial expressions.",
+    "original_texts": [
+      "Responds to facial expressions."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_4402e6e2322e",
+    "name": "大笑",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Laughs",
+    "original_texts": [
+      "Laughs"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_213d9829ef04",
+    "name": "安慰他人",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "會安慰受傷或難過的人"
+    ],
+    "description": "Comforts others who are hurt or sad",
+    "original_texts": [
+      "Comforts others who are hurt or sad"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2e710bace2c3",
+    "name": "對陌生人害羞/黏人",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Is shy, clingy, or fearful around strangers",
+    "original_texts": [
+      "Is shy, clingy, or fearful around strangers"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_8ded3ffa4748",
+    "name": "展示自己的能力",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "會說「看我！」來展示",
+      "說 Look at me 吸引注意"
+    ],
+    "description": "Shows you what she can do by saying, “Look at me!”",
+    "original_texts": [
+      "Shows you what she can do by saying, “Look at me!”"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_978945c2d4da",
+    "name": "平行/簡單共同遊戲",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Plays next to other children and sometimes plays with them",
+    "original_texts": [
+      "Plays next to other children and sometimes plays with them"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_76910fe6ea2f",
+    "name": "彈性轉換",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_10053f62fc79",
+    "name": "情緒表情表達",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "能表現出多種表情，如"
+    ],
+    "description": "Shows several facial expressions, like happy, sad, angry, and surprised",
+    "original_texts": [
+      "Shows several facial expressions, like happy, sad, angry, and surprised"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_6ba699958d96",
+    "name": "情緒調節",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_9cb2a62a845d",
+    "name": "指給你看有趣的東西",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Points to show you something interesting",
+    "original_texts": [
+      "Points to show you something interesting"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c0eb85bb1dc0",
+    "name": "挫折容忍",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_4731e2d9dfc4",
+    "name": "新情境看大人反應",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Looks at your face to see how to react in a new situation",
+    "original_texts": [
+      "Looks at your face to see how to react in a new situation"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_27ddafa34c90",
+    "name": "會根據場所調整行為",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Changes behavior based on where she is (place of worship, library, playground)",
+    "original_texts": [
+      "Changes behavior based on where she is (place of worship, library, playground)"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_42a9a7724cb3",
+    "name": "模仿同儕玩耍",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "遊戲時會模仿其他孩子"
+    ],
+    "description": "Copies other children while playing",
+    "original_texts": [
+      "Copies other children while playing"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_14f692b7c82c",
+    "name": "模仿與主動手勢互動",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Imitates and initiates gestures for engaging in social interactions and playing games, like blowing kisses or playing peek-a-boo.",
+    "original_texts": [
+      "Imitates and initiates gestures for engaging in social interactions and playing games, like blowing kisses or playing peek-a-boo."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_3c91c318e902",
+    "name": "注意並加入同儕遊戲",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Notices other children and joins them to play",
+    "original_texts": [
+      "Notices other children and joins them to play"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_bc98e777f514",
+    "name": "注意他人受傷或難過",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Notices when others are hurt or upset",
+    "original_texts": [
+      "Notices when others are hurt or upset"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_215dfc0a006f",
+    "name": "當你離開時會有反應",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Reacts when you leave (looks, reaches for you, or cries)",
+    "original_texts": [
+      "Reacts when you leave (looks, reaches for you, or cries)"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6cf1d66466e7",
+    "name": "眼神接觸",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "會看著你的臉"
+    ],
+    "description": "Looks at your face",
+    "original_texts": [
+      "Looks at your face"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_89db1ec31b03",
+    "name": "社交主動性",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_1a22fd373d05",
+    "name": "社會互動",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_bfd62a3310b2",
+    "name": "社會回應",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_5faf4ff0dec8",
+    "name": "社會微笑",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "當你跟他說話或對他笑"
+    ],
+    "description": "Smiles when you talk to or smile at her",
+    "original_texts": [
+      "Smiles when you talk to or smile at her"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_a100a5330394",
+    "name": "社會規則",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "",
+    "original_texts": [],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6cf782b986cb",
+    "name": "行為彈性",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_94425f9dc871",
+    "name": "表達親暱",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [
+      "會表現出親愛舉動 ("
+    ],
+    "description": "Shows you affection (hugs, cuddles, or kisses you)",
+    "original_texts": [
+      "Shows you affection (hugs, cuddles, or kisses you)"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_41b60d38b288",
+    "name": "被安撫",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Calms down when spoken to or picked up",
+    "original_texts": [
+      "Calms down when spoken to or picked up"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_2b0e776c298f",
+    "name": "認得熟悉的人或物",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Recognizes loved ones and some common objects.",
+    "original_texts": [
+      "Recognizes loved ones and some common objects."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_cec932579ee6",
+    "name": "輪流等待",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_45f444dfdada",
+    "name": "辨識熟悉的人",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Knows familiar people",
+    "original_texts": [
+      "Knows familiar people"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c1edcc0185f4",
+    "name": "避免危險",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Avoids danger, like not jumping from tall heights at the playground",
+    "original_texts": [
+      "Avoids danger, like not jumping from tall heights at the playground"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c587726c270b",
+    "name": "避免熱的東西",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Avoids touching hot objects, like a stove, when you warn her",
+    "original_texts": [
+      "Avoids touching hot objects, like a stove, when you warn her"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_cf074c188330",
+    "name": "離開照顧者又回頭確認",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Moves away from you, but looks to make sure you are close by",
+    "original_texts": [
+      "Moves away from you, but looks to make sure you are close by"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_bc95caa7538d",
+    "name": "難過時找依附對象",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Looks for loved ones when upset.",
+    "original_texts": [
+      "Looks for loved ones when upset."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6d572ecc0919",
+    "name": "以母乳/配方奶進食",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Human milk and/or formula (IDDSI Level 0).",
+    "original_texts": [
+      "Human milk and/or formula (IDDSI Level 0)."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ad56c23d8c6f",
+    "name": "叉匙進食",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Feeds self with fork and spoon, although often still uses fingers.",
+    "original_texts": [
+      "Feeds self with fork and spoon, although often still uses fingers."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_5549c43662ff",
+    "name": "可開始糊狀食物",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Smooth baby foods (purees) with no lumps or chunks (IDDSI Level 4).",
+    "original_texts": [
+      "Smooth baby foods (purees) with no lumps or chunks (IDDSI Level 4)."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ea5290634aba",
+    "name": "含乳頭",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Latches to nipple.",
+    "original_texts": [
+      "Latches to nipple."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_7cc09af35d92",
+    "name": "吸管喝水",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Drinks from straw without help and without spilling.",
+    "original_texts": [
+      "Drinks from straw without help and without spilling."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b1981f45c570",
+    "name": "喝開口杯",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Drinks from a cup without a lid, as you hold it",
+    "original_texts": [
+      "Drinks from a cup without a lid, as you hold it"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_e551b75f30ac",
+    "name": "嘗試用湯匙",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Tries to use a spoon",
+    "original_texts": [
+      "Tries to use a spoon"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_6dba660a9821",
+    "name": "多樣口感接受",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "多種酥脆/硬質/混合口感"
+    ],
+    "description": "Most crunchy, hard, or mixed food textures... Child still requires adult to cut more challenging foods into smaller pieces to prevent choking.",
+    "original_texts": [
+      "Most crunchy, hard, or mixed food textures... Child still requires adult to cut more challenging foods into smaller pieces to prevent choking."
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_21b159fcc8e5",
+    "name": "學習開口杯/學習杯",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Drinks from a sippy cup without help; can drink from an open cup with some spilling.",
+    "original_texts": [
+      "Drinks from a sippy cup without help; can drink from an open cup with some spilling."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_e95f661c5632",
+    "name": "小杯喝水少灑出",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Drinks from a small cup with hands and has minimal spilling.",
+    "original_texts": [
+      "Drinks from a small cup with hands and has minimal spilling."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_440de8bba422",
+    "name": "手指或餐具自餵",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Feeds self with utensils or fingers.",
+    "original_texts": [
+      "Feeds self with utensils or fingers.",
+      "Feeds self with fingers or utensils."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_57cd86e93e83",
+    "name": "手指自我進食",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "會用手指抓食物吃",
+      "會用手指拿食物餵自己"
+    ],
+    "description": "Uses fingers to feed herself some food",
+    "original_texts": [
+      "Uses fingers to feed herself some food"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_c2794c21db0d",
+    "name": "拒食表達",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "合上嘴唇表示不想再吃"
+    ],
+    "description": "Closes lips to show she doesn't want more food",
+    "original_texts": [
+      "Closes lips to show she doesn't want more food"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_5798780f76b4",
+    "name": "杯飲",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_06da8f944366",
+    "name": "混合質地食物",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Foods made of mixed consistencies (IDDSI Level 7).",
+    "original_texts": [
+      "Foods made of mixed consistencies (IDDSI Level 7)."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_7986bde6a216",
+    "name": "用叉子",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Uses a fork",
+    "original_texts": [
+      "Uses a fork"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ef8c87a8d383",
+    "name": "耙抓食物",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "會用手指將食物耙向自"
+    ],
+    "description": "Uses fingers to “rake” food towards himself",
+    "original_texts": [
+      "Uses fingers to “rake” food towards himself"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_903045e2d378",
+    "name": "自主進食",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_72eeca586338",
+    "name": "自助盛食或倒水",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Serves himself food or pours water, with adult supervision",
+    "original_texts": [
+      "Serves himself food or pours water, with adult supervision"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_ce5b72cbcccb",
+    "name": "進食預期",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "張口期待進食"
+    ],
+    "description": "If hungry, opens mouth when she sees breast or bottle",
+    "original_texts": [
+      "If hungry, opens mouth when she sees breast or bottle"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_1acbb60771d9",
+    "name": "開口杯不灑出",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Drinks from an open cup without spilling.",
+    "original_texts": [
+      "Drinks from an open cup without spilling."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_dc59efb4bec9",
+    "name": "開口杯飲用",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Drinks from a cup without a lid and may spill sometimes",
+    "original_texts": [
+      "Drinks from a cup without a lid and may spill sometimes"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_292484afd109",
+    "name": "雙側咀嚼",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Consistently chews food on both sides of mouth.",
+    "original_texts": [
+      "Consistently chews food on both sides of mouth."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_84e73f3412a3",
+    "name": "需大量咀嚼食物",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Foods that require a lot of chewing, like chicken breast.",
+    "original_texts": [
+      "Foods that require a lot of chewing, like chicken breast."
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_7991e781a6b6",
+    "name": "餐具使用",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_2008658dc228",
+    "name": "動作規劃",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_d536b279f827",
+    "name": "左右概念",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_a766aef2983c",
+    "name": "扣子操作",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_f9b023467257",
+    "name": "扣扣子",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Buttons some buttons",
+    "original_texts": [
+      "Buttons some buttons"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_d65a48d27be6",
+    "name": "拉鍊操作",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_cffcf8947c12",
+    "name": "穿衣",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_304c6f9fe228",
+    "name": "穿襪",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_40e01d8e2a23",
+    "name": "穿部分衣物",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Puts on some clothes by himself, like loose pants or a jacket",
+    "original_texts": [
+      "Puts on some clothes by himself, like loose pants or a jacket"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_b14a35f73512",
+    "name": "穿鞋",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_1b51c86752e0",
+    "name": "脫衣",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "能自己脫掉一部分衣服"
+    ],
+    "description": "Takes some clothes off by himself, like loose pants or an open jacket",
+    "original_texts": [
+      "Takes some clothes off by himself, like loose pants or an open jacket"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_d3cfcf4637a9",
+    "name": "解扣子",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Unbuttons some buttons",
+    "original_texts": [
+      "Unbuttons some buttons"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_45f804f0ac36",
+    "name": "配合穿衣",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "穿衣服時會幫忙 (如"
+    ],
+    "description": "Helps you dress him by pushing arm through sleeve or lifting up foot",
+    "original_texts": [
+      "Helps you dress him by pushing arm through sleeve or lifting up foot"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_b14c0d349f44",
+    "name": "如廁流程",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_4be4b29d0a01",
+    "name": "如廁表達",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_f9513da884f0",
+    "name": "工具使用",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_f3ddad370bd0",
+    "name": "盥洗步驟",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_280b4f7dd4d6",
+    "name": "自我清潔",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_cd09169b6bf6",
+    "name": "自我監控",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_b2b111fd4095",
+    "name": "身體覺察",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_5ffbdf109c37",
+    "name": "配合洗手",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "會伸出手讓你洗手"
+    ],
+    "description": "Puts hands out for you to wash them",
+    "original_texts": [
+      "Puts hands out for you to wash them"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_06e5c1acc51d",
+    "name": "主動參與",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_1e359e295e1b",
+    "name": "假裝遊戲",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Uses things to pretend, like feeding a block to a doll as if it were food",
+    "original_texts": [
+      "Uses things to pretend, like feeding a block to a doll as if it were food"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_a69c46843882",
+    "name": "共同遊戲",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_d69309d6a556",
+    "name": "共讀參與",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "會和你一起看幾頁書"
+    ],
+    "description": "Looks at a few pages in a book with you",
+    "original_texts": [
+      "Looks at a few pages in a book with you"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_666e74184772",
+    "name": "功能性遊戲",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_b314387b1029",
+    "name": "唱歌跳舞表演",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "喜歡跳舞"
+    ],
+    "description": "Sings, dances, or acts for you",
+    "original_texts": [
+      "Sings, dances, or acts for you"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_e7039696531c",
+    "name": "扮演角色",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Pretends to be something else during play (teacher, superhero, dog)",
+    "original_texts": [
+      "Pretends to be something else during play (teacher, superhero, dog)"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_62bf0db505ba",
+    "name": "擁抱玩具",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "會擁抱洋娃娃或其他玩"
+    ],
+    "description": "Hugs stuffed doll or other toy",
+    "original_texts": [
+      "Hugs stuffed doll or other toy"
+    ],
+    "source": "normalized_from_sentence"
+  },
+  {
+    "id": "abl_092f6d72dfad",
+    "name": "簡單操作玩具",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Plays with toys in a simple way, like pushing a toy car",
+    "original_texts": [
+      "Plays with toys in a simple way, like pushing a toy car"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_c04805badfa5",
+    "name": "象徵性遊戲",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_cf28c576f622",
+    "name": "遊戲發起",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_549188755e5d",
+    "name": "遵循簡單生活常規",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [
+      "會遵守簡單常規 (例"
+    ],
+    "description": "Follows simple routines when told",
+    "original_texts": [
+      "Follows simple routines when told"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_cc24660bb2d0",
+    "name": "任務完成",
+    "subdomain_name": "生活作息",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_405dafb9ca4d",
+    "name": "做簡單家事",
+    "subdomain_name": "生活作息",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Does simple chores at home, like matching socks or clearing the table after eating",
+    "original_texts": [
+      "Does simple chores at home, like matching socks or clearing the table after eating"
+    ],
+    "source": "existing"
+  },
+  {
+    "id": "abl_dca4eb9352ec",
+    "name": "常規遵循",
+    "subdomain_name": "生活作息",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_4bf1c69ec316",
+    "name": "時間概念",
+    "subdomain_name": "生活作息",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "Ontology-level ability concept added to resolve observation matching.",
+    "original_texts": [],
+    "source": "new_from_warning"
+  },
+  {
+    "id": "abl_2028f7a51e70",
+    "name": "平衡",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "aliases": [],
+    "description": "維持靜態與動態平衡的綜合能力。",
+    "source": "training_strategy_gap_fill"
+  },
+  {
+    "id": "abl_c11316c34ee9",
+    "name": "想像力",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "aliases": [],
+    "description": "在遊戲或日常情境中展現想像與創造力。",
+    "source": "training_strategy_gap_fill"
+  },
+  {
+    "id": "abl_259c0b8b4da1",
+    "name": "規則理解",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "理解遊戲規則或社會規範。",
+    "source": "training_strategy_gap_fill"
+  },
+  {
+    "id": "abl_a9fba361bb13",
+    "name": "對聲音有反應",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "aliases": [],
+    "description": "對環境中的聲音刺激產生反應。",
+    "source": "training_strategy_gap_fill"
+  },
+  {
+    "id": "abl_f4e00dc77ee5",
+    "name": "社會規則理解",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "aliases": [],
+    "description": "理解社會互動中的隱性規則與期待。",
+    "source": "training_strategy_gap_fill"
+  },
+  {
+    "id": "abl_f6b4ba35626b",
+    "name": "操作理解",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "理解物品的操作方式與功能。",
+    "source": "training_strategy_gap_fill"
+  },
+  {
+    "id": "abl_fa2baa3ef6c8",
+    "name": "步驟記憶",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "aliases": [],
+    "description": "記住多步驟指令或程序的能力。",
+    "source": "training_strategy_gap_fill"
+  }
+]

@@ -1,0 +1,170 @@
+{
+    "task_name_zh": {
+        "A": "報告總覽與閱讀順序",
+        "B": "分數/量表/百分位解讀",
+        "C": "臨床觀察與表現解讀",
+        "D": "能力剖面（優勢/需求/優先順序）",
+        "E": "在家訓練怎麼做",
+        "F": "融入日常作息的練習",
+        "G": "是否需要早療/成效追蹤",
+        "H": "轉介與在地資源",
+        "I": "報告分享/隱私與安全",
+        "J": "與學校合作",
+        "K": "補助/福利/申請",
+        "L": "後續追蹤/再評估",
+        "M": "家長情緒支持與家庭協作"
+    },
+    "scope_name_zh": {
+        "S_overview": "Overview(整體)",
+        "S_domain": "Domain(單領域)",
+        "S_multi_domain": "Multi-Domain(多領域)"
+    },
+    "semantic_flow_config": {
+        "continue": {
+            "temperature": 0.2,
+            "max_tokens": 1500,
+            "response_style": "professional",
+            "frequency_penalty": 0.4,
+            "presence_penalty": 0.15
+        },
+        "shift_soft": {
+            "temperature": 0.25,
+            "max_tokens": 2000,
+            "response_style": "friendly",
+            "frequency_penalty": 0.3,
+            "presence_penalty": 0.1
+        },
+        "shift_hard": {
+            "temperature": 0.3,
+            "max_tokens": 2500,
+            "response_style": "detailed",
+            "frequency_penalty": 0.25,
+            "presence_penalty": 0.05
+        }
+    },
+    "retrieval_action_config": {
+        "NARROW_GRAPH": {
+            "max_context_items": 8,
+            "context_format_style": "detailed"
+        },
+        "CONTEXT_FIRST": {
+            "max_context_items": 10,
+            "context_format_style": "structured"
+        },
+        "WIDE_IN_DOMAIN": {
+            "max_context_items": 15,
+            "context_format_style": "concise"
+        },
+        "DUAL_OR_CLARIFY": {
+            "max_context_items": 8,
+            "context_format_style": "structured",
+            "include_caution": true
+        },
+        "LOCAL_RESOURCE_CLARIFY": {
+            "max_context_items": 0,
+            "response_style": "friendly"
+        },
+        "LOCAL_RESOURCE_SEARCH": {
+            "max_context_items": 15,
+            "response_style": "detailed"
+        }
+    },
+    "task_config": {
+        "A": {
+            "temperature": 0.25,
+            "max_tokens": 2500,
+            "response_style": "comprehensive",
+            "max_context_items": 15
+        },
+        "B": {
+            "temperature": 0.2,
+            "max_tokens": 2000,
+            "response_style": "explanatory",
+            "include_caution": true
+        },
+        "C": {
+            "temperature": 0.2,
+            "max_tokens": 2000,
+            "response_style": "explanatory",
+            "include_caution": true
+        },
+        "D": {
+            "temperature": 0.2,
+            "max_tokens": 2000,
+            "response_style": "structured"
+        },
+        "E": {
+            "temperature": 0.15,
+            "max_tokens": 2000,
+            "response_style": "step_by_step",
+            "max_context_items": 20
+        },
+        "F": {
+            "temperature": 0.15,
+            "max_tokens": 2000,
+            "response_style": "step_by_step",
+            "max_context_items": 20
+        },
+        "G": {
+            "temperature": 0.2,
+            "max_tokens": 2000,
+            "response_style": "professional"
+        },
+        "L": {
+            "temperature": 0.2,
+            "max_tokens": 2000,
+            "response_style": "professional"
+        },
+        "H": {
+            "temperature": 0.2,
+            "max_tokens": 1500,
+            "response_style": "concise"
+        },
+        "I": {
+            "temperature": 0.2,
+            "max_tokens": 1500,
+            "response_style": "concise"
+        },
+        "J": {
+            "temperature": 0.2,
+            "max_tokens": 1500,
+            "response_style": "concise"
+        },
+        "K": {
+            "temperature": 0.2,
+            "max_tokens": 1500,
+            "response_style": "concise"
+        },
+        "M": {
+            "temperature": 0.2,
+            "max_tokens": 1500,
+            "response_style": "concise"
+        },
+        "_default": {
+            "temperature": 0.2,
+            "max_tokens": 2000,
+            "response_style": "professional"
+        }
+    },
+    "scope_config": {
+        "S_overview": {
+            "max_tokens": 2500,
+            "response_style": "comprehensive"
+        },
+        "S_domain": {
+            "max_tokens": 2000
+        },
+        "S_multi_domain": {
+            "max_tokens": 2200,
+            "context_format_style": "structured"
+        }
+    },
+    "user_prompt_templates": {
+        "step_by_step": "### 當前問題：\n**{query}**\n\n---\n### 報告背景參考：\n\n{context}\n\n---\n### 引導：\n請依以下邏輯回答：\n\n0. **【絕對限制】全程使用繁體中文與台灣在地用語（例如：訊息、影片、軟體、復健），嚴禁簡體字。**\n1. 直接針對問題核心給予回覆，並根據解決步驟使用合適的 ### 標題與條列（1. 2. 3....）。\n2. 每個建議步驟應具體、可操作，並用 **粗體** 標示出執行重點。\n3. 回答應呈現自然流暢的對話感，避免機械化的開場與結尾標記。\n4. 若有額外注意事項，請用簡單的標題放在最後。",
+        "explanatory": "### 當前問題：\n**{query}**\n\n---\n### 報告背景參考：\n\n{context}\n\n---\n### 引導：\n請依以下邏輯回答：\n\n0. **【絕對限制】全程使用繁體中文與台灣在地用語（例如：連結、設定、品質、發展程度），嚴禁簡體字。**\n1. 先用 1-2 句關鍵字給出結論性回答。\n2. 根據不同評估面向，使用具意義的 ### 標題（如：能力進展、分數意義）進行深入淺出的解釋。\n3. 數值與關鍵水準請用 **粗體**標示。\n4. 語氣應像與家長對面諮商般親切自然，避免生硬的過場文字。",
+        "comprehensive": "### 當前問題：\n**{query}**\n\n---\n### 報告背景參考：\n\n{context}\n\n---\n### 引導：\n請依以下邏輯回答：\n\n0. **【絕對限制】全程使用繁體中文與台灣在地用語（例如：列印、訊息、療育），不可使用大陸用語，嚴禁簡體字。**\n1. 開篇先進行跨領域的重點總結，讓家長掌握全局。\n2. 依照各領域（如粗大、語言）或重要性，使用明確的 ### 當作段落標題並進行摘要。\n3. 核心發現與數值請使用 **粗體**。\n4. 結尾請給出「下一步建議」或「發展優先級」，標題應具體且與內容相關。",
+        "_default": "### 當前問題：\n**{query}**\n\n---\n### 報告背景參考：\n\n{context}\n\n---\n### 引導：\n請直接、自然地回答問題。**注意：全程必須使用繁體中文與台灣用語（如：訊息、設定、復健），嚴禁簡體中文。** 利用 ### 段落標題讓結構清楚，並用 **粗體** 強調重點。確保回答主體緊扣家長需求，不要使用僵化的固定樣版標頭。"
+    },
+    "query_rewrite_prompt": "你是一個專業的高級檢索助手，專注於「早療（早期療育）」領域的資訊檢索優化。\n你的任務是將使用者的原始查詢改寫為多個不同的版本，以提高在知識圖譜（Knowledge Graph）和評估報告中的檢索精度與召回率。\n\n請根據以下資訊，生成 3-5 個改寫後的查詢版本：\n- 使用者問題：{query}\n- 當前對話脈絡：{context}\n- DST 預測領域：{domain}\n- DST 預測任務：{task}\n\n改寫策略建議（請靈活運用）：\n1. **概念擴展**：使用專業術語或相關領域的同義詞（例如：「不說話」改寫為「口語表達能力」、「口語誘發」）。\n2. **HyDE (假設性回答)**：生成一個可能的簡短答案片段，用於向量匹配實際內容。\n3. **問題拆解**：如果問題包含多個意圖，請將其拆解為獨立的查詢。\n4. **領域校準**：結合預測領域調整查詢語氣與關鍵詞。\n\n請僅輸出改寫後的查詢列表（每行一個，不帶編號，不帶解釋），確保每個改寫版本都簡潔且適合檢索。\n",
+    "query_condense_prompt": "你是一個專業的對話脈絡分析助手。你的任務是將用戶在「對話中」提出的最新問題，結合之前的對話歷史，改寫成一個「獨立且完整」的問題。\n\n這個獨立問題應該：\n1. **補全代名詞**：將「它」、「他」、「這部分」等代名詞替換為具體的對象或主題。\n2. **繼承上下文**：如果用戶問的是多輪延續性的問題（例如「那其他的呢？」、「還有嗎？」、「那評估結果呢？」），請根據歷史補全「其他的什麼」。\n3. **保持專業性**：使用早療領域的專業術語。\n\n【對話歷史】:\n{history}\n\n【用戶最新問題】: {query}\n\n請輸出改寫後的「獨立問題」。只需輸出改寫後的一句話，不要包含任何解釋。\n"
+}

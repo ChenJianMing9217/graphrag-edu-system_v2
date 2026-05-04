@@ -1,0 +1,73 @@
+[
+  {
+    "name": "G01-首評焦慮媽-看嘸報告（整體概況）",
+    "expected_task": "A",
+    "expected_secondary": [],
+    "source": "gemini",
+    "steps": [
+      "昨天剛拿到聯評報告，厚厚一疊我真的不知道從哪看起...",
+      "醫生是說有點遲緩啦，但結論到底是什麼？",
+      "所以他現在最嚴重、最需要處理的是哪部分啊？"
+    ],
+    "annotations": [
+      {
+        "turn_idx": 0,
+        "expected_task": "A",
+        "expected_secondary": [
+          "A",
+          "B",
+          "C"
+        ],
+        "expected_domains": [
+          "整體概況"
+        ],
+        "expected_memory": "REFRESH",
+        "expected_clarify": "TASK_SOFT",
+        "expected_sections": [
+          "assessment",
+          "observation"
+        ],
+        "notes": ""
+      },
+      {
+        "turn_idx": 1,
+        "expected_task": "A",
+        "expected_secondary": [
+          "A",
+          "B",
+          "C"
+        ],
+        "expected_domains": [
+          "整體概況"
+        ],
+        "expected_memory": "STAY",
+        "expected_clarify": "TASK_SOFT",
+        "expected_sections": [
+          "assessment",
+          "observation"
+        ],
+        "notes": ""
+      },
+      {
+        "turn_idx": 2,
+        "expected_task": "A",
+        "expected_secondary": [
+          "A",
+          "B",
+          "C",
+          "G"
+        ],
+        "expected_domains": [
+          "整體概況"
+        ],
+        "expected_memory": "STAY",
+        "expected_clarify": "TASK_SOFT",
+        "expected_sections": [
+          "assessment",
+          "observation"
+        ],
+        "notes": ""
+      }
+    ]
+  }
+]

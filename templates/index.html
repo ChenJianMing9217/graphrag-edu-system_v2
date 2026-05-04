@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBot v7 - 智能早療諮詢</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Markdown & Sanitization -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        /* SweetAlert2 深色主題適配 */
+        .swal2-popup {
+            background-color: #242424 !important;
+            color: #ECECF1 !important;
+            border: 1px solid #4D4D4F !important;
+        }
+        .swal2-title, .swal2-html-container {
+            color: #ECECF1 !important;
+        }
+        .swal2-confirm {
+            background-color: #10A37F !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="nav-brand"></div>
+        <div class="nav-actions" id="navActions">
+            <!-- <button class="auth-btn-top" onclick="openModal('loginModal')">輸入存取碼</button> -->
+            <button class="auth-btn-top auth-btn-primary" onclick="openModal('loginModal')">輸入存取碼 / 登入</button>
+        </div>
+    </nav>
+
+    <!-- Main Chat Area -->
+    <div class="chat-container">
+        <!-- <div class="chat-header">EduBot v7 - 早療諮詢助手</div> -->
+        
+        <div class="chat-messages" id="chatMessages">
+            <!-- Splash View (Initial) -->
+            <div class="splash" id="splashView">
+                <h1 style="font-family: 'Outfit', sans-serif;">早療發展諮詢</h1>
+                <div class="splash-options">
+                    <div class="option-card" onclick="setInput('解釋一下粗大動作的分數代表什麼？')">
+                        <h3>解釋分數</h3>
+                        <p>「解釋一下粗大動作的分數代表什麼？」</p>
+                    </div>
+                    <div class="option-card" onclick="setInput('針對社交適應領域有什麼具體的居家練習建議？')">
+                        <h3>居家建議</h3>
+                        <p>「針對社交適應領域有什麼具體的居家練習建議？」</p>
+                    </div>
+                    <div class="option-card" onclick="document.getElementById('fileInput').click()">
+                        <h3>上傳報告</h3>
+                        <p>拍照或上傳 PDF 電子檔，立即開始分析。</p>
+                    </div>
+                    <div class="option-card" onclick="openModal('loginModal')">
+                        <h3>輸入存取碼</h3>
+                        <p>若您已有兒童 ID，輸入即可獲取歷史紀錄。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <div class="input-container">
+                <input type="file" id="fileInput" style="display:none">
+                <i class="fa-solid fa-paperclip upload-icon" onclick="document.getElementById('fileInput').click()"></i>
+                <textarea class="chat-input" id="chatInput" placeholder="輸入訊息或上傳檔案..." rows="1"></textarea>
+                <i class="fa-solid fa-paper-plane send-icon" id="sendBtn"></i>
+            </div>
+            <div style="text-align: center; font-size: 11px; color: var(--text-secondary); margin-top: 12px;">
+                EduBot v7 可能會產生錯誤資訊，請結合臨床醫師專業意見參考。
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content" style="max-width: 350px;">
+            <h2 style="margin-bottom: 10px; font-family: 'Outfit', sans-serif;">進入對話</h2>
+            <p style="color: var(--text-secondary); font-size: 14px; margin-bottom: 24px;">請輸入 8 位數兒童存取碼以讀取資料</p>
+            <input type="text" placeholder="例如：ABC12345" id="accessCode" style="text-align: center; font-size: 18px; letter-spacing: 2px;">
+            <button class="auth-btn auth-btn-primary" style="margin-top: 10px; width: 100%;" onclick="loginWithCode()">開始分析</button>
+            <button class="auth-btn-secondary" onclick="closeModal('loginModal')">取消</button>
+        </div>
+    </div>
+
+    <script>
+        function openModal(id) {
+            document.getElementById(id).style.display = 'flex';
+        }
+        function closeModal(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+        function setInput(text) {
+            document.getElementById('chatInput').value = text;
+        }
+
+        // Auto-resize textarea & Enter to Send
+        const tx = document.getElementById('chatInput');
+        if (tx) {
+            tx.addEventListener("input", function() {
+                this.style.height = "auto";
+                this.style.height = (this.scrollHeight) + "px";
+                // 如果高度超過 200px 則顯示捲軸，否則隱藏
+                if (this.scrollHeight > 200) {
+                    this.style.overflowY = "auto";
+                } else {
+                    this.style.overflowY = "hidden";
+                }
+            }, false);
+
+            tx.addEventListener("keydown", function(e) {
+                if (e.key === "Enter" && !e.shiftKey) {
+                    e.preventDefault();
+                    sendBtn.click();
+                }
+            });
+        }
+
+        // File Upload
+        const fileInput = document.getElementById('fileInput');
+        fileInput.onchange = async function() {
+            const file = fileInput.files[0];
+            if (!file) return;
+
+            addMessage(`正在上傳並解析報告：${file.name}...`, 'assistant');
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            try {
+                const response = await fetch('/api/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+
+                if (data.status === 'success') {
+                    updateUI(true, data.child_name);
+                    addMessage(data.message, 'assistant');
+                } else {
+                    addMessage(`上傳失敗：${data.message}`, 'assistant');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                addMessage('系統連線失敗，無法完成上傳。', 'assistant');
+            }
+        };
+
+        // Send message
+        const sendBtn = document.getElementById('sendBtn');
+        if (sendBtn) {
+            sendBtn.onclick = async function() {
+                const input = document.getElementById('chatInput');
+                const msg = input.value.trim();
+                if(!msg) return;
+
+                const splash = document.getElementById('splashView');
+                if (splash) splash.style.display = 'none';
+
+                addMessage(msg, 'user');
+                input.value = '';
+                input.style.height = "auto";
+
+                showThinking();
+
+                try {
+                    const response = await fetch('/api/chat_stream', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({message: msg})
+                    });
+                    if (!response.ok || !response.body) {
+                        hideThinking();
+                        addMessage('連線失敗，請稍後再試。', 'assistant');
+                        return;
+                    }
+
+                    // 建立空 bubble，邊收邊填字
+                    let bubble = null;
+                    let bodyEl = null;
+                    let fbEl = null;
+                    let accText = '';
+                    let msgId = null;
+                    let firstDeltaSeen = false;
+
+                    function ensureBubble() {
+                        if (bubble) return;
+                        const container = document.getElementById('chatMessages');
+                        bubble = document.createElement('div');
+                        bubble.className = 'message assistant';
+                        bubble.innerHTML = `
+                            <div class="message-content">
+                                <div style="font-weight: 600; font-size: 12px; margin-bottom: 8px; color: #10A37F">EduBot</div>
+                                <div class="message-body"></div>
+                                <div class="feedback-actions" style="margin-top: 8px; font-size: 13px; display: none; gap: 16px;"></div>
+                            </div>
+                        `;
+                        container.appendChild(bubble);
+                        bodyEl = bubble.querySelector('.message-body');
+                        fbEl = bubble.querySelector('.feedback-actions');
+                        container.scrollTop = container.scrollHeight;
+                    }
+
+                    const reader = response.body.getReader();
+                    const decoder = new TextDecoder('utf-8');
+                    let buffer = '';
+
+                    while (true) {
+                        const { value, done } = await reader.read();
+                        if (done) break;
+                        buffer += decoder.decode(value, { stream: true });
+
+                        // SSE 事件以 \n\n 分隔
+                        const events = buffer.split('\n\n');
+                        buffer = events.pop();
+                        for (const evt of events) {
+                            const line = evt.trim();
+                            if (!line.startsWith('data:')) continue;
+                            const json = line.slice(5).trim();
+                            if (!json) continue;
+                            let ev;
+                            try { ev = JSON.parse(json); } catch (e) { continue; }
+
+                            if (ev.type === 'delta') {
+                                if (!firstDeltaSeen) {
+                                    hideThinking();
+                                    ensureBubble();
+                                    firstDeltaSeen = true;
+                                }
+                                accText += ev.text;
+                                bodyEl.innerHTML = renderMarkdownSafe(accText);
+                                const c = document.getElementById('chatMessages');
+                                c.scrollTop = c.scrollHeight;
+                            } else if (ev.type === 'done') {
+                                msgId = ev.message_id;
+                                if (!firstDeltaSeen) {
+                                    // 沒收到任何 delta（極端情況）→ 至少顯示 done 事件中可能的訊息
+                                    hideThinking();
+                                    ensureBubble();
+                                }
+                                if (msgId && fbEl) {
+                                    fbEl.id = `feedback-${msgId}`;
+                                    fbEl.style.display = 'flex';
+                                    fbEl.innerHTML = `
+                                        <span style="cursor: pointer; transition: color 0.2s;" onclick="submitFeedback('${msgId}', 1, this)">
+                                            <i class="fa-regular fa-thumbs-up"></i> 有幫助
+                                        </span>
+                                        <span style="cursor: pointer; transition: color 0.2s;" onclick="submitFeedback('${msgId}', -1, this)">
+                                            <i class="fa-regular fa-thumbs-down"></i> 無幫助
+                                        </span>
+                                    `;
+                                }
+                            } else if (ev.type === 'error') {
+                                hideThinking();
+                                addMessage('錯誤：' + (ev.error || '未知錯誤'), 'assistant');
+                            }
+                            // start 事件忽略（保留 thinking 直到第一個 delta）
+                        }
+                    }
+                } catch (error) {
+                    hideThinking();
+                    console.error('Error:', error);
+                    addMessage('連線失敗，請確認伺服器是否正常運作。', 'assistant');
+                }
+            };
+        }
+
+        function showThinking() {
+            const container = document.getElementById('chatMessages');
+            const div = document.createElement('div');
+            div.className = 'message assistant thinking';
+            div.id = 'thinkingMsg';
+            div.innerHTML = `
+                <div class="message-content">
+                    <div style="font-weight: 600; font-size: 12px; margin-bottom: 8px; color: #10A37F">EduBot</div>
+                    <div class="message-body">正在思考中</div>
+                </div>
+            `;
+            container.appendChild(div);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        function hideThinking() {
+            const el = document.getElementById('thinkingMsg');
+            if (el) el.remove();
+        }
+
+        // Markdown 安全渲染
+        function renderMarkdownSafe(text) {
+            if (!text) return '';
+            try {
+                if (window.marked) {
+                    marked.setOptions({ gfm: true, breaks: true });
+                    const rawHtml = marked.parse(text);
+                    if (window.DOMPurify) {
+                        return DOMPurify.sanitize(rawHtml);
+                    }
+                    return rawHtml;
+                }
+                return text.replace(/\n/g, '<br>');
+            } catch (e) {
+                console.error('Markdown Render Error:', e);
+                return text;
+            }
+        }
+
+        function addMessage(text, role, msgId = null, feedbackVal = 0) {
+            const container = document.getElementById('chatMessages');
+            const div = document.createElement('div');
+            div.className = `message ${role}`;
+            
+            const content = role === 'assistant' ? renderMarkdownSafe(text) : text;
+            
+            let feedbackHtml = '';
+            if (role === 'assistant' && msgId) {
+                const upActive = feedbackVal === 1 ? 'color: #10A37F;' : '';
+                const downActive = feedbackVal === -1 ? 'color: #E25C5C;' : '';
+                feedbackHtml = `
+                    <div class="feedback-actions" id="feedback-${msgId}" style="margin-top: 8px; font-size: 13px; display: flex; gap: 16px;">
+                        <span style="cursor: pointer; transition: color 0.2s; ${upActive}" onclick="submitFeedback('${msgId}', 1, this)">
+                            <i class="fa-regular fa-thumbs-up"></i> 有幫助
+                        </span>
+                        <span style="cursor: pointer; transition: color 0.2s; ${downActive}" onclick="submitFeedback('${msgId}', -1, this)">
+                            <i class="fa-regular fa-thumbs-down"></i> 無幫助
+                        </span>
+                    </div>
+                `;
+            }
+
+            div.innerHTML = `
+                <div class="message-content">
+                    <div style="font-weight: 600; font-size: 12px; margin-bottom: 8px; color: ${role === 'user' ? '#fff' : '#10A37F'}">
+                        ${role === 'user' ? '你' : 'EduBot'}
+                    </div>
+                    <div class="message-body">${content}</div>
+                    ${feedbackHtml}
+                </div>
+            `;
+            container.appendChild(div);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        // 打字機效果
+        function streamMessage(fullText, role, msgId = null) {
+            const container = document.getElementById('chatMessages');
+            const div = document.createElement('div');
+            div.className = `message ${role}`;
+            
+            let feedbackHtml = '';
+            if (role === 'assistant' && msgId) {
+                feedbackHtml = `
+                    <div class="feedback-actions" id="feedback-${msgId}" style="margin-top: 8px; font-size: 13px; display: none; gap: 16px;">
+                        <span style="cursor: pointer; transition: color 0.2s;" onclick="submitFeedback('${msgId}', 1, this)">
+                            <i class="fa-regular fa-thumbs-up"></i> 有幫助
+                        </span>
+                        <span style="cursor: pointer; transition: color 0.2s;" onclick="submitFeedback('${msgId}', -1, this)">
+                            <i class="fa-regular fa-thumbs-down"></i> 無幫助
+                        </span>
+                    </div>
+                `;
+            }
+
+            div.innerHTML = `
+                <div class="message-content">
+                    <div style="font-weight: 600; font-size: 12px; margin-bottom: 8px; color: #10A37F">
+                        EduBot
+                    </div>
+                    <div class="message-body"></div>
+                    ${feedbackHtml}
+                </div>
+            `;
+            container.appendChild(div);
+            const body = div.querySelector('.message-body');
+            const fbDiv = div.querySelector('.feedback-actions');
+            
+            let currentIndex = 0;
+            const speed = 20; // ms per chunk
+
+            function type() {
+                if (currentIndex < fullText.length) {
+                    currentIndex += 3; // 每次跑 3 個字
+                    const partialText = fullText.slice(0, currentIndex);
+                    body.innerHTML = renderMarkdownSafe(partialText);
+                    container.scrollTop = container.scrollHeight;
+                    setTimeout(type, speed);
+                } else {
+                    // 結束後重新渲染完整內容以確保 Markdown 閉合正確
+                    body.innerHTML = renderMarkdownSafe(fullText);
+                    if(fbDiv) fbDiv.style.display = 'flex'; // 打出完畢後顯示回饋鈕
+                    container.scrollTop = container.scrollHeight;
+                }
+            }
+            type();
+        }
+
+        async function submitFeedback(msgId, value, el) {
+            try {
+                // UI update originally
+                const container = document.getElementById(`feedback-${msgId}`);
+                if (container) {
+                    const spans = container.querySelectorAll('span');
+                    spans[0].style.color = value === 1 ? '#10A37F' : '';
+                    spans[1].style.color = value === -1 ? '#E25C5C' : '';
+                }
+
+                await fetch('/api/feedback', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({message_id: msgId, feedback: value})
+                });
+            } catch (err) {
+                console.error("Feedback error", err);
+            }
+        }
+
+        async function checkSession() {
+            try {
+                const response = await fetch('/api/session_status');
+                const data = await response.json();
+                if (data.is_logged_in) {
+                    updateUI(true, data.child_name);
+                    loadHistory();
+                } else {
+                    updateUI(false);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        async function loadHistory() {
+            try {
+                const response = await fetch('/api/chat_history');
+                const data = await response.json();
+                if (data.status === 'success' && data.history.length > 0) {
+                    const container = document.getElementById('chatMessages');
+                    const splash = document.getElementById('splashView');
+                    
+                    // 清空之前的對話與隱藏 Splash
+                    if (splash) splash.style.display = 'none';
+                    container.innerHTML = ''; 
+                    
+                    data.history.forEach(turn => {
+                        addMessage(turn.content, turn.role, turn.id, turn.feedback);
+                    });
+                } else {
+                    // 若無歷史紀錄，顯示歡迎提示
+                    addMessage("歡迎回來！目前還沒有這份報告的對話紀錄。您可以直接針對報告提出問題，例如：「這份報告的初步評估建議是什麼？」", "assistant");
+                }
+            } catch (error) {
+                console.error('Load History Error:', error);
+            }
+        }
+
+        function updateUI(isLoggedIn, childName = "") {
+            const navActions = document.getElementById('navActions');
+            const brand = document.querySelector('.nav-brand');
+            const splash = document.getElementById('splashView');
+
+            let navHtml = `<button class="auth-btn-top" onclick="startNewChat()" style="background: transparent; border: 1px solid #ddd; color: var(--text-main);">開啟新對話</button>`;
+
+            if (isLoggedIn) {
+                navHtml += `<button class="auth-btn-top" onclick="logout()">登出</button>`;
+                brand.innerHTML = `<i class="fa-solid fa-child-reaching" style="margin-right: 8px; color: var(--accent-primary);"></i>${childName} 小朋友的諮詢室`;
+                if (splash) splash.style.display = 'none';
+            } else {
+                navHtml += `<button class="auth-btn-top auth-btn-primary" onclick="openModal('loginModal')">輸入存取碼 / 登入</button>`;
+                brand.innerHTML = `<i class="fa-solid fa-robot" style="margin-right: 8px; color: var(--accent-primary);"></i>EduBot 智慧小幫手`;
+                if (splash) splash.style.display = 'flex';
+                document.getElementById('chatMessages').innerHTML = ''; // 清空對話
+                // 重新放入 splash
+                const splashDiv = document.createElement('div');
+                splashDiv.className = 'splash';
+                splashDiv.id = 'splashView';
+                splashDiv.innerHTML = `
+                    <h1 style="font-family: 'Outfit', sans-serif;">早療發展諮詢</h1>
+                    <div class="splash-options">
+                        <div class="option-card" onclick="setInput('解釋一下粗大動作的分數代表什麼？')">
+                            <h3>解釋分數</h3>
+                            <p>「解釋一下粗大動作的分數代表什麼？」</p>
+                        </div>
+                        <div class="option-card" onclick="setInput('針對社交適應領域有什麼具體的居家練習建議？')">
+                            <h3>居家建議</h3>
+                            <p>「針對社交適應領域有什麼具體的居家練習建議？」</p>
+                        </div>
+                        <div class="option-card" onclick="document.getElementById('fileInput').click()">
+                            <h3>上傳報告</h3>
+                            <p>拍照或上傳 PDF 電子檔，立即開始分析。</p>
+                        </div>
+                        <div class="option-card" onclick="openModal('loginModal')">
+                            <h3>輸入存取碼</h3>
+                            <p>若您已有兒童 ID，輸入即可獲取歷史紀錄。</p>
+                        </div>
+                    </div>
+                `;
+                document.getElementById('chatMessages').appendChild(splashDiv);
+            }
+            navActions.innerHTML = navHtml;
+        }
+
+        async function startNewChat() {
+            try {
+                const response = await fetch('/api/new_chat', {method: 'POST'});
+                const data = await response.json();
+                if (data.status === 'success') {
+                    if (!data.is_logged_in) {
+                        updateUI(false);
+                    } else {
+                        document.getElementById('chatMessages').innerHTML = '';
+                        // 從導覽列抓取目前姓名 (格式: 🧒 姓名 小朋友的諮詢室)
+                        const brandText = document.querySelector('.nav-brand').textContent;
+                        const currentName = brandText.replace('小朋友的諮詢室', '').trim();
+                        updateUI(true, currentName);
+                        
+                        // 加入新對話提示，避免畫面空白
+                        addMessage("已開啟新對話。您可以針對目前的報告詢問任何問題，或是跟我聊聊孩子最近的發展情況喔！", "assistant");
+                    }
+                    Swal.fire({
+                        icon: 'success',
+                        title: '新對話',
+                        text: data.message,
+                        timer: 1500,
+                        showConfirmButton: false
+                    });
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        async function logout() {
+            try {
+                const response = await fetch('/api/logout', {method: 'POST'});
+                const data = await response.json();
+                if (data.status === 'success') {
+                    updateUI(false);
+                    Swal.fire({
+                        icon: 'success',
+                        title: '已登出',
+                        text: data.message,
+                        timer: 1500,
+                        showConfirmButton: false
+                    });
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        window.onload = checkSession;
+
+        async function loginWithCode() {
+            const codeInput = document.getElementById('accessCode');
+            const code = codeInput.value.trim();
+            if(!code) return Swal.fire({icon: 'warning', title: '提醒', text: '請輸入存取碼'});
+
+            try {
+                const response = await fetch('/api/login_with_code', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({code: code})
+                });
+                const data = await response.json();
+
+                if (data.status === 'success') {
+                    closeModal('loginModal');
+                    updateUI(true, data.child_name);
+                    Swal.fire({
+                        icon: 'success',
+                        title: '登入成功',
+                        text: `歡迎回來，${data.child_name}！`,
+                        timer: 2000,
+                        showConfirmButton: false
+                    });
+                    loadHistory(); // 登入後載入該兒童歷史
+                } else {
+                    Swal.fire({icon: 'error', title: '登入失敗', text: data.message});
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('系統連線失敗，請稍後再試');
+            }
+        }
+    </script>
+</body>
+</html>

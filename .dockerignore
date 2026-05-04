@@ -1,0 +1,39 @@
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# 大型本地檔案，build 時不放進 image
+*.db
+uploads/
+dialogue_states/*.json
+dialogue_state_module/cache/
+rl_pipeline/checkpoints/
+rl_pipeline/runs/
+rl_pipeline/dataset/
+rl_pipeline/scripts/test_results/
+training_dashboard.html
+
+# IDE
+.vscode/
+.idea/
+
+# 環境/秘鑰（必須排除）
+.env
+.env.*
+*.pem
+*.key
+
+# Git
+.git/
+.gitignore
+.github/
+
+# 文件 / 報告
+docs/
+*.md
+
+# 測試 / 暫存
+*.log
+*.bak
+*.tmp

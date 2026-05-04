@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Seems happ",
+    "suggested_type": "milestone",
+    "reason": "Milestone-like affective behavior; keep in expected_behavior/original_text, not as core ability."
+  },
+  {
+    "name": "喜歡照鏡子",
+    "suggested_type": "milestone",
+    "reason": "Milestone-like affective behavior; keep in expected_behavior/original_text, not as core ability."
+  },
+  {
+    "name": "興奮時拍手",
+    "suggested_type": "milestone",
+    "reason": "Milestone-like affective behavior; keep in expected_behavior/original_text, not as core ability."
+  },
+  {
+    "name": "作息配合",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "動作自信",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "吞嚥經驗",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "嘗試行為",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "如廁彈性",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "平衡",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "彈性",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "控制",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "操作耐受",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "材質接受",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "步驟整合",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "注意",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "活動持續性",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "活動效率",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "理解",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "環境適應",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "生活自理",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "生活責任",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "社交分享",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "穿衣效率",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "粗大動作參與",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "精細參與",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "自理參與",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "處理速度",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "衣物接受",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "語境提示依賴",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "調節",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "辨識",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "進食參與",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "進食持續性",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "進食效率",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "遊戲變化",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "食物接受",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  },
+  {
+    "name": "飲食彈性",
+    "suggested_type": "outcome",
+    "reason": "Outcome/participation/performance-like concept, not core ability node."
+  }
+]

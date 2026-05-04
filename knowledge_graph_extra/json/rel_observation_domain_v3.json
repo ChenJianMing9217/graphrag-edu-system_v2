@@ -1,0 +1,1754 @@
+[
+  {
+    "from": "obs_粗大動作_001",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_粗大動作_002",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_粗大動作_003",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_粗大動作_004",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_粗大動作_005",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_粗大動作_005",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_粗大動作_006",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_粗大動作_007",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_粗大動作_008",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_粗大動作_009",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_粗大動作_009",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_粗大動作_010",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_粗大動作_010",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_精細動作_001",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_精細動作_001",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_精細動作_002",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_精細動作_002",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_精細動作_003",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_精細動作_003",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_精細動作_004",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_精細動作_004",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_精細動作_005",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_精細動作_005",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_精細動作_006",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_精細動作_007",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_精細動作_007",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_精細動作_008",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_精細動作_008",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_精細動作_009",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_精細動作_009",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_精細動作_010",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_精細動作_010",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_001",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_感覺統合_001",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_002",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_感覺統合_002",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_002",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_003",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_感覺統合_003",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_003",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_004",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_感覺統合_005",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_感覺統合_006",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_感覺統合_006",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_007",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_感覺統合_007",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_007",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_008",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_感覺統合_008",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_009",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_感覺統合_009",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_感覺統合_010",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_感覺統合_010",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口腔動作_001",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口腔動作_001",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口腔動作_002",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口腔動作_002",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口腔動作_003",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口腔動作_003",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口腔動作_004",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口腔動作_005",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口腔動作_006",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口腔動作_006",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口腔動作_006",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口腔動作_007",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口腔動作_007",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口腔動作_008",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口腔動作_009",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口腔動作_009",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口腔動作_010",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口腔動作_010",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口腔動作_010",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_吞嚥_001",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_吞嚥_001",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_吞嚥_002",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_吞嚥_003",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_吞嚥_003",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_吞嚥_004",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_吞嚥_005",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_吞嚥_005",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_吞嚥_006",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_吞嚥_007",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_吞嚥_007",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_吞嚥_008",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_吞嚥_008",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_吞嚥_008",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_吞嚥_009",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_吞嚥_009",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_吞嚥_009",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_吞嚥_010",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_吞嚥_010",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_001",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語理解_001",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_002",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語理解_002",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_003",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語理解_003",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_004",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語理解_004",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_005",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語理解_005",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_006",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語理解_006",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_006",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_007",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語理解_007",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_008",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語理解_008",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_009",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語理解_009",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_010",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語理解_010",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語理解_010",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語表達_001",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語表達_002",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語表達_003",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語表達_003",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語表達_004",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語表達_004",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語表達_005",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語表達_006",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語表達_006",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語表達_007",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語表達_007",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語表達_008",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語表達_008",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_口語表達_009",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語表達_010",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_口語表達_010",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_說話_001",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_說話_002",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_說話_003",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_說話_003",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_說話_004",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_說話_005",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_說話_006",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_說話_007",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_說話_007",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_說話_008",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_說話_009",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_說話_009",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_說話_010",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_001",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_001",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_認知_002",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_002",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_認知_003",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_003",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_認知_004",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_004",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_認知_005",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_005",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_認知_006",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_006",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_認知_007",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_007",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_認知_008",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_008",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_認知_009",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_009",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_認知_010",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_認知_010",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_001",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_情緒行為與社會適應_001",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_002",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_情緒行為與社會適應_002",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_003",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_情緒行為與社會適應_003",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_004",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_情緒行為與社會適應_004",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_004",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_005",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_情緒行為與社會適應_005",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_006",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_情緒行為與社會適應_006",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_007",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_情緒行為與社會適應_007",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_008",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_情緒行為與社會適應_008",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_009",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_情緒行為與社會適應_009",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_情緒行為與社會適應_010",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_情緒行為與社會適應_010",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_001",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_飲食_001",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_002",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_飲食_002",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_003",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_飲食_003",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_003",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_004",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_飲食_004",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_005",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_飲食_005",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_006",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_飲食_006",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_007",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_飲食_007",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_008",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_飲食_008",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_008",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_009",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_飲食_009",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_飲食_010",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_飲食_010",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_001",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_穿脫衣_001",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_002",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_穿脫衣_002",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_003",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_穿脫衣_003",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_004",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_穿脫衣_004",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_005",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_穿脫衣_005",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_006",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_穿脫衣_006",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_007",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_穿脫衣_007",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_008",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_穿脫衣_008",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_008",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_009",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_穿脫衣_009",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_010",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_穿脫衣_010",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_穿脫衣_010",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_盥洗衛生_001",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_盥洗衛生_001",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_盥洗衛生_002",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_盥洗衛生_002",
+    "to": "吞嚥/口腔功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_盥洗衛生_002",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_盥洗衛生_003",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_盥洗衛生_003",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_盥洗衛生_004",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_盥洗衛生_004",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_盥洗衛生_005",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_盥洗衛生_005",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_盥洗衛生_006",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_盥洗衛生_006",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_盥洗衛生_007",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_盥洗衛生_007",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_盥洗衛生_008",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_盥洗衛生_008",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_盥洗衛生_009",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_盥洗衛生_010",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_盥洗衛生_010",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_001",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_遊戲_001",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_002",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_遊戲_002",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_003",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_遊戲_003",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_003",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_004",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_遊戲_004",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_005",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_遊戲_005",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_005",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_006",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_遊戲_006",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_007",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_遊戲_007",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_008",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_遊戲_008",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_008",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_009",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_遊戲_009",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_遊戲_010",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_遊戲_010",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_001",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_生活作息_001",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_002",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_生活作息_002",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_003",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_生活作息_003",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_004",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_生活作息_004",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_005",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_生活作息_005",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_006",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_生活作息_006",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_007",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_生活作息_007",
+    "to": "社會情緒功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_008",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_生活作息_008",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_009",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_生活作息_009",
+    "to": "知覺動作功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_009",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_010",
+    "to": "日常生活功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": true
+  },
+  {
+    "from": "obs_生活作息_010",
+    "to": "口語溝通功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  },
+  {
+    "from": "obs_生活作息_010",
+    "to": "認知功能",
+    "type": "RELATES_TO_DOMAIN",
+    "is_primary": false
+  }
+]

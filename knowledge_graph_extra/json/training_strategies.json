@@ -1,0 +1,849 @@
+[
+  {
+    "id": "ts_姿勢控制訓練",
+    "name": "姿勢控制訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對姿勢控制、姿勢維持與姿勢變換能力的訓練。"
+  },
+  {
+    "id": "ts_移位能力訓練",
+    "name": "移位能力訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對走路、爬行、上下樓梯等移位功能的訓練。"
+  },
+  {
+    "id": "ts_平衡訓練",
+    "name": "平衡訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對動態與靜態平衡能力的訓練。"
+  },
+  {
+    "id": "ts_粗動作學習訓練",
+    "name": "粗動作學習訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對粗大動作學習、動作協調與技巧建立的訓練。"
+  },
+  {
+    "id": "ts_粗動作計畫訓練",
+    "name": "粗動作計畫訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對粗動作計畫與執行的訓練。"
+  },
+  {
+    "id": "ts_傳接物能力訓練",
+    "name": "傳接物能力訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對物品傳遞、接球與操控能力的訓練。"
+  },
+  {
+    "id": "ts_動作協調訓練",
+    "name": "動作協調訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對運動技巧與整體動作協調能力的訓練。"
+  },
+  {
+    "id": "ts_粗動作遊戲訓練",
+    "name": "粗動作遊戲訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "透過遊戲活動促進粗大動作參與與能力。"
+  },
+  {
+    "id": "ts_心肺耐力訓練",
+    "name": "心肺耐力訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對活動耐受與心肺耐力的訓練。"
+  },
+  {
+    "id": "ts_肌力與肌耐力訓練",
+    "name": "肌力與肌耐力訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對肌力、肌耐力與肌張力調整的訓練。"
+  },
+  {
+    "id": "ts_關節活動度與柔軟度訓練",
+    "name": "關節活動度與柔軟度訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對關節活動度與柔軟度提升的訓練。"
+  },
+  {
+    "id": "ts_社會參與動作訓練",
+    "name": "社會參與動作訓練",
+    "subdomain_name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "description": "促進與社會參與相關之動作能力。"
+  },
+  {
+    "id": "ts_慣用手發展訓練",
+    "name": "慣用手發展訓練",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "description": "協助建立穩定慣用手使用。"
+  },
+  {
+    "id": "ts_基本手功能訓練",
+    "name": "基本手功能訓練",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "description": "針對抓握、捏取、釋放等基本手功能的訓練。"
+  },
+  {
+    "id": "ts_手部肌力訓練",
+    "name": "手部肌力訓練",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "description": "提升手部肌力與穩定度。"
+  },
+  {
+    "id": "ts_手部肌耐力訓練",
+    "name": "手部肌耐力訓練",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "description": "提升手部肌耐力與持續操作能力。"
+  },
+  {
+    "id": "ts_雙手協調訓練",
+    "name": "雙手協調訓練",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "description": "增進雙手共同使用與協調。"
+  },
+  {
+    "id": "ts_力量調節訓練",
+    "name": "力量調節訓練",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "description": "提升力量輸出與控制。"
+  },
+  {
+    "id": "ts_動作速度控制訓練",
+    "name": "動作速度控制訓練",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "description": "提升精細動作速度與節奏控制。"
+  },
+  {
+    "id": "ts_工具操作訓練",
+    "name": "工具操作訓練",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "description": "提升剪刀、筆、膠水等工具使用技巧。"
+  },
+  {
+    "id": "ts_手眼協調訓練",
+    "name": "手眼協調訓練",
+    "subdomain_name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "description": "提升手部操作與視覺整合能力。"
+  },
+  {
+    "id": "ts_警醒度調節訓練",
+    "name": "警醒度調節訓練",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "description": "調整個案的警醒與喚醒狀態。"
+  },
+  {
+    "id": "ts_感覺調節訓練",
+    "name": "感覺調節訓練",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "description": "協助各感覺系統調節與適應。"
+  },
+  {
+    "id": "ts_身體意象訓練",
+    "name": "身體意象訓練",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "description": "建立對身體部位及功能的理解。"
+  },
+  {
+    "id": "ts_視覺動作協調訓練",
+    "name": "視覺動作協調訓練",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "description": "改善視覺與動作統整能力。"
+  },
+  {
+    "id": "ts_平衡與兩側協調訓練",
+    "name": "平衡與兩側協調訓練",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "description": "改善平衡與左右側協調功能。"
+  },
+  {
+    "id": "ts_動作計畫訓練",
+    "name": "動作計畫訓練",
+    "subdomain_name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "description": "改善動作計畫與執行。"
+  },
+  {
+    "id": "ts_口腔感覺調節訓練",
+    "name": "口腔感覺調節訓練",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "進行減敏或增敏相關訓練。"
+  },
+  {
+    "id": "ts_口腔動作訓練",
+    "name": "口腔動作訓練",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "整體口腔動作控制訓練。"
+  },
+  {
+    "id": "ts_雙唇動作訓練",
+    "name": "雙唇動作訓練",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "提升雙唇閉合與控制。"
+  },
+  {
+    "id": "ts_舌部動作訓練",
+    "name": "舌部動作訓練",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "提升舌頭動作與口內控制。"
+  },
+  {
+    "id": "ts_下頷控制訓練",
+    "name": "下頷控制訓練",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "提升下頷穩定與控制。"
+  },
+  {
+    "id": "ts_咀嚼訓練",
+    "name": "咀嚼訓練",
+    "subdomain_name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "提升咀嚼動作與進食效率。"
+  },
+  {
+    "id": "ts_進食姿勢調整",
+    "name": "進食姿勢調整",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "透過姿勢調整改善吞嚥與進食表現。"
+  },
+  {
+    "id": "ts_進食量控制訓練",
+    "name": "進食量控制訓練",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "控制餵食量與吞嚥負荷。"
+  },
+  {
+    "id": "ts_食物材質調整",
+    "name": "食物材質調整",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "依吞嚥與咀嚼能力選擇食物材質。"
+  },
+  {
+    "id": "ts_食器選擇調整",
+    "name": "食器選擇調整",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "依口腔/吞嚥能力調整食器。"
+  },
+  {
+    "id": "ts_吞嚥安全訓練",
+    "name": "吞嚥安全訓練",
+    "subdomain_name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "description": "降低嗆咳風險並提升吞嚥安全。"
+  },
+  {
+    "id": "ts_聽能訓練",
+    "name": "聽能訓練",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "description": "提升聽覺覺察與聲音辨識。"
+  },
+  {
+    "id": "ts_注視說話者訓練",
+    "name": "注視說話者訓練",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "description": "鼓勵對話時注視說話者。"
+  },
+  {
+    "id": "ts_手勢理解訓練",
+    "name": "手勢理解訓練",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "description": "理解手勢及肢體動作的意思。"
+  },
+  {
+    "id": "ts_單一步驟指令理解訓練",
+    "name": "單一步驟指令理解訓練",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "description": "理解無手勢提示的單一步驟口語指令。"
+  },
+  {
+    "id": "ts_熟悉物品指認訓練",
+    "name": "熟悉物品指認訓練",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "description": "指認日常熟悉物品或圖片。"
+  },
+  {
+    "id": "ts_抽象詞彙理解訓練",
+    "name": "抽象詞彙理解訓練",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "description": "理解形容詞、感覺、表情等抽象詞彙。"
+  },
+  {
+    "id": "ts_多步驟指令理解訓練",
+    "name": "多步驟指令理解訓練",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "description": "理解兩個或以上連續動作指令。"
+  },
+  {
+    "id": "ts_複雜語句理解訓練",
+    "name": "複雜語句理解訓練",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "description": "理解複雜型口語內容。"
+  },
+  {
+    "id": "ts_事件理解訓練",
+    "name": "事件理解訓練",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "description": "理解經歷過的事件內容。"
+  },
+  {
+    "id": "ts_故事理解訓練",
+    "name": "故事理解訓練",
+    "subdomain_name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "description": "理解故事內容與脈絡。"
+  },
+  {
+    "id": "ts_輔助溝通訓練",
+    "name": "輔助溝通訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "使用溝通輔具、手勢或手語輔助表達。"
+  },
+  {
+    "id": "ts_語用溝通訓練",
+    "name": "語用溝通訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "提升語用與情境溝通能力。"
+  },
+  {
+    "id": "ts_主動表達訓練",
+    "name": "主動表達訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "增加主動表達的意願和機會。"
+  },
+  {
+    "id": "ts_發聲模仿訓練",
+    "name": "發聲模仿訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "模仿發聲或模仿語音。"
+  },
+  {
+    "id": "ts_單字結合手勢表達訓練",
+    "name": "單字結合手勢表達訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "使用單字加手勢進行表達。"
+  },
+  {
+    "id": "ts_詞彙表達訓練",
+    "name": "詞彙表達訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "加強常見物品名稱與功能性詞彙使用。"
+  },
+  {
+    "id": "ts_完整句表達訓練",
+    "name": "完整句表達訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "加強完整句表達能力。"
+  },
+  {
+    "id": "ts_抽象詞彙表達訓練",
+    "name": "抽象詞彙表達訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "加強抽象詞彙表達。"
+  },
+  {
+    "id": "ts_語句長度擴展訓練",
+    "name": "語句長度擴展訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "延長語句長度。"
+  },
+  {
+    "id": "ts_複雜句表達訓練",
+    "name": "複雜句表達訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "練習使用複雜句表達。"
+  },
+  {
+    "id": "ts_事件描述訓練",
+    "name": "事件描述訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "描述經歷過的事件。"
+  },
+  {
+    "id": "ts_敘事訓練",
+    "name": "敘事訓練",
+    "subdomain_name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "description": "說故事與敘事表達訓練。"
+  },
+  {
+    "id": "ts_興趣擴展訓練",
+    "name": "興趣擴展訓練",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "description": "建立對事物的廣泛興趣，避免侷限。"
+  },
+  {
+    "id": "ts_主題維持訓練",
+    "name": "主題維持訓練",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "description": "維持合乎情境的對話主題。"
+  },
+  {
+    "id": "ts_對話輪替訓練",
+    "name": "對話輪替訓練",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "description": "維持一來一往的對話輪替。"
+  },
+  {
+    "id": "ts_情境適切表達訓練",
+    "name": "情境適切表達訓練",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "description": "使用合乎情境的適當口語。"
+  },
+  {
+    "id": "ts_非字面語意理解訓練",
+    "name": "非字面語意理解訓練",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "description": "理解笑話、雙關語或詞彙非字面意義。"
+  },
+  {
+    "id": "ts_對話開啟與結束訓練",
+    "name": "對話開啟與結束訓練",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "description": "適切開啟及結束對話。"
+  },
+  {
+    "id": "ts_語用推論訓練",
+    "name": "語用推論訓練",
+    "subdomain_name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "description": "增加語用預設與推論能力。"
+  },
+  {
+    "id": "ts_構音矯正訓練",
+    "name": "構音矯正訓練",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "description": "矯正構音錯誤與提升清晰度。"
+  },
+  {
+    "id": "ts_語暢訓練",
+    "name": "語暢訓練",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "description": "改善語言流暢度。"
+  },
+  {
+    "id": "ts_嗓音復健",
+    "name": "嗓音復健",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "description": "針對嗓音功能進行復健。"
+  },
+  {
+    "id": "ts_嗓音保健",
+    "name": "嗓音保健",
+    "subdomain_name": "說話",
+    "domain_name": "口語溝通功能",
+    "description": "維持良好嗓音使用習慣。"
+  },
+  {
+    "id": "ts_嬰兒刺激促發活動",
+    "name": "嬰兒刺激促發活動",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "針對嬰幼兒整體發展促發的活動。"
+  },
+  {
+    "id": "ts_認知技能促發訓練",
+    "name": "認知技能促發訓練",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "促發遊戲、物品使用、表徵、模仿、問題解決等認知技能。"
+  },
+  {
+    "id": "ts_語意與基礎常識訓練",
+    "name": "語意與基礎常識訓練",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "加強語意理解與基礎常識。"
+  },
+  {
+    "id": "ts_敘事與論述訓練",
+    "name": "敘事與論述訓練",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "加強敘事、論述與對話能力。"
+  },
+  {
+    "id": "ts_工作習慣建立",
+    "name": "工作習慣建立",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "建立良好工作與學習習慣。"
+  },
+  {
+    "id": "ts_注意力訓練",
+    "name": "注意力訓練",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "提升專注與注意力維持。"
+  },
+  {
+    "id": "ts_記憶訓練",
+    "name": "記憶訓練",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "提升工作記憶與記憶策略。"
+  },
+  {
+    "id": "ts_執行功能訓練",
+    "name": "執行功能訓練",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "提升規劃、排序、轉換與執行能力。"
+  },
+  {
+    "id": "ts_遊戲處方",
+    "name": "遊戲處方",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "提供童書、玩具與遊戲處方。"
+  },
+  {
+    "id": "ts_結構化環境策略",
+    "name": "結構化環境策略",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "透過結構化環境支持認知與適應。"
+  },
+  {
+    "id": "ts_生活適應訓練",
+    "name": "生活適應訓練",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "加強生活適應相關認知應用。"
+  },
+  {
+    "id": "ts_行為強化訓練",
+    "name": "行為強化訓練",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "以應用行為原理強化目標行為。"
+  },
+  {
+    "id": "ts_教育與社區參與支持",
+    "name": "教育與社區參與支持",
+    "subdomain_name": "認知",
+    "domain_name": "認知功能",
+    "description": "連結教育與社區資源。"
+  },
+  {
+    "id": "ts_穿脫衣配合訓練",
+    "name": "穿脫衣配合訓練",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "description": "大人協助穿脫衣鞋時練習配合動作。"
+  },
+  {
+    "id": "ts_無扣衣物穿脫訓練",
+    "name": "無扣衣物穿脫訓練",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "description": "練習無扣衣褲或無鞋帶鞋子的穿脫。"
+  },
+  {
+    "id": "ts_自主穿脫衣物訓練",
+    "name": "自主穿脫衣物訓練",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "description": "練習自行穿脫衣物或鞋子。"
+  },
+  {
+    "id": "ts_拉鍊操作訓練",
+    "name": "拉鍊操作訓練",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "description": "練習拉拉鍊。"
+  },
+  {
+    "id": "ts_鞋帶操作訓練",
+    "name": "鞋帶操作訓練",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "description": "練習綁鞋帶。"
+  },
+  {
+    "id": "ts_解扣子訓練",
+    "name": "解扣子訓練",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "description": "練習解開扣子。"
+  },
+  {
+    "id": "ts_扣扣子訓練",
+    "name": "扣扣子訓練",
+    "subdomain_name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "description": "練習扣上扣子。"
+  },
+  {
+    "id": "ts_進食需求表達訓練",
+    "name": "進食需求表達訓練",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "description": "學會表示要吃東西。"
+  },
+  {
+    "id": "ts_扶食器與抿食訓練",
+    "name": "扶食器與抿食訓練",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "description": "大人餵食時練習扶食器與以嘴抿食物。"
+  },
+  {
+    "id": "ts_吸管飲訓練",
+    "name": "吸管飲訓練",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "description": "練習使用吸管喝飲料。"
+  },
+  {
+    "id": "ts_湯匙進食訓練",
+    "name": "湯匙進食訓練",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "description": "練習自己用湯匙吃東西。"
+  },
+  {
+    "id": "ts_杯飲訓練",
+    "name": "杯飲訓練",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "description": "練習拿杯子喝水。"
+  },
+  {
+    "id": "ts_筷子使用訓練",
+    "name": "筷子使用訓練",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "description": "練習用筷子吃東西。"
+  },
+  {
+    "id": "ts_進食清潔度訓練",
+    "name": "進食清潔度訓練",
+    "subdomain_name": "飲食",
+    "domain_name": "日常生活功能",
+    "description": "練習吃喝東西時少掉落殘渣。"
+  },
+  {
+    "id": "ts_如廁需求表達訓練",
+    "name": "如廁需求表達訓練",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "description": "學會表示要大便或尿尿。"
+  },
+  {
+    "id": "ts_協助下如廁訓練",
+    "name": "協助下如廁訓練",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "description": "在他人幫助下坐馬桶上廁所。"
+  },
+  {
+    "id": "ts_自主如廁訓練",
+    "name": "自主如廁訓練",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "description": "自己去大/小便。"
+  },
+  {
+    "id": "ts_鼻涕清潔訓練",
+    "name": "鼻涕清潔訓練",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "description": "練習擤鼻涕。"
+  },
+  {
+    "id": "ts_洗臉訓練",
+    "name": "洗臉訓練",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "description": "練習洗臉。"
+  },
+  {
+    "id": "ts_刷牙訓練",
+    "name": "刷牙訓練",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "description": "練習刷牙。"
+  },
+  {
+    "id": "ts_漱口訓練",
+    "name": "漱口訓練",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "description": "練習漱口。"
+  },
+  {
+    "id": "ts_洗澡訓練",
+    "name": "洗澡訓練",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "description": "練習洗澡。"
+  },
+  {
+    "id": "ts_洗手訓練",
+    "name": "洗手訓練",
+    "subdomain_name": "盥洗衛生",
+    "domain_name": "日常生活功能",
+    "description": "練習洗手。"
+  },
+  {
+    "id": "ts_功能性遊戲訓練",
+    "name": "功能性遊戲訓練",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "description": "促進功能性與探索性遊戲。"
+  },
+  {
+    "id": "ts_探索性遊戲訓練",
+    "name": "探索性遊戲訓練",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "description": "促進探索性遊戲。"
+  },
+  {
+    "id": "ts_想像性遊戲訓練",
+    "name": "想像性遊戲訓練",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "description": "促進想像性遊戲。"
+  },
+  {
+    "id": "ts_象徵性遊戲訓練",
+    "name": "象徵性遊戲訓練",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "description": "促進象徵性與角色扮演遊戲。"
+  },
+  {
+    "id": "ts_角色扮演遊戲訓練",
+    "name": "角色扮演遊戲訓練",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "description": "促進不同角色與情緒的扮演遊戲。"
+  },
+  {
+    "id": "ts_建構性遊戲訓練",
+    "name": "建構性遊戲訓練",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "description": "促進建構性遊戲。"
+  },
+  {
+    "id": "ts_規則性遊戲訓練",
+    "name": "規則性遊戲訓練",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "description": "促進規則性遊戲。"
+  },
+  {
+    "id": "ts_獨立遊戲訓練",
+    "name": "獨立遊戲訓練",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "description": "可獨自玩一段時間。"
+  },
+  {
+    "id": "ts_雙人遊戲訓練",
+    "name": "雙人遊戲訓練",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "description": "可玩二人的遊戲。"
+  },
+  {
+    "id": "ts_團體遊戲訓練",
+    "name": "團體遊戲訓練",
+    "subdomain_name": "遊戲",
+    "domain_name": "日常生活功能",
+    "description": "可參與三人以上的團體遊戲。"
+  },
+  {
+    "id": "ts_規律作息訓練",
+    "name": "規律作息訓練",
+    "subdomain_name": "生活作息",
+    "domain_name": "日常生活功能",
+    "description": "建立規律作息。"
+  },
+  {
+    "id": "ts_自我管理訓練",
+    "name": "自我管理訓練",
+    "subdomain_name": "生活作息",
+    "domain_name": "日常生活功能",
+    "description": "管理自己的事物。"
+  },
+  {
+    "id": "ts_家務參與訓練",
+    "name": "家務參與訓練",
+    "subdomain_name": "生活作息",
+    "domain_name": "日常生活功能",
+    "description": "主動協助家庭事務。"
+  },
+  {
+    "id": "ts_親子互動遊戲訓練",
+    "name": "親子互動遊戲訓練",
+    "subdomain_name": "生活作息",
+    "domain_name": "日常生活功能",
+    "description": "增加親子遊戲互動。"
+  }
+]

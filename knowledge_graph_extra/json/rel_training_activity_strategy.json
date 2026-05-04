@@ -1,0 +1,487 @@
+[
+  {
+    "from": "ta_單腳站練習",
+    "to": "平衡訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_走平衡木",
+    "to": "平衡訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_踩點遊戲",
+    "to": "平衡訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_上下樓梯活動",
+    "to": "移位能力訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_跨障礙行走",
+    "to": "移位能力訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_爬行穿越活動",
+    "to": "移位能力訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_傳接球遊戲",
+    "to": "傳接物能力訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_踢球目標遊戲",
+    "to": "動作協調訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_跳格子活動",
+    "to": "粗動作學習訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_姿勢轉換練習",
+    "to": "姿勢控制訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_核心穩定活動",
+    "to": "肌力與肌耐力訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_下肢肌力遊戲",
+    "to": "肌力與肌耐力訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_串珠活動",
+    "to": "手眼協調訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_夾物遊戲",
+    "to": "基本手功能訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_剪紙練習",
+    "to": "工具操作訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_握筆前控制活動",
+    "to": "工具操作訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_扣扣子練習",
+    "to": "工具操作訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_拉拉鍊練習",
+    "to": "工具操作訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_翻頁遊戲",
+    "to": "基本手功能訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_雙手分工活動",
+    "to": "雙手協調訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_塗鴉描線活動",
+    "to": "手眼協調訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_刷觸覺活動",
+    "to": "感覺調節訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_搖擺平衡活動",
+    "to": "平衡與兩側協調訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_身體部位指認遊戲",
+    "to": "身體意象訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_左右側協調活動",
+    "to": "平衡與兩側協調訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_障礙路線規劃遊戲",
+    "to": "動作計畫訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_安靜角落調節活動",
+    "to": "警醒度調節訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_吹泡泡活動",
+    "to": "口腔動作訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_吸管喝水練習",
+    "to": "吸管飲訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_閉唇練習",
+    "to": "雙唇動作訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_舌頭側移活動",
+    "to": "舌部動作訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_下頷穩定練習",
+    "to": "下頷控制訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_咀嚼分級訓練",
+    "to": "咀嚼訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_材質漸進暴露",
+    "to": "食物材質調整",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_進食姿勢調整活動",
+    "to": "進食姿勢調整",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_小口量吞嚥練習",
+    "to": "進食量控制訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_單步驟口令遊戲",
+    "to": "單一步驟指令理解訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_兩步驟指令遊戲",
+    "to": "多步驟指令理解訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_圖片指認活動",
+    "to": "熟悉物品指認訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_手勢配對理解活動",
+    "to": "手勢理解訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_情境詞彙理解活動",
+    "to": "抽象詞彙理解訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_故事提問理解活動",
+    "to": "故事理解訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_事件重述理解活動",
+    "to": "事件理解訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_聽聲辨識活動",
+    "to": "聽能訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_圖卡命名活動",
+    "to": "詞彙表達訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_單字擴展活動",
+    "to": "詞彙表達訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_兩詞句擴展活動",
+    "to": "完整句表達訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_情境要求表達練習",
+    "to": "主動表達訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_發聲模仿遊戲",
+    "to": "發聲模仿訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_手勢加單字表達活動",
+    "to": "單字結合手勢表達訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_句型擴展活動",
+    "to": "語句長度擴展訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_事件描述練習",
+    "to": "事件描述訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_看圖說故事活動",
+    "to": "敘事訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_輪流對話練習",
+    "to": "對話輪替訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_開啟對話句型練習",
+    "to": "對話開啟與結束訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_主題維持遊戲",
+    "to": "主題維持訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_情境回應角色扮演",
+    "to": "情境適切表達訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_非字面語意故事活動",
+    "to": "非字面語意理解訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_共同注意分享活動",
+    "to": "語用溝通訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_構音音位練習",
+    "to": "構音矯正訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_慢速說話節奏練習",
+    "to": "語暢訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_發聲持續練習",
+    "to": "嗓音復健",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_聲音保健提醒活動",
+    "to": "嗓音保健",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_配對分類遊戲",
+    "to": "認知技能促發訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_順序卡排列活動",
+    "to": "執行功能訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_工作記憶遊戲",
+    "to": "記憶訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_專注維持活動",
+    "to": "注意力訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_問題解決遊戲",
+    "to": "認知技能促發訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_概念形成活動",
+    "to": "認知技能促發訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_圖畫模仿活動",
+    "to": "認知技能促發訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_常規流程圖卡",
+    "to": "結構化環境策略",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_伸手抬腳配合練習",
+    "to": "穿脫衣配合訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_無扣衣褲穿脫練習",
+    "to": "無扣衣物穿脫訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_自主穿鞋練習",
+    "to": "自主穿脫衣物訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_拉鍊來回操作活動",
+    "to": "拉鍊操作訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_扣子開合作業",
+    "to": "扣扣子訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_扶碗扶杯練習",
+    "to": "扶食器與抿食訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_湯匙舀食活動",
+    "to": "湯匙進食訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_開口杯喝水練習",
+    "to": "杯飲訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_進食需求表達提示",
+    "to": "進食需求表達訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_進食不掉落練習",
+    "to": "進食清潔度訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_如廁圖卡提示",
+    "to": "如廁需求表達訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_坐馬桶練習",
+    "to": "協助下如廁訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_洗手步驟練習",
+    "to": "洗手訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_刷牙步驟活動",
+    "to": "刷牙訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_洗臉擦臉練習",
+    "to": "洗臉訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_玩具功能操作活動",
+    "to": "功能性遊戲訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_假裝餵食遊戲",
+    "to": "想像性遊戲訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_角色扮演遊戲",
+    "to": "角色扮演遊戲訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_積木建構活動",
+    "to": "建構性遊戲訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_桌遊輪流活動",
+    "to": "規則性遊戲訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_雙人互動遊戲",
+    "to": "雙人遊戲訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_小團體遊戲活動",
+    "to": "團體遊戲訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_作息流程表",
+    "to": "規律作息訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_收玩具任務練習",
+    "to": "自我管理訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_簡單家務參與活動",
+    "to": "家務參與訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  },
+  {
+    "from": "ta_親子互動遊戲時間",
+    "to": "親子互動遊戲訓練",
+    "type": "IMPLEMENTS_STRATEGY"
+  }
+]

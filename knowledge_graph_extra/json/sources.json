@@ -1,0 +1,112 @@
+[
+  {
+    "source_org": "CDC",
+    "source_title": "Developmental Milestone Checklist for WIC - English / CDC's Developmental Milestones",
+    "source_url": "https://www.cdc.gov/ncbddd/actearly/pdf/FULL-LIST-CDC_LTSAE-Checklists2021_Eng_FNL2_508.pdf",
+    "source_type": "official_pdf",
+    "source_date": "2026-02-16",
+    "last_checked_date": "2026-03-31",
+    "source_note": "5-year checklist entry.",
+    "id": "src_fa538b2c009a"
+  },
+  {
+    "source_org": "ASHA",
+    "source_title": "Communication Milestones: Birth to 1 Year",
+    "source_url": "https://www.asha.org/public/developmental-milestones/communication-milestones-birth-to-1-year/",
+    "source_type": "official_webpage",
+    "source_date": null,
+    "last_checked_date": "2026-03-31",
+    "source_note": "ASHA communication milestones page includes 0-3, 4-6, 7-9, and 10-12 month sections.",
+    "id": "src_3f0010b0971b"
+  },
+  {
+    "source_org": "ASHA",
+    "source_title": "Communication Milestones: 13 to 18 Months",
+    "source_url": "https://www.asha.org/public/developmental-milestones/communication-milestones-13-to-18-months/",
+    "source_type": "official_webpage",
+    "source_date": null,
+    "last_checked_date": "2026-03-31",
+    "source_note": "ASHA communication age-range page.",
+    "id": "src_a2b9d5b38970"
+  },
+  {
+    "source_org": "ASHA",
+    "source_title": "Communication Milestones: 19 to 24 Months",
+    "source_url": "https://www.asha.org/public/developmental-milestones/communication-milestones-19-to-24-months/",
+    "source_type": "official_webpage",
+    "source_date": null,
+    "last_checked_date": "2026-03-31",
+    "source_note": "ASHA communication age-range page.",
+    "id": "src_48b00668cc55"
+  },
+  {
+    "source_org": "ASHA",
+    "source_title": "Communication Milestones: 2 to 3 Years",
+    "source_url": "https://www.asha.org/public/developmental-milestones/communication-milestones-2-to-3-years/",
+    "source_type": "official_webpage",
+    "source_date": null,
+    "last_checked_date": "2026-03-31",
+    "source_note": "ASHA communication age-range page.",
+    "id": "src_b85dcd94ac25"
+  },
+  {
+    "source_org": "ASHA",
+    "source_title": "Communication Milestones: 3 to 4 Years",
+    "source_url": "https://www.asha.org/public/developmental-milestones/communication-milestones-3-to-4-years/",
+    "source_type": "official_webpage",
+    "source_date": null,
+    "last_checked_date": "2026-03-31",
+    "source_note": "ASHA communication age-range page.",
+    "id": "src_ee3f844db4c0"
+  },
+  {
+    "source_org": "ASHA",
+    "source_title": "Communication Milestones: 4 to 5 Years",
+    "source_url": "https://www.asha.org/public/developmental-milestones/communication-milestones-4-to-5-years/",
+    "source_type": "official_webpage",
+    "source_date": null,
+    "last_checked_date": "2026-03-31",
+    "source_note": "ASHA communication age-range page.",
+    "id": "src_b4ac8f8e66cc"
+  },
+  {
+    "source_org": "ASHA",
+    "source_title": "Feeding and Swallowing Milestones: Birth to 1 Year",
+    "source_url": "https://www.asha.org/public/developmental-milestones/feeding-and-swallowing-milestones-birth-to-1-year/",
+    "source_type": "official_webpage",
+    "source_date": null,
+    "last_checked_date": "2026-03-31",
+    "source_note": "ASHA feeding/swallowing page includes Birth-3 and 4-6 month sections in retrieved text.",
+    "id": "src_343914ba46df"
+  },
+  {
+    "source_org": "ASHA",
+    "source_title": "Feeding and Swallowing Milestones: 12 to 18 Months",
+    "source_url": "https://www.asha.org/public/developmental-milestones/feeding-and-swallowing-milestones-12-to-18-months/",
+    "source_type": "official_webpage",
+    "source_date": null,
+    "last_checked_date": "2026-03-31",
+    "source_note": "ASHA feeding/swallowing age-range page.",
+    "id": "src_3e8e668df96b"
+  },
+  {
+    "source_org": "ASHA",
+    "source_title": "Feeding and Swallowing Milestones: 18 to 24 Months",
+    "source_url": "https://www.asha.org/public/developmental-milestones/feeding-and-swallowing-milestones-18-to-24-months/",
+    "source_type": "official_webpage",
+    "source_date": null,
+    "last_checked_date": "2026-03-31",
+    "source_note": "ASHA feeding/swallowing age-range page.",
+    "id": "src_19b3fbe330ed"
+  },
+  {
+    "source_org": "ASHA",
+    "source_title": "Feeding and Swallowing Milestones: 2 to 3 Years",
+    "source_url": "https://www.asha.org/public/developmental-milestones/feeding-and-swallowing-milestones-2-to-3-years/",
+    "source_type": "official_webpage",
+    "source_date": null,
+    "last_checked_date": "2026-03-31",
+    "source_note": "ASHA feeding/swallowing age-range page.",
+    "id": "src_81302746b3e7"
+  }
+]

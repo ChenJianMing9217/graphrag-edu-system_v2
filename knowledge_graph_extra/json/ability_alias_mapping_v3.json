@@ -1,0 +1,442 @@
+[
+  {
+    "old_name": "對聲音有反應",
+    "new_standard_name": "聽覺反應",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "發出咕咕聲",
+    "new_standard_name": "咿呀發聲",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會看著你的臉",
+    "new_standard_name": "眼神接觸",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "當你跟他說話或對他笑",
+    "new_standard_name": "社會微笑",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會發出除大哭以外的聲",
+    "new_standard_name": "發聲",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "對大聲響有反應",
+    "new_standard_name": "聽覺反應",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會看著你移動",
+    "new_standard_name": "視覺追視",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會看著玩具好幾秒",
+    "new_standard_name": "視覺注意",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "在趴著時能抬起頭",
+    "new_standard_name": "趴姿抬頭",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會同時移動手臂和腿",
+    "new_standard_name": "四肢活動",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "手會稍微張開",
+    "new_standard_name": "手部張開",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "朝向聲音轉頭",
+    "new_standard_name": "聽覺定向",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "張口期待進食",
+    "new_standard_name": "進食預期",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會透過看你、移動或發",
+    "new_standard_name": "吸引注意",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會發出像 'oooo",
+    "new_standard_name": "咿呀發聲",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會帶著興趣看著自己的",
+    "new_standard_name": "自我手部注視",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "當你把玩具放在他手中",
+    "new_standard_name": "握持玩具",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會動手臂去揮打玩具",
+    "new_standard_name": "主動碰觸玩具",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "趴著時會用手肘或前臂",
+    "new_standard_name": "前臂撐起",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "發出 raspberries",
+    "new_standard_name": "吐舌吹氣發聲",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會吹噴嚏 (吐舌吹氣",
+    "new_standard_name": "吐舌吹氣發聲",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會尖叫或發出尖銳聲",
+    "new_standard_name": "尖叫發聲",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會伸手去抓他想要的玩",
+    "new_standard_name": "主動抓取",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "合上嘴唇表示不想再吃",
+    "new_standard_name": "拒食表達",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "peek-a-boo 反應",
+    "new_standard_name": "互動遊戲反應",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能表現出多種表情，如",
+    "new_standard_name": "情緒表情表達",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "當你離開時會有反應 ",
+    "new_standard_name": "分離反應",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會發出多樣化的聲音，",
+    "new_standard_name": "多樣化發聲",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "物品掉出視線外會尋找",
+    "new_standard_name": "物體恆存前驅",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會把兩個東西對敲",
+    "new_standard_name": "雙物對敲",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會用手指將食物耙向自",
+    "new_standard_name": "耙抓食物",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會揮手說「再見」",
+    "new_standard_name": "揮手再見",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "對父母喊「媽媽」或「",
+    "new_standard_name": "叫爸爸媽媽",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "明白「不行」的意思 ",
+    "new_standard_name": "理解不要",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會找被隱藏起來的物品",
+    "new_standard_name": "找被藏起來的東西",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能用大拇指和食指抓起",
+    "new_standard_name": "拇食指捏取",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "遊戲時會模仿其他孩子",
+    "new_standard_name": "模仿同儕玩耍",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會擁抱洋娃娃或其他玩",
+    "new_standard_name": "擁抱玩具",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會表現出親愛舉動 (",
+    "new_standard_name": "表達親暱",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "除了「媽媽」或「爸爸",
+    "new_standard_name": "早期詞彙表達",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能配合手勢與語詞理解",
+    "new_standard_name": "配合手勢與語詞指令",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會用手指抓食物吃",
+    "new_standard_name": "手指自我進食",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會伸出手讓你洗手",
+    "new_standard_name": "配合洗手",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會和你一起看幾頁書",
+    "new_standard_name": "共讀參與",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "穿衣服時會幫忙 (如",
+    "new_standard_name": "配合穿衣",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能不看手勢理解一步驟",
+    "new_standard_name": "理解一步驟指令",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會用手指拿食物餵自己",
+    "new_standard_name": "手指自我進食",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能不需幫忙爬上或爬下",
+    "new_standard_name": "獨立爬上爬下",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會說「看我！」來展示",
+    "new_standard_name": "展示自己的能力",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會遵守簡單常規 (例",
+    "new_standard_name": "遵循簡單生活常規",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會說包含動作詞的短句",
+    "new_standard_name": "帶動詞的短句",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "指著書中圖片問「這是",
+    "new_standard_name": "命名書中物品",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會說「我」或「我們」",
+    "new_standard_name": "使用代名詞",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能表現出簡單的問題解",
+    "new_standard_name": "簡單解決問題",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能執行兩步驟指令 (",
+    "new_standard_name": "理解二步驟指令",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能辨認至少一種顏色",
+    "new_standard_name": "顏色概念",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會用手轉動東西 (如",
+    "new_standard_name": "手部旋轉操作",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能自己脫掉一部分衣服",
+    "new_standard_name": "脫衣",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "看書時能一次翻一頁",
+    "new_standard_name": "逐頁翻書",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "被送到托嬰或幼稚園後",
+    "new_standard_name": "分離後平復",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會問「誰」、「什麼」",
+    "new_standard_name": "提問",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能說出圖中正在做的動",
+    "new_standard_name": "描述圖片中的動作",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "沒人玩時會主動詢問是",
+    "new_standard_name": "主動邀請同儕遊戲",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會安慰受傷或難過的人",
+    "new_standard_name": "安慰他人",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會根據場所調整行為 ",
+    "new_standard_name": "依場所調整行為",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會說出兒歌或故事中的",
+    "new_standard_name": "敘說熟悉兒歌故事詞句",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能敘述當天發生的一件",
+    "new_standard_name": "談論當天發生的事",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能回答簡單問題 (例",
+    "new_standard_name": "回答簡單功能問題",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能講述包含至少兩個情",
+    "new_standard_name": "講兩事件故事",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "能辨認或使用簡單對韻",
+    "new_standard_name": "辨識簡單押韻",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "會使用時間詞 (如昨",
+    "new_standard_name": "使用時間詞",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "喜歡跳舞",
+    "new_standard_name": "唱歌跳舞表演",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "理解 where 問題",
+    "new_standard_name": "WH問句理解",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "指點提出要求/評論/資訊需求",
+    "new_standard_name": "指點求助",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "理解並使用常見物件、動作、人名詞",
+    "new_standard_name": "詞彙理解",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "使用 me/mine/you",
+    "new_standard_name": "使用代名詞",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "說 Look at me 吸引注意",
+    "new_standard_name": "展示自己的能力",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "-ing 與 -ed 變化",
+    "new_standard_name": "語法變化",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "位置詞 inside/on/under",
+    "new_standard_name": "位置詞理解與使用",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "假裝寫字/拼字，會寫部分字母",
+    "new_standard_name": "早期書寫",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "產生 t k g f y 與 -ing 音",
+    "new_standard_name": "構音",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "更長更複雜且語法正確的句子",
+    "new_standard_name": "複雜句表達",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "behind/beside/between 位置詞",
+    "new_standard_name": "進階位置詞理解與使用",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "正確使用 yesterday/tomorrow",
+    "new_standard_name": "時間詞理解與使用",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "辨認10個以上字母並能寫自己名字",
+    "new_standard_name": "字母辨識與姓名書寫",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "口內移動-咀嚼-吞嚥連貫",
+    "new_standard_name": "口內移動與咀嚼吞嚥連貫",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "可處理較硬食物不 gagging/choking",
+    "new_standard_name": "較硬食物處理",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  },
+  {
+    "old_name": "多種酥脆/硬質/混合口感",
+    "new_standard_name": "多樣口感接受",
+    "reason": "Normalize sentence-like or truncated ability name to stable ontology term."
+  }
+]

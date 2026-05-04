@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# 環境/秘鑰
+.env
+.env.*
+*.pem
+*.key
+
+# 資料庫 / 大檔
+*.db
+*.db.bak*
+uploads/
+dialogue_states/*.json
+
+# Embedding / model 快取
+dialogue_state_module/cache/
+rl_pipeline/checkpoints/
+rl_pipeline/runs/
+
+# 訓練資料 / 測試輸出
+rl_pipeline/dataset/*.jsonl
+rl_pipeline/scripts/test_results/
+training_dashboard.html
+*.log
+
+# Turn log（每輪對話日誌，含使用者隱私內容）
+logs/
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 暫存
+*.bak
+*.tmp

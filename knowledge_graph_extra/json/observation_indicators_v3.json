@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "obs_粗大動作_001",
+    "name": "常跌倒、走路不穩",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "粗大動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "動態平衡",
+      "步態穩定",
+      "姿勢控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "動態平衡",
+      "步態穩定",
+      "姿勢控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_粗大動作_002",
+    "name": "跑步速度慢、轉彎不穩",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "粗大動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "跑步",
+      "協調",
+      "動態平衡"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "跑步",
+      "協調",
+      "動態平衡"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_粗大動作_003",
+    "name": "不太會雙腳跳",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "粗大動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "跳躍",
+      "下肢肌力",
+      "協調"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "跳躍",
+      "下肢肌力",
+      "協調"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_粗大動作_004",
+    "name": "單腳站一下就放下來",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "粗大動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "單腳站立",
+      "靜態平衡"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "單腳站立",
+      "靜態平衡"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_粗大動作_005",
+    "name": "上下樓梯需要扶手或人幫忙",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "粗大動作",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "上下樓梯",
+      "平衡",
+      "動作排序"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "上下樓梯",
+      "平衡",
+      "動作排序"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_粗大動作_006",
+    "name": "接球常接不到",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "粗大動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "精細動作"
+    ],
+    "related_abilities": [
+      "球類操作",
+      "手眼協調",
+      "動作時機"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "球類操作",
+      "手眼協調",
+      "動作時機"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_粗大動作_007",
+    "name": "踢球方向不準",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "粗大動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "球類操作",
+      "下肢控制",
+      "協調"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "球類操作",
+      "下肢控制",
+      "協調"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_粗大動作_008",
+    "name": "趴姿、坐姿維持不久",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "粗大動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "姿勢控制",
+      "核心穩定",
+      "肌耐力"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "姿勢控制",
+      "核心穩定",
+      "肌耐力"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_粗大動作_009",
+    "name": "不喜歡跑跳攀爬活動",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "粗大動作",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "動作自信",
+      "粗大動作參與"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "動作自信",
+        "mapped": "動作自信",
+        "reason": "demoted_not_core_ability"
+      },
+      {
+        "original": "粗大動作參與",
+        "mapped": "粗大動作參與",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_粗大動作_010",
+    "name": "大動作活動容易累",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "粗大動作",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "生活作息"
+    ],
+    "related_abilities": [
+      "肌耐力"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "肌耐力",
+      "活動持續性"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "活動持續性",
+        "mapped": "活動持續性",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_精細動作_001",
+    "name": "握筆很吃力或姿勢怪",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "精細動作",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "握筆",
+      "手部控制",
+      "手指分化"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "握筆",
+      "手部控制",
+      "手指分化"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_精細動作_002",
+    "name": "不太會用剪刀",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "精細動作",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "剪刀使用",
+      "雙手協調"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "剪刀使用",
+      "雙手協調"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_精細動作_003",
+    "name": "穿珠或拼小積木很慢",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "精細動作",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "精細操作",
+      "手眼協調"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "精細操作",
+      "手眼協調"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_精細動作_004",
+    "name": "扣扣子、拉拉鍊困難",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "精細動作",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "穿脫衣"
+    ],
+    "related_abilities": [
+      "手指操作",
+      "雙手協調"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "手指操作",
+      "雙手協調"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_精細動作_005",
+    "name": "畫圖只會亂畫線",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "精細動作",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "仿畫",
+      "視動整合"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "仿畫",
+      "視動整合"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_精細動作_006",
+    "name": "小物品常拿不穩",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "精細動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "抓握",
+      "捏取",
+      "力量控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "抓握",
+      "捏取",
+      "力量控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_精細動作_007",
+    "name": "翻書頁常一次翻很多張",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "精細動作",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "手指操作",
+      "手部控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "手指操作",
+      "控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_精細動作_008",
+    "name": "湯匙舀東西容易掉",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "精細動作",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "飲食"
+    ],
+    "related_abilities": [
+      "手眼協調",
+      "手腕控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "手眼協調",
+      "手腕控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_精細動作_009",
+    "name": "玩拼圖時手部操作很慢",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "精細動作",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "視動整合",
+      "精細操作"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "視動整合",
+      "精細操作"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_精細動作_010",
+    "name": "不喜歡畫畫、剪貼、手作",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "精細動作",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "精細參與",
+      "操作耐受"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "精細參與",
+        "mapped": "精細參與",
+        "reason": "demoted_not_core_ability"
+      },
+      {
+        "original": "操作耐受",
+        "mapped": "操作耐受",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_感覺統合_001",
+    "name": "很怕某些聲音",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "感覺統合",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "聽覺調節",
+      "感覺接受"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "聽覺調節",
+      "感覺接受"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_感覺統合_002",
+    "name": "不喜歡刷牙、洗頭、剪指甲",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "感覺統合",
+    "related_domains": [
+      "吞嚥/口腔功能",
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "盥洗衛生",
+      "口腔動作"
+    ],
+    "related_abilities": [
+      "觸覺調節",
+      "口腔接受"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "觸覺調節",
+      "口腔接受"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_感覺統合_003",
+    "name": "活動量很大，很難坐好",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "感覺統合",
+    "related_domains": [
+      "日常生活功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知",
+      "生活作息"
+    ],
+    "related_abilities": [
+      "感覺調節",
+      "活動量調整",
+      "持續注意"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "感覺調節",
+      "活動量調整",
+      "注意力"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_感覺統合_004",
+    "name": "常撞東西、力道拿捏不好",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "感覺統合",
+    "related_domains": [],
+    "related_subdomains": [
+      "粗大動作",
+      "精細動作"
+    ],
+    "related_abilities": [
+      "本體覺",
+      "身體控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "本體覺",
+      "身體控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_感覺統合_005",
+    "name": "喜歡旋轉、跳躍、衝撞",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "感覺統合",
+    "related_domains": [],
+    "related_subdomains": [
+      "粗大動作"
+    ],
+    "related_abilities": [
+      "前庭刺激尋求",
+      "感覺調節"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "前庭刺激尋求",
+      "感覺調節"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_感覺統合_006",
+    "name": "不喜歡某些衣服材質",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "感覺統合",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "穿脫衣"
+    ],
+    "related_abilities": [
+      "觸覺接受",
+      "穿著耐受"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "觸覺接受",
+      "穿著耐受"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_感覺統合_007",
+    "name": "對食物口感非常敏感",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "感覺統合",
+    "related_domains": [
+      "吞嚥/口腔功能",
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "飲食",
+      "吞嚥"
+    ],
+    "related_abilities": [
+      "口腔感覺接受",
+      "材質適應"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "口腔感覺接受",
+      "材質適應"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_感覺統合_008",
+    "name": "很容易分心，被環境刺激拉走",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "感覺統合",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "感覺調節",
+      "持續注意"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "感覺調節",
+      "注意力維持"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_感覺統合_009",
+    "name": "常咬衣服、咬玩具",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "感覺統合",
+    "related_domains": [
+      "吞嚥/口腔功能"
+    ],
+    "related_subdomains": [
+      "口腔動作"
+    ],
+    "related_abilities": [
+      "口腔感覺需求",
+      "感覺調節"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "口腔感覺需求",
+      "調節"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_感覺統合_010",
+    "name": "玩遊樂設施容易過度興奮或害怕",
+    "primary_domain": "知覺動作功能",
+    "primary_subdomain": "感覺統合",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "粗大動作",
+      "遊戲"
+    ],
+    "related_abilities": [
+      "前庭調節",
+      "情緒調節"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "前庭調節",
+      "情緒調節"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口腔動作_001",
+    "name": "喝水常從嘴角流出來",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "口腔動作",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "吞嚥",
+      "飲食"
+    ],
+    "related_abilities": [
+      "閉唇",
+      "口腔控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "閉唇",
+      "口腔控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口腔動作_002",
+    "name": "不太會用吸管",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "口腔動作",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "飲食"
+    ],
+    "related_abilities": [
+      "吸管飲",
+      "口唇控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "吸管飲",
+      "口唇控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口腔動作_003",
+    "name": "咀嚼很慢",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "口腔動作",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "吞嚥",
+      "飲食"
+    ],
+    "related_abilities": [
+      "咀嚼",
+      "口腔動作控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "咀嚼",
+      "口腔動作控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口腔動作_004",
+    "name": "常把食物推出來",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "口腔動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "吞嚥"
+    ],
+    "related_abilities": [
+      "舌頭控制",
+      "口腔控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "舌頭控制",
+      "口腔控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口腔動作_005",
+    "name": "吃東西只用前牙咬",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "口腔動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "吞嚥"
+    ],
+    "related_abilities": [
+      "咬合",
+      "咀嚼模式"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "咬合",
+      "咀嚼模式"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口腔動作_006",
+    "name": "不喜歡需要咀嚼的食物",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "口腔動作",
+    "related_domains": [
+      "日常生活功能",
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "飲食",
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "口腔接受",
+      "咀嚼"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "口腔接受",
+      "咀嚼"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口腔動作_007",
+    "name": "發音時嘴型變化少",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "口腔動作",
+    "related_domains": [
+      "口語溝通功能"
+    ],
+    "related_subdomains": [
+      "說話"
+    ],
+    "related_abilities": [
+      "口腔動作協調",
+      "構音動作"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "口腔動作協調",
+      "構音動作"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口腔動作_008",
+    "name": "流口水情況明顯",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "口腔動作",
+    "related_domains": [],
+    "related_subdomains": [
+      "吞嚥"
+    ],
+    "related_abilities": [
+      "閉唇",
+      "口腔控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "閉唇",
+      "口腔控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口腔動作_009",
+    "name": "吹氣、吹泡泡很吃力",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "口腔動作",
+    "related_domains": [
+      "口語溝通功能"
+    ],
+    "related_subdomains": [
+      "說話"
+    ],
+    "related_abilities": [
+      "口腔肌力",
+      "呼氣控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "口腔肌力",
+      "呼氣控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口腔動作_010",
+    "name": "刷牙時很難張口配合",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "口腔動作",
+    "related_domains": [
+      "日常生活功能",
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "盥洗衛生",
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "口腔接受",
+      "張口控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "口腔接受",
+      "張口控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_吞嚥_001",
+    "name": "吃東西常含在嘴裡不吞",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "吞嚥",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "口腔動作",
+      "飲食"
+    ],
+    "related_abilities": [
+      "吞嚥",
+      "口內移動"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "吞嚥",
+      "口內移動"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_吞嚥_002",
+    "name": "常咳嗽或嗆到",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "吞嚥",
+    "related_domains": [],
+    "related_subdomains": [
+      "口腔動作"
+    ],
+    "related_abilities": [
+      "吞嚥安全",
+      "吞嚥協調"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "吞嚥安全",
+      "吞嚥協調"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_吞嚥_003",
+    "name": "吃飯很久才吞下去",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "吞嚥",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "飲食"
+    ],
+    "related_abilities": [
+      "吞嚥"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "吞嚥",
+      "進食效率"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "進食效率",
+        "mapped": "進食效率",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_吞嚥_004",
+    "name": "食物容易卡在嘴巴兩側",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "吞嚥",
+    "related_domains": [],
+    "related_subdomains": [
+      "口腔動作"
+    ],
+    "related_abilities": [
+      "口內清除",
+      "舌頭控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "口內清除",
+      "舌頭控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_吞嚥_005",
+    "name": "吃顆粒或塊狀食物特別困難",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "吞嚥",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "口腔動作",
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "材質適應",
+      "咀嚼",
+      "吞嚥"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "材質適應",
+      "咀嚼",
+      "吞嚥"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_吞嚥_006",
+    "name": "吞口水聲音很多",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "吞嚥",
+    "related_domains": [],
+    "related_subdomains": [
+      "口腔動作"
+    ],
+    "related_abilities": [
+      "吞嚥協調"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "吞嚥協調"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_吞嚥_007",
+    "name": "進食時容易疲累",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "吞嚥",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "生活作息",
+      "飲食"
+    ],
+    "related_abilities": [
+      "吞嚥耐力"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "吞嚥耐力",
+      "進食持續性"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "進食持續性",
+        "mapped": "進食持續性",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_吞嚥_008",
+    "name": "吃飯常需要很多提醒才吞",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "吞嚥",
+    "related_domains": [
+      "日常生活功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知",
+      "飲食"
+    ],
+    "related_abilities": [
+      "吞嚥啟動",
+      "持續注意"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "吞嚥啟動",
+      "注意力"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_吞嚥_009",
+    "name": "某些食物吃了就抗拒",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "吞嚥",
+    "related_domains": [
+      "日常生活功能",
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "感覺統合",
+      "飲食"
+    ],
+    "related_abilities": [
+      "材質適應"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "材質接受",
+      "吞嚥經驗"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "吞嚥經驗",
+        "mapped": "吞嚥經驗",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_吞嚥_010",
+    "name": "進食時姿勢不穩，影響吞嚥",
+    "primary_domain": "吞嚥/口腔功能",
+    "primary_subdomain": "吞嚥",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "粗大動作"
+    ],
+    "related_abilities": [
+      "進食姿勢",
+      "吞嚥準備"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "進食姿勢",
+      "吞嚥準備"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語理解_001",
+    "name": "叫很多次才有反應",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語理解",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "聽覺反應",
+      "持續注意",
+      "語言理解"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "聽覺反應",
+      "注意",
+      "理解"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語理解_002",
+    "name": "聽不太懂簡單指令",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語理解",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "一步驟指令理解"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "一步驟指令理解"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語理解_003",
+    "name": "聽得懂一步驟，二步驟就不行",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語理解",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "二步驟指令理解",
+      "工作記憶"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "二步驟指令理解",
+      "工作記憶"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語理解_004",
+    "name": "問問題常答非所問",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語理解",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "口語表達",
+      "認知"
+    ],
+    "related_abilities": [
+      "問句理解",
+      "語意理解"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "問句理解",
+      "語意理解"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語理解_005",
+    "name": "不太懂 where / what / why 問題",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語理解",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "WH問句理解"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "WH問句理解"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語理解_006",
+    "name": "不太懂故事內容",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語理解",
+    "related_domains": [
+      "日常生活功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知",
+      "遊戲"
+    ],
+    "related_abilities": [
+      "故事理解",
+      "持續注意"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "故事理解",
+      "注意力"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語理解_007",
+    "name": "指認圖片或物品常錯",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語理解",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "詞彙理解"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "詞彙理解",
+      "辨識"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語理解_008",
+    "name": "聽到不要、不可以反應不明顯",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語理解",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "禁止語理解",
+      "社會規則理解"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "禁止語理解",
+      "社會規則理解"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語理解_009",
+    "name": "需要手勢幫忙才聽得懂",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語理解",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "語言理解",
+      "語境提示依賴"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "語言理解",
+      "語境提示依賴"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語理解_010",
+    "name": "團體指令常跟不上",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語理解",
+    "related_domains": [
+      "社會情緒功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知",
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "語言理解",
+      "持續注意",
+      "規則理解"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "語言理解",
+      "注意",
+      "規則理解"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語表達_001",
+    "name": "只會單字",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語表達",
+    "related_domains": [],
+    "related_subdomains": [
+      "說話"
+    ],
+    "related_abilities": [
+      "單字表達"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "單字表達"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語表達_002",
+    "name": "只會片語，不太會完整句子",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語表達",
+    "related_domains": [],
+    "related_subdomains": [
+      "說話"
+    ],
+    "related_abilities": [
+      "片語表達",
+      "句子表達"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "片語表達",
+      "句子表達"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語表達_003",
+    "name": "不太主動表達需求",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語表達",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "主動溝通",
+      "需求表達"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "主動溝通",
+      "需求表達"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語表達_004",
+    "name": "想說很多但說不完整",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語表達",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "句子組織",
+      "詞彙提取"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "句子組織",
+      "詞彙提取"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語表達_005",
+    "name": "回答常很短",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語表達",
+    "related_domains": [],
+    "related_subdomains": [
+      "口語理解"
+    ],
+    "related_abilities": [
+      "回應表達",
+      "語言延展"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "回應表達",
+      "語言延展"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語表達_006",
+    "name": "不太會描述發生的事情",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語表達",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "事件描述",
+      "敘事"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "事件描述",
+      "敘事"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語表達_007",
+    "name": "不太會問問題",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語表達",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "提問 who/what/where/why",
+      "社交溝通"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "提問",
+      "社交溝通"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語表達_008",
+    "name": "需求常用哭或拉人，不用語言",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語表達",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "功能性溝通"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "功能性溝通"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語表達_009",
+    "name": "詞彙量明顯少",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語表達",
+    "related_domains": [],
+    "related_subdomains": [
+      "口語理解"
+    ],
+    "related_abilities": [
+      "詞彙表達"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "詞彙表達"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_口語表達_010",
+    "name": "很少分享自己看到或想到的事",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "口語表達",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "社交分享",
+      "主動表達"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "社交分享",
+        "mapped": "社交分享",
+        "reason": "demoted_not_core_ability"
+      },
+      {
+        "original": "主動表達",
+        "mapped": "主動表達",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_說話_001",
+    "name": "發音很多聽不懂",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "說話",
+    "related_domains": [],
+    "related_subdomains": [
+      "口語表達"
+    ],
+    "related_abilities": [
+      "構音",
+      "語音清晰度"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "構音",
+      "語音清晰度"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_說話_002",
+    "name": "某些音一直說不準",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "說話",
+    "related_domains": [],
+    "related_subdomains": [
+      "口語表達"
+    ],
+    "related_abilities": [
+      "特定音構音"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "特定音構音"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_說話_003",
+    "name": "講話有點結巴",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "說話",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "語暢"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "語暢"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_說話_004",
+    "name": "講話太快，聽不清楚",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "說話",
+    "related_domains": [],
+    "related_subdomains": [
+      "口語表達"
+    ],
+    "related_abilities": [
+      "語速控制",
+      "清晰度"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "語速控制",
+      "清晰度"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_說話_005",
+    "name": "聲音很小",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "說話",
+    "related_domains": [],
+    "related_subdomains": [
+      "口語表達"
+    ],
+    "related_abilities": [
+      "音量控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "音量控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_說話_006",
+    "name": "聲音沙啞",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "說話",
+    "related_domains": [],
+    "related_subdomains": [
+      "口語表達"
+    ],
+    "related_abilities": [
+      "嗓音品質"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "嗓音品質"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_說話_007",
+    "name": "講話鼻音很重或怪怪的",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "說話",
+    "related_domains": [
+      "吞嚥/口腔功能"
+    ],
+    "related_subdomains": [
+      "口腔動作"
+    ],
+    "related_abilities": [
+      "共鳴",
+      "發聲"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "共鳴",
+      "發聲"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_說話_008",
+    "name": "長句子講得特別吃力",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "說話",
+    "related_domains": [],
+    "related_subdomains": [
+      "口語表達"
+    ],
+    "related_abilities": [
+      "發聲持續",
+      "語暢"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "發聲持續",
+      "語暢"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_說話_009",
+    "name": "模仿單字發音困難",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "說話",
+    "related_domains": [
+      "吞嚥/口腔功能"
+    ],
+    "related_subdomains": [
+      "口腔動作"
+    ],
+    "related_abilities": [
+      "構音模仿",
+      "動作計畫"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "構音模仿",
+      "動作計畫"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_說話_010",
+    "name": "說話常省略很多音",
+    "primary_domain": "口語溝通功能",
+    "primary_subdomain": "說話",
+    "related_domains": [],
+    "related_subdomains": [
+      "口語表達"
+    ],
+    "related_abilities": [
+      "音韻歷程",
+      "清晰度"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "音韻歷程",
+      "清晰度"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_認知_001",
+    "name": "很容易分心",
+    "primary_domain": "認知功能",
+    "primary_subdomain": "認知",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "持續注意"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "注意力維持"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_認知_002",
+    "name": "需要一直提醒才做完事",
+    "primary_domain": "認知功能",
+    "primary_subdomain": "認知",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "生活作息"
+    ],
+    "related_abilities": [
+      "任務維持",
+      "執行功能"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "任務維持",
+      "執行功能"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_認知_003",
+    "name": "不太會配對或分類",
+    "primary_domain": "認知功能",
+    "primary_subdomain": "認知",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "遊戲"
+    ],
+    "related_abilities": [
+      "配對",
+      "分類"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "配對",
+      "分類"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_認知_004",
+    "name": "顏色、大小、形狀常搞不清楚",
+    "primary_domain": "認知功能",
+    "primary_subdomain": "認知",
+    "related_domains": [
+      "口語溝通功能"
+    ],
+    "related_subdomains": [
+      "口語理解"
+    ],
+    "related_abilities": [
+      "概念形成"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "概念形成"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_認知_005",
+    "name": "問題發生時不太會自己想辦法",
+    "primary_domain": "認知功能",
+    "primary_subdomain": "認知",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "遊戲"
+    ],
+    "related_abilities": [
+      "問題解決"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "問題解決"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_認知_006",
+    "name": "不太懂先做什麼再做什麼",
+    "primary_domain": "認知功能",
+    "primary_subdomain": "認知",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "生活作息",
+      "穿脫衣"
+    ],
+    "related_abilities": [
+      "順序概念",
+      "執行功能"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "順序概念",
+      "執行功能"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_認知_007",
+    "name": "專注時間很短",
+    "primary_domain": "認知功能",
+    "primary_subdomain": "認知",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "持續注意"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "持續注意"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_認知_008",
+    "name": "玩拼圖、組裝類活動很吃力",
+    "primary_domain": "認知功能",
+    "primary_subdomain": "認知",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "精細動作"
+    ],
+    "related_abilities": [
+      "視知覺",
+      "空間概念"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "視知覺",
+      "空間概念"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_認知_009",
+    "name": "容易忘記剛剛說過的事",
+    "primary_domain": "認知功能",
+    "primary_subdomain": "認知",
+    "related_domains": [
+      "口語溝通功能"
+    ],
+    "related_subdomains": [
+      "口語理解"
+    ],
+    "related_abilities": [
+      "工作記憶"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "工作記憶"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_認知_010",
+    "name": "規則改變時很難調整",
+    "primary_domain": "認知功能",
+    "primary_subdomain": "認知",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "認知彈性",
+      "轉換"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "認知彈性",
+      "轉換"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_情緒行為與社會適應_001",
+    "name": "不太看人",
+    "primary_domain": "社會情緒功能",
+    "primary_subdomain": "情緒行為與社會適應",
+    "related_domains": [
+      "口語溝通功能"
+    ],
+    "related_subdomains": [
+      "口語理解"
+    ],
+    "related_abilities": [
+      "眼神接觸",
+      "社會互動"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "眼神接觸",
+      "社會互動"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_情緒行為與社會適應_002",
+    "name": "不太回應叫名",
+    "primary_domain": "社會情緒功能",
+    "primary_subdomain": "情緒行為與社會適應",
+    "related_domains": [
+      "口語溝通功能"
+    ],
+    "related_subdomains": [
+      "口語理解"
+    ],
+    "related_abilities": [
+      "社會回應",
+      "共同注意力"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "社會回應",
+      "共同注意力"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_情緒行為與社會適應_003",
+    "name": "喜歡自己玩，不太找同學",
+    "primary_domain": "社會情緒功能",
+    "primary_subdomain": "情緒行為與社會適應",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "遊戲"
+    ],
+    "related_abilities": [
+      "同儕互動",
+      "社交主動性"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "同儕互動",
+      "社交主動性"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_情緒行為與社會適應_004",
+    "name": "不太會輪流",
+    "primary_domain": "社會情緒功能",
+    "primary_subdomain": "情緒行為與社會適應",
+    "related_domains": [
+      "日常生活功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知",
+      "遊戲"
+    ],
+    "related_abilities": [
+      "輪流等待",
+      "規則理解"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "輪流等待",
+      "規則理解"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_情緒行為與社會適應_005",
+    "name": "很容易插隊或搶東西",
+    "primary_domain": "社會情緒功能",
+    "primary_subdomain": "情緒行為與社會適應",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "抑制控制",
+      "社會規則"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "抑制控制",
+      "社會規則"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_情緒行為與社會適應_006",
+    "name": "挫折時很容易哭鬧或生氣",
+    "primary_domain": "社會情緒功能",
+    "primary_subdomain": "情緒行為與社會適應",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "生活作息"
+    ],
+    "related_abilities": [
+      "情緒調節",
+      "挫折容忍"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "情緒調節",
+      "挫折容忍"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_情緒行為與社會適應_007",
+    "name": "作息或活動一改就崩潰",
+    "primary_domain": "社會情緒功能",
+    "primary_subdomain": "情緒行為與社會適應",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "生活作息"
+    ],
+    "related_abilities": [
+      "彈性轉換",
+      "情緒調節"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "彈性轉換",
+      "情緒調節"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_情緒行為與社會適應_008",
+    "name": "很固著，重複玩同一種玩法",
+    "primary_domain": "社會情緒功能",
+    "primary_subdomain": "情緒行為與社會適應",
+    "related_domains": [
+      "日常生活功能"
+    ],
+    "related_subdomains": [
+      "遊戲"
+    ],
+    "related_abilities": [
+      "行為彈性"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "行為彈性",
+      "遊戲變化"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "遊戲變化",
+        "mapped": "遊戲變化",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_情緒行為與社會適應_009",
+    "name": "很少主動分享東西給別人看",
+    "primary_domain": "社會情緒功能",
+    "primary_subdomain": "情緒行為與社會適應",
+    "related_domains": [
+      "口語溝通功能"
+    ],
+    "related_subdomains": [
+      "口語表達"
+    ],
+    "related_abilities": [
+      "共同注意力"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "共同注意力",
+      "社交分享"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "社交分享",
+        "mapped": "社交分享",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_情緒行為與社會適應_010",
+    "name": "不太會安慰別人",
+    "primary_domain": "社會情緒功能",
+    "primary_subdomain": "情緒行為與社會適應",
+    "related_domains": [
+      "口語溝通功能"
+    ],
+    "related_subdomains": [
+      "口語理解"
+    ],
+    "related_abilities": [
+      "同理",
+      "情緒辨識"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "同理",
+      "情緒辨識"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_飲食_001",
+    "name": "吃飯需要一直餵",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "飲食",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "自主進食",
+      "持續注意"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "自主進食",
+      "專注"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_飲食_002",
+    "name": "不太會用湯匙",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "飲食",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "精細動作"
+    ],
+    "related_abilities": [
+      "餐具使用",
+      "手眼協調"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "餐具使用",
+      "手眼協調"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_飲食_003",
+    "name": "喝水常灑出來",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "飲食",
+    "related_domains": [
+      "吞嚥/口腔功能",
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "精細動作",
+      "口腔動作"
+    ],
+    "related_abilities": [
+      "杯飲",
+      "手部控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "杯飲",
+      "手部控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_飲食_004",
+    "name": "吃飯很慢",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "飲食",
+    "related_domains": [
+      "吞嚥/口腔功能"
+    ],
+    "related_subdomains": [
+      "吞嚥",
+      "生活作息"
+    ],
+    "related_abilities": [
+      "吞嚥"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "進食效率",
+      "吞嚥"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "進食效率",
+        "mapped": "進食效率",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_飲食_005",
+    "name": "吃飯常含著不吞",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "飲食",
+    "related_domains": [
+      "吞嚥/口腔功能"
+    ],
+    "related_subdomains": [
+      "吞嚥",
+      "口腔動作"
+    ],
+    "related_abilities": [
+      "吞嚥",
+      "口內移動"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "吞嚥",
+      "口內移動"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_飲食_006",
+    "name": "很挑食",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "飲食",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "材質適應"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "材質接受",
+      "飲食彈性"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "飲食彈性",
+        "mapped": "飲食彈性",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_飲食_007",
+    "name": "不太會主動表達要喝水或吃東西",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "飲食",
+    "related_domains": [
+      "口語溝通功能"
+    ],
+    "related_subdomains": [
+      "口語表達"
+    ],
+    "related_abilities": [
+      "需求表達"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "需求表達"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_飲食_008",
+    "name": "用餐時坐不住",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "飲食",
+    "related_domains": [
+      "知覺動作功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "感覺統合",
+      "認知"
+    ],
+    "related_abilities": [
+      "持續注意"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "進食參與",
+      "注意力"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "進食參與",
+        "mapped": "進食參與",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_飲食_009",
+    "name": "很依賴特定餐具或特定方式吃飯",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "飲食",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "飲食彈性"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "飲食彈性",
+        "mapped": "飲食彈性",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_飲食_010",
+    "name": "不太願意嘗試新食物",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "飲食",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "食物接受",
+      "嘗試行為"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "食物接受",
+        "mapped": "食物接受",
+        "reason": "demoted_not_core_ability"
+      },
+      {
+        "original": "嘗試行為",
+        "mapped": "嘗試行為",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_穿脫衣_001",
+    "name": "不會自己穿褲子或上衣",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "穿脫衣",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "精細動作"
+    ],
+    "related_abilities": [
+      "穿衣",
+      "動作排序"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "穿衣",
+      "動作排序"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_穿脫衣_002",
+    "name": "脫衣服也很困難",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "穿脫衣",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "精細動作"
+    ],
+    "related_abilities": [
+      "脫衣",
+      "動作規劃"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "脫衣",
+      "動作規劃"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_穿脫衣_003",
+    "name": "鞋子常穿錯腳",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "穿脫衣",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "左右概念",
+      "穿鞋"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "左右概念",
+      "穿鞋"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_穿脫衣_004",
+    "name": "穿脫衣要很多提醒",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "穿脫衣",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "生活作息",
+      "認知"
+    ],
+    "related_abilities": [
+      "步驟執行",
+      "持續注意"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "步驟執行",
+      "注意力"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_穿脫衣_005",
+    "name": "扣扣子很難",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "穿脫衣",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "精細動作"
+    ],
+    "related_abilities": [
+      "扣子操作"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "扣子操作"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_穿脫衣_006",
+    "name": "拉拉鍊常失敗",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "穿脫衣",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "精細動作"
+    ],
+    "related_abilities": [
+      "雙手協調",
+      "拉鍊操作"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "雙手協調",
+      "拉鍊操作"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_穿脫衣_007",
+    "name": "穿襪子總是穿不好",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "穿脫衣",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "精細動作"
+    ],
+    "related_abilities": [
+      "穿襪",
+      "手部控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "穿襪",
+      "手部控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_穿脫衣_008",
+    "name": "換季或換衣服很抗拒",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "穿脫衣",
+    "related_domains": [
+      "知覺動作功能",
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "感覺統合",
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "衣物接受",
+      "彈性"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "衣物接受",
+      "彈性"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_穿脫衣_009",
+    "name": "不知道穿衣順序",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "穿脫衣",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "順序概念",
+      "生活自理"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "順序概念",
+      "生活自理"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_穿脫衣_010",
+    "name": "穿衣速度明顯比同齡慢",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "穿脫衣",
+    "related_domains": [
+      "知覺動作功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "精細動作",
+      "認知"
+    ],
+    "related_abilities": [],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "穿衣效率",
+      "步驟整合"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "穿衣效率",
+        "mapped": "穿衣效率",
+        "reason": "demoted_not_core_ability"
+      },
+      {
+        "original": "步驟整合",
+        "mapped": "步驟整合",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_盥洗衛生_001",
+    "name": "洗手常漏步驟",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "盥洗衛生",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "盥洗步驟",
+      "順序執行"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "盥洗步驟",
+      "順序執行"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_盥洗衛生_002",
+    "name": "刷牙很抗拒",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "盥洗衛生",
+    "related_domains": [
+      "吞嚥/口腔功能",
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "感覺統合",
+      "口腔動作"
+    ],
+    "related_abilities": [
+      "口腔接受",
+      "生活自理"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "口腔接受",
+      "生活自理"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_盥洗衛生_003",
+    "name": "不會自己擦嘴、擦手",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "盥洗衛生",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "精細動作"
+    ],
+    "related_abilities": [
+      "自我清潔",
+      "手部操作"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "自我清潔",
+      "手部操作"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_盥洗衛生_004",
+    "name": "不會主動表達想上廁所",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "盥洗衛生",
+    "related_domains": [
+      "口語溝通功能"
+    ],
+    "related_subdomains": [
+      "生活作息",
+      "口語表達"
+    ],
+    "related_abilities": [
+      "如廁表達",
+      "身體覺察"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "如廁表達",
+      "身體覺察"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_盥洗衛生_005",
+    "name": "如廁常需要很多提醒",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "盥洗衛生",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "生活作息",
+      "認知"
+    ],
+    "related_abilities": [
+      "如廁流程",
+      "自我監控"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "如廁流程",
+      "自我監控"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_盥洗衛生_006",
+    "name": "沖水、穿褲、洗手常忘記",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "盥洗衛生",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "步驟記憶",
+      "執行功能"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "步驟記憶",
+      "執行功能"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_盥洗衛生_007",
+    "name": "很怕洗臉洗頭",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "盥洗衛生",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "感覺統合"
+    ],
+    "related_abilities": [
+      "觸覺接受",
+      "生活自理"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "觸覺接受",
+      "生活自理"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_盥洗衛生_008",
+    "name": "不會自己擠牙膏或拿牙刷",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "盥洗衛生",
+    "related_domains": [
+      "知覺動作功能"
+    ],
+    "related_subdomains": [
+      "精細動作"
+    ],
+    "related_abilities": [
+      "工具使用",
+      "手部控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "工具使用",
+      "手部控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_盥洗衛生_009",
+    "name": "洗澡需要全程協助",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "盥洗衛生",
+    "related_domains": [],
+    "related_subdomains": [
+      "生活作息"
+    ],
+    "related_abilities": [
+      "步驟執行"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "自理參與",
+      "步驟執行"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "自理參與",
+        "mapped": "自理參與",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_盥洗衛生_010",
+    "name": "公共廁所特別抗拒",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "盥洗衛生",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "環境適應",
+      "如廁彈性"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "環境適應",
+        "mapped": "環境適應",
+        "reason": "demoted_not_core_ability"
+      },
+      {
+        "original": "如廁彈性",
+        "mapped": "如廁彈性",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_遊戲_001",
+    "name": "不太會玩玩具",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "遊戲",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "功能性遊戲",
+      "操作理解"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "功能性遊戲",
+      "操作理解"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_遊戲_002",
+    "name": "只會重複同一種玩法",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "遊戲",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "遊戲彈性",
+      "想像變化"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "遊戲彈性",
+      "想像變化"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_遊戲_003",
+    "name": "不會扮家家酒",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "遊戲",
+    "related_domains": [
+      "口語溝通功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知",
+      "口語表達"
+    ],
+    "related_abilities": [
+      "象徵性遊戲",
+      "想像力"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "象徵性遊戲",
+      "想像力"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_遊戲_004",
+    "name": "不太會跟別人一起玩",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "遊戲",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "共同遊戲",
+      "同儕互動"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "共同遊戲",
+      "同儕互動"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_遊戲_005",
+    "name": "玩遊戲不太會輪流",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "遊戲",
+    "related_domains": [
+      "社會情緒功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應",
+      "認知"
+    ],
+    "related_abilities": [
+      "輪流等待",
+      "規則理解"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "輪流等待",
+      "規則理解"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_遊戲_006",
+    "name": "很快就換玩具，玩不久",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "遊戲",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "持續注意",
+      "遊戲參與"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "持續注意",
+      "遊戲參與"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_遊戲_007",
+    "name": "不太會照規則玩",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "遊戲",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "規則理解",
+      "抑制控制"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "規則理解",
+      "抑制控制"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_遊戲_008",
+    "name": "需要大人一直帶著玩",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "遊戲",
+    "related_domains": [
+      "口語溝通功能",
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "口語理解",
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "主動參與",
+      "遊戲發起"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "主動參與",
+      "遊戲發起"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_遊戲_009",
+    "name": "喜歡排隊、排列，不太做變化玩法",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "遊戲",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "固著",
+      "遊戲彈性"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "固著",
+      "遊戲彈性"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_遊戲_010",
+    "name": "遇到輸贏就容易情緒大",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "遊戲",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "挫折容忍",
+      "情緒調節"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "挫折容忍",
+      "情緒調節"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_生活作息_001",
+    "name": "很難跟著常規走",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "生活作息",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "常規遵循",
+      "步驟執行"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "常規遵循",
+      "步驟執行"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_生活作息_002",
+    "name": "活動轉換很容易哭鬧",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "生活作息",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "轉換",
+      "情緒調節"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "轉換",
+      "情緒調節"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_生活作息_003",
+    "name": "收玩具常要提醒很多次",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "生活作息",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "任務完成"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "任務完成",
+      "生活責任"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "生活責任",
+        "mapped": "生活責任",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_生活作息_004",
+    "name": "睡前流程很難配合",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "生活作息",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "轉換"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": true,
+    "original_related_abilities": [
+      "作息配合",
+      "轉換"
+    ],
+    "removed_related_abilities": [
+      {
+        "original": "作息配合",
+        "mapped": "作息配合",
+        "reason": "demoted_not_core_ability"
+      }
+    ]
+  },
+  {
+    "id": "obs_生活作息_005",
+    "name": "出門準備很拖",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "生活作息",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "穿脫衣",
+      "認知"
+    ],
+    "related_abilities": [
+      "順序執行",
+      "時間概念"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "順序執行",
+      "時間概念"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_生活作息_006",
+    "name": "常忘記該做什麼",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "生活作息",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "工作記憶",
+      "自我監控"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "工作記憶",
+      "自我監控"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_生活作息_007",
+    "name": "一改計畫就很崩潰",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "生活作息",
+    "related_domains": [
+      "社會情緒功能"
+    ],
+    "related_subdomains": [
+      "情緒行為與社會適應"
+    ],
+    "related_abilities": [
+      "彈性",
+      "情緒調節"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "彈性",
+      "情緒調節"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_生活作息_008",
+    "name": "需要一直催促才開始動作",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "生活作息",
+    "related_domains": [
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知"
+    ],
+    "related_abilities": [
+      "啟動能力",
+      "執行功能"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "啟動能力",
+      "執行功能"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_生活作息_009",
+    "name": "做事慢吞吞，常跟不上",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "生活作息",
+    "related_domains": [
+      "知覺動作功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知",
+      "粗大動作"
+    ],
+    "related_abilities": [
+      "處理速度",
+      "活動效率"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "處理速度",
+      "活動效率"
+    ],
+    "removed_related_abilities": []
+  },
+  {
+    "id": "obs_生活作息_010",
+    "name": "日常流程中很依賴大人提示",
+    "primary_domain": "日常生活功能",
+    "primary_subdomain": "生活作息",
+    "related_domains": [
+      "口語溝通功能",
+      "認知功能"
+    ],
+    "related_subdomains": [
+      "認知",
+      "口語理解"
+    ],
+    "related_abilities": [
+      "自主性",
+      "指令跟隨"
+    ],
+    "is_cross_domain": true,
+    "note": "",
+    "needs_review": false,
+    "original_related_abilities": [
+      "自主性",
+      "指令跟隨"
+    ],
+    "removed_related_abilities": []
+  }
+]

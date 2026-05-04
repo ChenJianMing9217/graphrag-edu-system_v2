@@ -1,0 +1,77 @@
+[
+  {
+    "from": "社會情緒功能",
+    "to": "情緒行為與社會適應",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "口語溝通功能",
+    "to": "口語表達",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "口語溝通功能",
+    "to": "口語理解",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "認知功能",
+    "to": "認知",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "知覺動作功能",
+    "to": "粗大動作",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "知覺動作功能",
+    "to": "精細動作",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "日常生活功能",
+    "to": "飲食",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "日常生活功能",
+    "to": "遊戲",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "口語溝通功能",
+    "to": "說話",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "日常生活功能",
+    "to": "穿脫衣",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "日常生活功能",
+    "to": "生活作息",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "知覺動作功能",
+    "to": "感覺統合",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "吞嚥/口腔功能",
+    "to": "口腔動作",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "吞嚥/口腔功能",
+    "to": "吞嚥",
+    "type": "HAS_SUBDOMAIN"
+  },
+  {
+    "from": "日常生活功能",
+    "to": "盥洗衛生",
+    "type": "HAS_SUBDOMAIN"
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "from": "ta_單腳站練習",
+    "to": "靜態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_單腳站練習",
+    "to": "平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_走平衡木",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_走平衡木",
+    "to": "平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_踩點遊戲",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_踩點遊戲",
+    "to": "動作時機",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_上下樓梯活動",
+    "to": "上下樓梯",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_上下樓梯活動",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_跨障礙行走",
+    "to": "步態穩定",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_跨障礙行走",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_爬行穿越活動",
+    "to": "協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_傳接球遊戲",
+    "to": "球類操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_傳接球遊戲",
+    "to": "手眼協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_踢球目標遊戲",
+    "to": "球類操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_踢球目標遊戲",
+    "to": "下肢控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_踢球目標遊戲",
+    "to": "協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_跳格子活動",
+    "to": "跳躍",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_跳格子活動",
+    "to": "協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_姿勢轉換練習",
+    "to": "姿勢控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_姿勢轉換練習",
+    "to": "動作排序",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_核心穩定活動",
+    "to": "核心穩定",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_核心穩定活動",
+    "to": "肌耐力",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_下肢肌力遊戲",
+    "to": "下肢肌力",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_下肢肌力遊戲",
+    "to": "肌耐力",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_串珠活動",
+    "to": "手眼協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_串珠活動",
+    "to": "精細操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_夾物遊戲",
+    "to": "抓握",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_夾物遊戲",
+    "to": "捏取",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_剪紙練習",
+    "to": "剪刀使用",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_剪紙練習",
+    "to": "雙手協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_握筆前控制活動",
+    "to": "握筆",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_握筆前控制活動",
+    "to": "手部控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_扣扣子練習",
+    "to": "扣扣子",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_扣扣子練習",
+    "to": "手指操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_拉拉鍊練習",
+    "to": "拉鍊操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_拉拉鍊練習",
+    "to": "雙手協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_翻頁遊戲",
+    "to": "手指操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_雙手分工活動",
+    "to": "雙手協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_雙手分工活動",
+    "to": "一手持物一手操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_塗鴉描線活動",
+    "to": "視動整合",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_塗鴉描線活動",
+    "to": "仿畫",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_刷觸覺活動",
+    "to": "觸覺調節",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_搖擺平衡活動",
+    "to": "前庭調節",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_搖擺平衡活動",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_身體部位指認遊戲",
+    "to": "本體覺",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_左右側協調活動",
+    "to": "雙手協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_左右側協調活動",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_障礙路線規劃遊戲",
+    "to": "動作計畫",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_障礙路線規劃遊戲",
+    "to": "動作排序",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_安靜角落調節活動",
+    "to": "感覺調節",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_吹泡泡活動",
+    "to": "口腔肌力",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_吹泡泡活動",
+    "to": "呼氣控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_吸管喝水練習",
+    "to": "吸管飲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_吸管喝水練習",
+    "to": "口唇控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_閉唇練習",
+    "to": "閉唇",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_閉唇練習",
+    "to": "口唇控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_舌頭側移活動",
+    "to": "舌頭控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_舌頭側移活動",
+    "to": "口內移動",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_下頷穩定練習",
+    "to": "口腔控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_咀嚼分級訓練",
+    "to": "咀嚼",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_咀嚼分級訓練",
+    "to": "咀嚼模式",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_材質漸進暴露",
+    "to": "材質適應",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_進食姿勢調整活動",
+    "to": "進食姿勢",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_進食姿勢調整活動",
+    "to": "吞嚥準備",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_小口量吞嚥練習",
+    "to": "吞嚥安全",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_小口量吞嚥練習",
+    "to": "吞嚥協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_單步驟口令遊戲",
+    "to": "一步驟指令理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_單步驟口令遊戲",
+    "to": "理解一步驟指令",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_兩步驟指令遊戲",
+    "to": "二步驟指令理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_兩步驟指令遊戲",
+    "to": "理解二步驟指令",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_圖片指認活動",
+    "to": "指認熟悉物品",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_圖片指認活動",
+    "to": "詞彙理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_手勢配對理解活動",
+    "to": "配合手勢與語詞指令",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_情境詞彙理解活動",
+    "to": "語意理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_故事提問理解活動",
+    "to": "故事理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_故事提問理解活動",
+    "to": "問句理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_聽聲辨識活動",
+    "to": "聽覺反應",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_聽聲辨識活動",
+    "to": "對聲音有反應",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_圖卡命名活動",
+    "to": "詞彙表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_圖卡命名活動",
+    "to": "詞彙提取",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_單字擴展活動",
+    "to": "單字表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_單字擴展活動",
+    "to": "詞彙表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_兩詞句擴展活動",
+    "to": "兩詞組合",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_兩詞句擴展活動",
+    "to": "句子表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_情境要求表達練習",
+    "to": "需求表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_發聲模仿遊戲",
+    "to": "單字表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_手勢加單字表達活動",
+    "to": "需求表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_手勢加單字表達活動",
+    "to": "單字表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_句型擴展活動",
+    "to": "語言延展",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_句型擴展活動",
+    "to": "句子組織",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_事件描述練習",
+    "to": "事件描述",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_看圖說故事活動",
+    "to": "敘事",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_看圖說故事活動",
+    "to": "事件描述",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_輪流對話練習",
+    "to": "輪流等待",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_輪流對話練習",
+    "to": "雙向對話",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_開啟對話句型練習",
+    "to": "社交溝通",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_主題維持遊戲",
+    "to": "雙向對話",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_情境回應角色扮演",
+    "to": "社交溝通",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_情境回應角色扮演",
+    "to": "規則理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_非字面語意故事活動",
+    "to": "語意理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_共同注意分享活動",
+    "to": "共同注意力",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_構音音位練習",
+    "to": "構音",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_構音音位練習",
+    "to": "語音清晰度",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_慢速說話節奏練習",
+    "to": "語暢",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_慢速說話節奏練習",
+    "to": "語速控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_發聲持續練習",
+    "to": "發聲持續",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_發聲持續練習",
+    "to": "嗓音品質",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_聲音保健提醒活動",
+    "to": "嗓音品質",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_配對分類遊戲",
+    "to": "配對",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_配對分類遊戲",
+    "to": "分類",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_順序卡排列活動",
+    "to": "順序概念",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_順序卡排列活動",
+    "to": "順序執行",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_工作記憶遊戲",
+    "to": "工作記憶",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_專注維持活動",
+    "to": "持續注意",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_問題解決遊戲",
+    "to": "問題解決",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_概念形成活動",
+    "to": "概念形成",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_概念形成活動",
+    "to": "顏色概念",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_圖畫模仿活動",
+    "to": "模仿畫圓",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_圖畫模仿活動",
+    "to": "仿畫",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_常規流程圖卡",
+    "to": "常規遵循",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_常規流程圖卡",
+    "to": "任務維持",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_伸手抬腳配合練習",
+    "to": "穿衣",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_伸手抬腳配合練習",
+    "to": "脫衣",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_無扣衣褲穿脫練習",
+    "to": "穿衣",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_無扣衣褲穿脫練習",
+    "to": "脫衣",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_自主穿鞋練習",
+    "to": "穿鞋",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_拉鍊來回操作活動",
+    "to": "拉鍊操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_扣子開合作業",
+    "to": "扣扣子",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_扣子開合作業",
+    "to": "解扣子",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_扶碗扶杯練習",
+    "to": "杯飲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_湯匙舀食活動",
+    "to": "餐具使用",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_開口杯喝水練習",
+    "to": "杯飲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_進食需求表達提示",
+    "to": "需求表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_進食不掉落練習",
+    "to": "口腔控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_進食不掉落練習",
+    "to": "閉唇",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_如廁圖卡提示",
+    "to": "如廁表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_坐馬桶練習",
+    "to": "如廁流程",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_洗手步驟練習",
+    "to": "盥洗步驟",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_洗手步驟練習",
+    "to": "自我清潔",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_刷牙步驟活動",
+    "to": "工具使用",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_洗臉擦臉練習",
+    "to": "自我清潔",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_玩具功能操作活動",
+    "to": "功能性遊戲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_玩具功能操作活動",
+    "to": "操作理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_假裝餵食遊戲",
+    "to": "想像力",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_假裝餵食遊戲",
+    "to": "象徵性遊戲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_角色扮演遊戲",
+    "to": "象徵性遊戲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_角色扮演遊戲",
+    "to": "同儕互動",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_積木建構活動",
+    "to": "精細操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_積木建構活動",
+    "to": "堆疊兩個小物",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_桌遊輪流活動",
+    "to": "規則理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_桌遊輪流活動",
+    "to": "輪流等待",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_雙人互動遊戲",
+    "to": "同儕互動",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_雙人互動遊戲",
+    "to": "輪流等待",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_小團體遊戲活動",
+    "to": "同儕互動",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_小團體遊戲活動",
+    "to": "社交主動性",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_作息流程表",
+    "to": "常規遵循",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_收玩具任務練習",
+    "to": "任務完成",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_收玩具任務練習",
+    "to": "自我監控",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_簡單家務參與活動",
+    "to": "任務完成",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ta_親子互動遊戲時間",
+    "to": "社交主動性",
+    "type": "TARGETS_ABILITY"
+  }
+]

@@ -1,0 +1,1052 @@
+[
+  {
+    "from": "ts_姿勢控制訓練",
+    "to": "姿勢控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_姿勢控制訓練",
+    "to": "動作排序",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_姿勢控制訓練",
+    "to": "核心穩定",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_移位能力訓練",
+    "to": "上下樓梯",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_移位能力訓練",
+    "to": "步態穩定",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_移位能力訓練",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_平衡訓練",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_平衡訓練",
+    "to": "靜態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_平衡訓練",
+    "to": "平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_粗動作學習訓練",
+    "to": "協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_粗動作學習訓練",
+    "to": "動作時機",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_粗動作學習訓練",
+    "to": "球類操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_粗動作計畫訓練",
+    "to": "動作計畫",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_粗動作計畫訓練",
+    "to": "動作排序",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_粗動作計畫訓練",
+    "to": "協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_傳接物能力訓練",
+    "to": "球類操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_傳接物能力訓練",
+    "to": "手眼協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_傳接物能力訓練",
+    "to": "動作時機",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_動作協調訓練",
+    "to": "協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_動作協調訓練",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_動作協調訓練",
+    "to": "下肢控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_粗動作遊戲訓練",
+    "to": "球類操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_粗動作遊戲訓練",
+    "to": "協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_粗動作遊戲訓練",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_心肺耐力訓練",
+    "to": "肌耐力",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_肌力與肌耐力訓練",
+    "to": "肌耐力",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_肌力與肌耐力訓練",
+    "to": "核心穩定",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_肌力與肌耐力訓練",
+    "to": "下肢肌力",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_社會參與動作訓練",
+    "to": "同儕互動",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_社會參與動作訓練",
+    "to": "社交主動性",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_社會參與動作訓練",
+    "to": "球類操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_慣用手發展訓練",
+    "to": "手部控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_慣用手發展訓練",
+    "to": "一手持物一手操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_基本手功能訓練",
+    "to": "抓握",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_基本手功能訓練",
+    "to": "捏取",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_手部肌力訓練",
+    "to": "手部控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_手部肌耐力訓練",
+    "to": "手部控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_雙手協調訓練",
+    "to": "雙手協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_雙手協調訓練",
+    "to": "一手持物一手操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_力量調節訓練",
+    "to": "力量控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_力量調節訓練",
+    "to": "手部控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_動作速度控制訓練",
+    "to": "手部控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_工具操作訓練",
+    "to": "握筆",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_工具操作訓練",
+    "to": "剪刀使用",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_工具操作訓練",
+    "to": "拉鍊操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_工具操作訓練",
+    "to": "扣扣子",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_手眼協調訓練",
+    "to": "手眼協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_手眼協調訓練",
+    "to": "視動整合",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_手眼協調訓練",
+    "to": "精細操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_警醒度調節訓練",
+    "to": "感覺調節",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_感覺調節訓練",
+    "to": "感覺調節",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_感覺調節訓練",
+    "to": "觸覺調節",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_感覺調節訓練",
+    "to": "前庭調節",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_身體意象訓練",
+    "to": "本體覺",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_視覺動作協調訓練",
+    "to": "視動整合",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_視覺動作協調訓練",
+    "to": "手眼協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_平衡與兩側協調訓練",
+    "to": "動態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_平衡與兩側協調訓練",
+    "to": "靜態平衡",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_平衡與兩側協調訓練",
+    "to": "雙手協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_動作計畫訓練",
+    "to": "動作計畫",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_動作計畫訓練",
+    "to": "動作排序",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_口腔感覺調節訓練",
+    "to": "口腔接受",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_口腔感覺調節訓練",
+    "to": "材質適應",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_口腔動作訓練",
+    "to": "口腔控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_口腔動作訓練",
+    "to": "口腔動作協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_雙唇動作訓練",
+    "to": "閉唇",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_雙唇動作訓練",
+    "to": "口唇控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_舌部動作訓練",
+    "to": "舌頭控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_舌部動作訓練",
+    "to": "口內移動",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_咀嚼訓練",
+    "to": "咀嚼",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_咀嚼訓練",
+    "to": "咀嚼模式",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_咀嚼訓練",
+    "to": "吞嚥",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_進食姿勢調整",
+    "to": "進食姿勢",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_進食姿勢調整",
+    "to": "吞嚥準備",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_進食姿勢調整",
+    "to": "吞嚥安全",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_進食量控制訓練",
+    "to": "吞嚥安全",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_進食量控制訓練",
+    "to": "吞嚥協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_食物材質調整",
+    "to": "材質適應",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_食物材質調整",
+    "to": "咀嚼",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_食物材質調整",
+    "to": "吞嚥",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_食器選擇調整",
+    "to": "杯飲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_食器選擇調整",
+    "to": "吸管飲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_食器選擇調整",
+    "to": "口唇控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_吞嚥安全訓練",
+    "to": "吞嚥安全",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_吞嚥安全訓練",
+    "to": "吞嚥協調",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_吞嚥安全訓練",
+    "to": "吞嚥啟動",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_聽能訓練",
+    "to": "聽覺反應",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_聽能訓練",
+    "to": "對聲音有反應",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_注視說話者訓練",
+    "to": "眼神接觸",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_手勢理解訓練",
+    "to": "配合手勢與語詞指令",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_單一步驟指令理解訓練",
+    "to": "一步驟指令理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_單一步驟指令理解訓練",
+    "to": "理解一步驟指令",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_熟悉物品指認訓練",
+    "to": "指認熟悉物品",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_熟悉物品指認訓練",
+    "to": "詞彙理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_抽象詞彙理解訓練",
+    "to": "語意理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_多步驟指令理解訓練",
+    "to": "二步驟指令理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_多步驟指令理解訓練",
+    "to": "理解二步驟指令",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_複雜語句理解訓練",
+    "to": "語言理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_複雜語句理解訓練",
+    "to": "問句理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_事件理解訓練",
+    "to": "事件描述",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_故事理解訓練",
+    "to": "故事理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_輔助溝通訓練",
+    "to": "功能性溝通",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_輔助溝通訓練",
+    "to": "主動溝通",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_語用溝通訓練",
+    "to": "社交溝通",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_語用溝通訓練",
+    "to": "雙向對話",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_主動表達訓練",
+    "to": "主動溝通",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_主動表達訓練",
+    "to": "需求表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_發聲模仿訓練",
+    "to": "單字表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_單字結合手勢表達訓練",
+    "to": "單字表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_單字結合手勢表達訓練",
+    "to": "需求表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_詞彙表達訓練",
+    "to": "詞彙表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_詞彙表達訓練",
+    "to": "詞彙提取",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_完整句表達訓練",
+    "to": "句子表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_完整句表達訓練",
+    "to": "句子組織",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_抽象詞彙表達訓練",
+    "to": "詞彙表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_語句長度擴展訓練",
+    "to": "語言延展",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_語句長度擴展訓練",
+    "to": "句子表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_複雜句表達訓練",
+    "to": "句子表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_複雜句表達訓練",
+    "to": "句子組織",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_事件描述訓練",
+    "to": "事件描述",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_敘事訓練",
+    "to": "敘事",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_興趣擴展訓練",
+    "to": "社交主動性",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_興趣擴展訓練",
+    "to": "行為彈性",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_主題維持訓練",
+    "to": "雙向對話",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_對話輪替訓練",
+    "to": "輪流等待",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_對話輪替訓練",
+    "to": "雙向對話",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_情境適切表達訓練",
+    "to": "社交溝通",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_非字面語意理解訓練",
+    "to": "語意理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_對話開啟與結束訓練",
+    "to": "社交溝通",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_語用推論訓練",
+    "to": "規則理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_語用推論訓練",
+    "to": "社會規則理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_構音矯正訓練",
+    "to": "構音",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_構音矯正訓練",
+    "to": "語音清晰度",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_語暢訓練",
+    "to": "語暢",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_嗓音復健",
+    "to": "嗓音品質",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_嗓音保健",
+    "to": "嗓音品質",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_嬰兒刺激促發活動",
+    "to": "問題解決",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_認知技能促發訓練",
+    "to": "問題解決",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_認知技能促發訓練",
+    "to": "概念形成",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_認知技能促發訓練",
+    "to": "模仿做家事",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_認知技能促發訓練",
+    "to": "正確使用物品",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_語意與基礎常識訓練",
+    "to": "語意理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_敘事與論述訓練",
+    "to": "敘事",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_敘事與論述訓練",
+    "to": "事件描述",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_敘事與論述訓練",
+    "to": "雙向對話",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_工作習慣建立",
+    "to": "任務維持",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_工作習慣建立",
+    "to": "持續注意",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_注意力訓練",
+    "to": "持續注意",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_記憶訓練",
+    "to": "工作記憶",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_記憶訓練",
+    "to": "步驟記憶",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_執行功能訓練",
+    "to": "執行功能",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_執行功能訓練",
+    "to": "順序執行",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_執行功能訓練",
+    "to": "認知彈性",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_執行功能訓練",
+    "to": "動作排序",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_遊戲處方",
+    "to": "功能性遊戲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_遊戲處方",
+    "to": "象徵性遊戲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_結構化環境策略",
+    "to": "常規遵循",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_結構化環境策略",
+    "to": "任務維持",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_生活適應訓練",
+    "to": "常規遵循",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_行為強化訓練",
+    "to": "抑制控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_行為強化訓練",
+    "to": "任務維持",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_穿脫衣配合訓練",
+    "to": "穿衣",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_穿脫衣配合訓練",
+    "to": "脫衣",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_無扣衣物穿脫訓練",
+    "to": "穿衣",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_無扣衣物穿脫訓練",
+    "to": "脫衣",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_自主穿脫衣物訓練",
+    "to": "穿衣",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_自主穿脫衣物訓練",
+    "to": "脫衣",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_自主穿脫衣物訓練",
+    "to": "穿鞋",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_拉鍊操作訓練",
+    "to": "拉鍊操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_解扣子訓練",
+    "to": "解扣子",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_扣扣子訓練",
+    "to": "扣扣子",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_進食需求表達訓練",
+    "to": "需求表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_扶食器與抿食訓練",
+    "to": "口唇控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_吸管飲訓練",
+    "to": "吸管飲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_湯匙進食訓練",
+    "to": "餐具使用",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_杯飲訓練",
+    "to": "杯飲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_進食清潔度訓練",
+    "to": "口腔控制",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_進食清潔度訓練",
+    "to": "閉唇",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_如廁需求表達訓練",
+    "to": "如廁表達",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_協助下如廁訓練",
+    "to": "如廁流程",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_自主如廁訓練",
+    "to": "如廁流程",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_自主如廁訓練",
+    "to": "自我監控",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_洗臉訓練",
+    "to": "自我清潔",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_刷牙訓練",
+    "to": "工具使用",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_洗澡訓練",
+    "to": "自我清潔",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_洗手訓練",
+    "to": "盥洗步驟",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_洗手訓練",
+    "to": "自我清潔",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_功能性遊戲訓練",
+    "to": "功能性遊戲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_功能性遊戲訓練",
+    "to": "操作理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_探索性遊戲訓練",
+    "to": "功能性遊戲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_想像性遊戲訓練",
+    "to": "想像力",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_想像性遊戲訓練",
+    "to": "象徵性遊戲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_象徵性遊戲訓練",
+    "to": "象徵性遊戲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_角色扮演遊戲訓練",
+    "to": "象徵性遊戲",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_角色扮演遊戲訓練",
+    "to": "同儕互動",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_建構性遊戲訓練",
+    "to": "堆疊兩個小物",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_建構性遊戲訓練",
+    "to": "精細操作",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_規則性遊戲訓練",
+    "to": "規則理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_規則性遊戲訓練",
+    "to": "輪流等待",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_獨立遊戲訓練",
+    "to": "持續注意",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_雙人遊戲訓練",
+    "to": "同儕互動",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_雙人遊戲訓練",
+    "to": "輪流等待",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_團體遊戲訓練",
+    "to": "同儕互動",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_團體遊戲訓練",
+    "to": "規則理解",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_團體遊戲訓練",
+    "to": "輪流等待",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_規律作息訓練",
+    "to": "常規遵循",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_自我管理訓練",
+    "to": "自我監控",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_自我管理訓練",
+    "to": "任務完成",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_家務參與訓練",
+    "to": "任務完成",
+    "type": "TARGETS_ABILITY"
+  },
+  {
+    "from": "ts_親子互動遊戲訓練",
+    "to": "同儕互動",
+    "type": "TARGETS_ABILITY"
+  }
+]

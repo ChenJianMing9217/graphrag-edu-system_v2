@@ -1,0 +1,584 @@
+[
+  {
+    "id": "ta_單腳站練習",
+    "name": "單腳站練習",
+    "strategy_name": "平衡訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_走平衡木",
+    "name": "走平衡木",
+    "strategy_name": "平衡訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_踩點遊戲",
+    "name": "踩點遊戲",
+    "strategy_name": "平衡訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_上下樓梯活動",
+    "name": "上下樓梯活動",
+    "strategy_name": "移位能力訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_跨障礙行走",
+    "name": "跨障礙行走",
+    "strategy_name": "移位能力訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_爬行穿越活動",
+    "name": "爬行穿越活動",
+    "strategy_name": "移位能力訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_傳接球遊戲",
+    "name": "傳接球遊戲",
+    "strategy_name": "傳接物能力訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_踢球目標遊戲",
+    "name": "踢球目標遊戲",
+    "strategy_name": "動作協調訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_跳格子活動",
+    "name": "跳格子活動",
+    "strategy_name": "粗動作學習訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_姿勢轉換練習",
+    "name": "姿勢轉換練習",
+    "strategy_name": "姿勢控制訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_核心穩定活動",
+    "name": "核心穩定活動",
+    "strategy_name": "肌力與肌耐力訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_下肢肌力遊戲",
+    "name": "下肢肌力遊戲",
+    "strategy_name": "肌力與肌耐力訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_串珠活動",
+    "name": "串珠活動",
+    "strategy_name": "手眼協調訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_夾物遊戲",
+    "name": "夾物遊戲",
+    "strategy_name": "基本手功能訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_剪紙練習",
+    "name": "剪紙練習",
+    "strategy_name": "工具操作訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_握筆前控制活動",
+    "name": "握筆前控制活動",
+    "strategy_name": "工具操作訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_扣扣子練習",
+    "name": "扣扣子練習",
+    "strategy_name": "工具操作訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_拉拉鍊練習",
+    "name": "拉拉鍊練習",
+    "strategy_name": "工具操作訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_翻頁遊戲",
+    "name": "翻頁遊戲",
+    "strategy_name": "基本手功能訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_雙手分工活動",
+    "name": "雙手分工活動",
+    "strategy_name": "雙手協調訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_塗鴉描線活動",
+    "name": "塗鴉描線活動",
+    "strategy_name": "手眼協調訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_刷觸覺活動",
+    "name": "刷觸覺活動",
+    "strategy_name": "感覺調節訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_搖擺平衡活動",
+    "name": "搖擺平衡活動",
+    "strategy_name": "平衡與兩側協調訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_身體部位指認遊戲",
+    "name": "身體部位指認遊戲",
+    "strategy_name": "身體意象訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_左右側協調活動",
+    "name": "左右側協調活動",
+    "strategy_name": "平衡與兩側協調訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_障礙路線規劃遊戲",
+    "name": "障礙路線規劃遊戲",
+    "strategy_name": "動作計畫訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_安靜角落調節活動",
+    "name": "安靜角落調節活動",
+    "strategy_name": "警醒度調節訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_吹泡泡活動",
+    "name": "吹泡泡活動",
+    "strategy_name": "口腔動作訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_吸管喝水練習",
+    "name": "吸管喝水練習",
+    "strategy_name": "吸管飲訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_閉唇練習",
+    "name": "閉唇練習",
+    "strategy_name": "雙唇動作訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_舌頭側移活動",
+    "name": "舌頭側移活動",
+    "strategy_name": "舌部動作訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_下頷穩定練習",
+    "name": "下頷穩定練習",
+    "strategy_name": "下頷控制訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_咀嚼分級訓練",
+    "name": "咀嚼分級訓練",
+    "strategy_name": "咀嚼訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_材質漸進暴露",
+    "name": "材質漸進暴露",
+    "strategy_name": "食物材質調整",
+    "description": ""
+  },
+  {
+    "id": "ta_進食姿勢調整活動",
+    "name": "進食姿勢調整活動",
+    "strategy_name": "進食姿勢調整",
+    "description": ""
+  },
+  {
+    "id": "ta_小口量吞嚥練習",
+    "name": "小口量吞嚥練習",
+    "strategy_name": "進食量控制訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_單步驟口令遊戲",
+    "name": "單步驟口令遊戲",
+    "strategy_name": "單一步驟指令理解訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_兩步驟指令遊戲",
+    "name": "兩步驟指令遊戲",
+    "strategy_name": "多步驟指令理解訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_圖片指認活動",
+    "name": "圖片指認活動",
+    "strategy_name": "熟悉物品指認訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_手勢配對理解活動",
+    "name": "手勢配對理解活動",
+    "strategy_name": "手勢理解訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_情境詞彙理解活動",
+    "name": "情境詞彙理解活動",
+    "strategy_name": "抽象詞彙理解訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_故事提問理解活動",
+    "name": "故事提問理解活動",
+    "strategy_name": "故事理解訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_事件重述理解活動",
+    "name": "事件重述理解活動",
+    "strategy_name": "事件理解訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_聽聲辨識活動",
+    "name": "聽聲辨識活動",
+    "strategy_name": "聽能訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_圖卡命名活動",
+    "name": "圖卡命名活動",
+    "strategy_name": "詞彙表達訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_單字擴展活動",
+    "name": "單字擴展活動",
+    "strategy_name": "詞彙表達訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_兩詞句擴展活動",
+    "name": "兩詞句擴展活動",
+    "strategy_name": "完整句表達訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_情境要求表達練習",
+    "name": "情境要求表達練習",
+    "strategy_name": "主動表達訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_發聲模仿遊戲",
+    "name": "發聲模仿遊戲",
+    "strategy_name": "發聲模仿訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_手勢加單字表達活動",
+    "name": "手勢加單字表達活動",
+    "strategy_name": "單字結合手勢表達訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_句型擴展活動",
+    "name": "句型擴展活動",
+    "strategy_name": "語句長度擴展訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_事件描述練習",
+    "name": "事件描述練習",
+    "strategy_name": "事件描述訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_看圖說故事活動",
+    "name": "看圖說故事活動",
+    "strategy_name": "敘事訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_輪流對話練習",
+    "name": "輪流對話練習",
+    "strategy_name": "對話輪替訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_開啟對話句型練習",
+    "name": "開啟對話句型練習",
+    "strategy_name": "對話開啟與結束訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_主題維持遊戲",
+    "name": "主題維持遊戲",
+    "strategy_name": "主題維持訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_情境回應角色扮演",
+    "name": "情境回應角色扮演",
+    "strategy_name": "情境適切表達訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_非字面語意故事活動",
+    "name": "非字面語意故事活動",
+    "strategy_name": "非字面語意理解訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_共同注意分享活動",
+    "name": "共同注意分享活動",
+    "strategy_name": "語用溝通訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_構音音位練習",
+    "name": "構音音位練習",
+    "strategy_name": "構音矯正訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_慢速說話節奏練習",
+    "name": "慢速說話節奏練習",
+    "strategy_name": "語暢訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_發聲持續練習",
+    "name": "發聲持續練習",
+    "strategy_name": "嗓音復健",
+    "description": ""
+  },
+  {
+    "id": "ta_聲音保健提醒活動",
+    "name": "聲音保健提醒活動",
+    "strategy_name": "嗓音保健",
+    "description": ""
+  },
+  {
+    "id": "ta_配對分類遊戲",
+    "name": "配對分類遊戲",
+    "strategy_name": "認知技能促發訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_順序卡排列活動",
+    "name": "順序卡排列活動",
+    "strategy_name": "執行功能訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_工作記憶遊戲",
+    "name": "工作記憶遊戲",
+    "strategy_name": "記憶訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_專注維持活動",
+    "name": "專注維持活動",
+    "strategy_name": "注意力訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_問題解決遊戲",
+    "name": "問題解決遊戲",
+    "strategy_name": "認知技能促發訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_概念形成活動",
+    "name": "概念形成活動",
+    "strategy_name": "認知技能促發訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_圖畫模仿活動",
+    "name": "圖畫模仿活動",
+    "strategy_name": "認知技能促發訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_常規流程圖卡",
+    "name": "常規流程圖卡",
+    "strategy_name": "結構化環境策略",
+    "description": ""
+  },
+  {
+    "id": "ta_伸手抬腳配合練習",
+    "name": "伸手抬腳配合練習",
+    "strategy_name": "穿脫衣配合訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_無扣衣褲穿脫練習",
+    "name": "無扣衣褲穿脫練習",
+    "strategy_name": "無扣衣物穿脫訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_自主穿鞋練習",
+    "name": "自主穿鞋練習",
+    "strategy_name": "自主穿脫衣物訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_拉鍊來回操作活動",
+    "name": "拉鍊來回操作活動",
+    "strategy_name": "拉鍊操作訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_扣子開合作業",
+    "name": "扣子開合作業",
+    "strategy_name": "扣扣子訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_扶碗扶杯練習",
+    "name": "扶碗扶杯練習",
+    "strategy_name": "扶食器與抿食訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_湯匙舀食活動",
+    "name": "湯匙舀食活動",
+    "strategy_name": "湯匙進食訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_開口杯喝水練習",
+    "name": "開口杯喝水練習",
+    "strategy_name": "杯飲訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_進食需求表達提示",
+    "name": "進食需求表達提示",
+    "strategy_name": "進食需求表達訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_進食不掉落練習",
+    "name": "進食不掉落練習",
+    "strategy_name": "進食清潔度訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_如廁圖卡提示",
+    "name": "如廁圖卡提示",
+    "strategy_name": "如廁需求表達訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_坐馬桶練習",
+    "name": "坐馬桶練習",
+    "strategy_name": "協助下如廁訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_洗手步驟練習",
+    "name": "洗手步驟練習",
+    "strategy_name": "洗手訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_刷牙步驟活動",
+    "name": "刷牙步驟活動",
+    "strategy_name": "刷牙訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_洗臉擦臉練習",
+    "name": "洗臉擦臉練習",
+    "strategy_name": "洗臉訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_玩具功能操作活動",
+    "name": "玩具功能操作活動",
+    "strategy_name": "功能性遊戲訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_假裝餵食遊戲",
+    "name": "假裝餵食遊戲",
+    "strategy_name": "想像性遊戲訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_角色扮演遊戲",
+    "name": "角色扮演遊戲",
+    "strategy_name": "角色扮演遊戲訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_積木建構活動",
+    "name": "積木建構活動",
+    "strategy_name": "建構性遊戲訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_桌遊輪流活動",
+    "name": "桌遊輪流活動",
+    "strategy_name": "規則性遊戲訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_雙人互動遊戲",
+    "name": "雙人互動遊戲",
+    "strategy_name": "雙人遊戲訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_小團體遊戲活動",
+    "name": "小團體遊戲活動",
+    "strategy_name": "團體遊戲訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_作息流程表",
+    "name": "作息流程表",
+    "strategy_name": "規律作息訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_收玩具任務練習",
+    "name": "收玩具任務練習",
+    "strategy_name": "自我管理訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_簡單家務參與活動",
+    "name": "簡單家務參與活動",
+    "strategy_name": "家務參與訓練",
+    "description": ""
+  },
+  {
+    "id": "ta_親子互動遊戲時間",
+    "name": "親子互動遊戲時間",
+    "strategy_name": "親子互動遊戲訓練",
+    "description": ""
+  }
+]

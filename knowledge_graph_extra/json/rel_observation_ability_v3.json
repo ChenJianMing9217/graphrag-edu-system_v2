@@ -1,0 +1,1347 @@
+[
+  {
+    "from": "obs_粗大動作_001",
+    "to": "動態平衡",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_001",
+    "to": "步態穩定",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_001",
+    "to": "姿勢控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_002",
+    "to": "跑步",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_002",
+    "to": "協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_002",
+    "to": "動態平衡",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_003",
+    "to": "跳躍",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_003",
+    "to": "下肢肌力",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_003",
+    "to": "協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_004",
+    "to": "單腳站立",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_004",
+    "to": "靜態平衡",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_005",
+    "to": "上下樓梯",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_005",
+    "to": "平衡",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_005",
+    "to": "動作排序",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_006",
+    "to": "球類操作",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_006",
+    "to": "手眼協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_006",
+    "to": "動作時機",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_007",
+    "to": "球類操作",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_007",
+    "to": "下肢控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_007",
+    "to": "協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_008",
+    "to": "姿勢控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_008",
+    "to": "核心穩定",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_008",
+    "to": "肌耐力",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_粗大動作_010",
+    "to": "肌耐力",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_001",
+    "to": "握筆",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_001",
+    "to": "手部控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_001",
+    "to": "手指分化",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_002",
+    "to": "剪刀使用",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_002",
+    "to": "雙手協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_003",
+    "to": "精細操作",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_003",
+    "to": "手眼協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_004",
+    "to": "手指操作",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_004",
+    "to": "雙手協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_005",
+    "to": "仿畫",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_005",
+    "to": "視動整合",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_006",
+    "to": "抓握",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_006",
+    "to": "捏取",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_006",
+    "to": "力量控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_007",
+    "to": "手指操作",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_007",
+    "to": "手部控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_008",
+    "to": "手眼協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_008",
+    "to": "手腕控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_009",
+    "to": "視動整合",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_精細動作_009",
+    "to": "精細操作",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_001",
+    "to": "聽覺調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_001",
+    "to": "感覺接受",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_002",
+    "to": "觸覺調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_002",
+    "to": "口腔接受",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_003",
+    "to": "感覺調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_003",
+    "to": "活動量調整",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_003",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_004",
+    "to": "本體覺",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_004",
+    "to": "身體控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_005",
+    "to": "前庭刺激尋求",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_005",
+    "to": "感覺調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_006",
+    "to": "觸覺接受",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_006",
+    "to": "穿著耐受",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_007",
+    "to": "口腔感覺接受",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_007",
+    "to": "材質適應",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_008",
+    "to": "感覺調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_008",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_009",
+    "to": "口腔感覺需求",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_009",
+    "to": "感覺調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_010",
+    "to": "前庭調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_感覺統合_010",
+    "to": "情緒調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_001",
+    "to": "閉唇",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_001",
+    "to": "口腔控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_002",
+    "to": "吸管飲",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_002",
+    "to": "口唇控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_003",
+    "to": "咀嚼",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_003",
+    "to": "口腔動作控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_004",
+    "to": "舌頭控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_004",
+    "to": "口腔控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_005",
+    "to": "咬合",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_005",
+    "to": "咀嚼模式",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_006",
+    "to": "口腔接受",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_006",
+    "to": "咀嚼",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_007",
+    "to": "口腔動作協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_007",
+    "to": "構音動作",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_008",
+    "to": "閉唇",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_008",
+    "to": "口腔控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_009",
+    "to": "口腔肌力",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_009",
+    "to": "呼氣控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_010",
+    "to": "口腔接受",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口腔動作_010",
+    "to": "張口控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_001",
+    "to": "吞嚥",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_001",
+    "to": "口內移動",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_002",
+    "to": "吞嚥安全",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_002",
+    "to": "吞嚥協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_003",
+    "to": "吞嚥",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_004",
+    "to": "口內清除",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_004",
+    "to": "舌頭控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_005",
+    "to": "材質適應",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_005",
+    "to": "咀嚼",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_005",
+    "to": "吞嚥",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_006",
+    "to": "吞嚥協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_007",
+    "to": "吞嚥耐力",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_008",
+    "to": "吞嚥啟動",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_008",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_009",
+    "to": "材質適應",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_010",
+    "to": "進食姿勢",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_吞嚥_010",
+    "to": "吞嚥準備",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_001",
+    "to": "聽覺反應",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_001",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_001",
+    "to": "語言理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_002",
+    "to": "一步驟指令理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_003",
+    "to": "二步驟指令理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_003",
+    "to": "工作記憶",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_004",
+    "to": "問句理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_004",
+    "to": "語意理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_005",
+    "to": "WH問句理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_006",
+    "to": "故事理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_006",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_007",
+    "to": "詞彙理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_008",
+    "to": "禁止語理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_008",
+    "to": "社會規則理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_009",
+    "to": "語言理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_009",
+    "to": "語境提示依賴",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_010",
+    "to": "語言理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_010",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語理解_010",
+    "to": "規則理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_001",
+    "to": "單字表達",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_002",
+    "to": "片語表達",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_002",
+    "to": "句子表達",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_003",
+    "to": "主動溝通",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_003",
+    "to": "需求表達",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_004",
+    "to": "句子組織",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_004",
+    "to": "詞彙提取",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_005",
+    "to": "回應表達",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_005",
+    "to": "語言延展",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_006",
+    "to": "事件描述",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_006",
+    "to": "敘事",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_007",
+    "to": "提問 who/what/where/why",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_007",
+    "to": "社交溝通",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_008",
+    "to": "功能性溝通",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_口語表達_009",
+    "to": "詞彙表達",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_001",
+    "to": "構音",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_001",
+    "to": "語音清晰度",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_002",
+    "to": "特定音構音",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_003",
+    "to": "語暢",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_004",
+    "to": "語速控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_004",
+    "to": "清晰度",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_005",
+    "to": "音量控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_006",
+    "to": "嗓音品質",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_007",
+    "to": "共鳴",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_007",
+    "to": "發聲",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_008",
+    "to": "發聲持續",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_008",
+    "to": "語暢",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_009",
+    "to": "構音模仿",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_009",
+    "to": "動作計畫",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_010",
+    "to": "音韻歷程",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_說話_010",
+    "to": "清晰度",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_001",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_002",
+    "to": "任務維持",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_002",
+    "to": "執行功能",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_003",
+    "to": "配對",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_003",
+    "to": "分類",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_004",
+    "to": "概念形成",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_005",
+    "to": "問題解決",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_006",
+    "to": "順序概念",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_006",
+    "to": "執行功能",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_007",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_008",
+    "to": "視知覺",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_008",
+    "to": "空間概念",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_009",
+    "to": "工作記憶",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_010",
+    "to": "認知彈性",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_認知_010",
+    "to": "轉換",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_001",
+    "to": "眼神接觸",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_001",
+    "to": "社會互動",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_002",
+    "to": "社會回應",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_002",
+    "to": "共同注意力",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_003",
+    "to": "同儕互動",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_003",
+    "to": "社交主動性",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_004",
+    "to": "輪流等待",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_004",
+    "to": "規則理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_005",
+    "to": "抑制控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_005",
+    "to": "社會規則",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_006",
+    "to": "情緒調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_006",
+    "to": "挫折容忍",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_007",
+    "to": "彈性轉換",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_007",
+    "to": "情緒調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_008",
+    "to": "行為彈性",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_009",
+    "to": "共同注意力",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_010",
+    "to": "同理",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_情緒行為與社會適應_010",
+    "to": "情緒辨識",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_001",
+    "to": "自主進食",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_001",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_002",
+    "to": "餐具使用",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_002",
+    "to": "手眼協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_003",
+    "to": "杯飲",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_003",
+    "to": "手部控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_004",
+    "to": "吞嚥",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_005",
+    "to": "吞嚥",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_005",
+    "to": "口內移動",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_006",
+    "to": "材質適應",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_007",
+    "to": "需求表達",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_飲食_008",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_001",
+    "to": "穿衣",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_001",
+    "to": "動作排序",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_002",
+    "to": "脫衣",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_002",
+    "to": "動作規劃",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_003",
+    "to": "左右概念",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_003",
+    "to": "穿鞋",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_004",
+    "to": "步驟執行",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_004",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_005",
+    "to": "扣子操作",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_006",
+    "to": "雙手協調",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_006",
+    "to": "拉鍊操作",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_007",
+    "to": "穿襪",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_007",
+    "to": "手部控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_008",
+    "to": "衣物接受",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_008",
+    "to": "彈性",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_009",
+    "to": "順序概念",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_穿脫衣_009",
+    "to": "生活自理",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_001",
+    "to": "盥洗步驟",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_001",
+    "to": "順序執行",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_002",
+    "to": "口腔接受",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_002",
+    "to": "生活自理",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_003",
+    "to": "自我清潔",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_003",
+    "to": "手部操作",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_004",
+    "to": "如廁表達",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_004",
+    "to": "身體覺察",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_005",
+    "to": "如廁流程",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_005",
+    "to": "自我監控",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_006",
+    "to": "步驟記憶",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_006",
+    "to": "執行功能",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_007",
+    "to": "觸覺接受",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_007",
+    "to": "生活自理",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_008",
+    "to": "工具使用",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_008",
+    "to": "手部控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_盥洗衛生_009",
+    "to": "步驟執行",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_001",
+    "to": "功能性遊戲",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_001",
+    "to": "操作理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_002",
+    "to": "遊戲彈性",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_002",
+    "to": "想像變化",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_003",
+    "to": "象徵性遊戲",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_003",
+    "to": "想像力",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_004",
+    "to": "共同遊戲",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_004",
+    "to": "同儕互動",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_005",
+    "to": "輪流等待",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_005",
+    "to": "規則理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_006",
+    "to": "持續注意",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_006",
+    "to": "遊戲參與",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_007",
+    "to": "規則理解",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_007",
+    "to": "抑制控制",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_008",
+    "to": "主動參與",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_008",
+    "to": "遊戲發起",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_009",
+    "to": "固著",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_009",
+    "to": "遊戲彈性",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_010",
+    "to": "挫折容忍",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_遊戲_010",
+    "to": "情緒調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_001",
+    "to": "常規遵循",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_001",
+    "to": "步驟執行",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_002",
+    "to": "轉換",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_002",
+    "to": "情緒調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_003",
+    "to": "任務完成",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_004",
+    "to": "轉換",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_005",
+    "to": "順序執行",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_005",
+    "to": "時間概念",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_006",
+    "to": "工作記憶",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_006",
+    "to": "自我監控",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_007",
+    "to": "彈性",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_007",
+    "to": "情緒調節",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_008",
+    "to": "啟動能力",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_008",
+    "to": "執行功能",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_009",
+    "to": "處理速度",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_009",
+    "to": "活動效率",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_010",
+    "to": "自主性",
+    "type": "INDICATES_ABILITY"
+  },
+  {
+    "from": "obs_生活作息_010",
+    "to": "指令跟隨",
+    "type": "INDICATES_ABILITY"
+  }
+]

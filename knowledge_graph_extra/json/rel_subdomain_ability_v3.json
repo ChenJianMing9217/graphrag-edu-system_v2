@@ -1,0 +1,2032 @@
+[
+  {
+    "from": "粗大動作",
+    "to": "上下樓梯",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "下肢控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "下肢肌力",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "不需支撐就能坐穩",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "主動碰觸玩具",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "前臂撐起",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "動作時機",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "動態平衡",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "半坐姿持瓶餵食",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "協調",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "單腳站立",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "單腳跳",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "四肢活動",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "坐姿支撐",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "坐姿穩定進食",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "姿勢控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "手到口",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "扶站",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "扶著家具走",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "接大球",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "核心穩定",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "步態穩定",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "無支撐坐姿",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "獨立爬上爬下",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "獨立行走",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "獨走數步",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "球類操作",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "穩定抬頭",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "翻身",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "肌耐力",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "自行坐起",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "趴姿抬頭",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "趴姿撐起",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "跑步",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "跳躍",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "踢球",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "雙腳離地跳",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "靜態平衡",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "高腳椅支撐坐姿",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "一手持物一手操作",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "串大珠/通心粉",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "主動抓取",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "仿畫",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "伸手拿物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "剪刀使用",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "力量控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "堆疊兩個小物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "塗鴉",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "成熟握筆",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "手指分化",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "手指操作",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "手眼協調",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "手腕控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "手部張開",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "手部控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "手部操作",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "手部旋轉操作",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "手部轉移",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "抓握",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "拇食指捏取",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "捏取",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "握持玩具",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "握筆",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "精細操作",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "視動整合",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "逐頁翻書",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "雙手協調",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "前庭刺激尋求",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "前庭調節",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "口腔感覺接受",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "口腔感覺需求",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "對發聲玩具反應",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "感覺接受",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "感覺調節",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "本體覺",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "材質適應",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "活動量調整",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "穿著耐受",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "聽覺調節",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "觸覺接受",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "觸覺調節",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "身體控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "追視感興趣物品",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "口唇控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "口腔動作協調",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "口腔動作控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "口腔接受",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "口腔控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "口腔肌力",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "吐舌吹氣發聲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "吸管飲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "吹口水音",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "呼氣控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "咀嚼",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "咀嚼模式",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "咬合",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "張口控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "手或玩具帶入口",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "手碰奶瓶或乳房",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "拍奶瓶或乳房",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "支持下抬頭",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "朝乳頭轉頭張口",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "構音動作",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "為湯匙張口",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "舌頭左右移動食物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "舌頭控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口腔動作",
+    "to": "閉唇",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "口內清除",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "口內移動",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "口內移動與咀嚼吞嚥連貫",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "吞嚥",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "吞嚥協調",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "吞嚥啟動",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "吞嚥安全",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "吞嚥準備",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "吞嚥耐力",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "吸吮與吞嚥",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "舌頭把食物往後送",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "較硬食物處理",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "吞嚥",
+    "to": "進食姿勢",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "WH問句理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "一步驟指令理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "二步驟指令理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "位置詞理解與使用",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "依規則玩遊戲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "問句理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "回答情境問題",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "回答故事問題",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "回答簡單功能問題",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "圖書中指物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "指出兩個身體部位",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "指認熟悉物品",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "故事理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "明白「不行」的意思",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "理解一步驟指令",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "理解不要",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "理解二步驟指令",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "理解簡單指令",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "看向說話者/聲音",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "短暫停止於 no",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "禁止語理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "聽覺反應",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "聽覺定向",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "詞彙理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "語意理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "語言理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "說出熟悉故事下一步",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "辨認身體部位",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "進階位置詞理解與使用",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "配合手勢與語詞指令",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "1-2個詞",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "三個以上詞",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "不同情緒不同聲音",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "不規則複數",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "主動溝通",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "主動表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "事件描述",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "使用代名詞",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "來回發聲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "兩詞組合",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "冠詞 a/the",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "功能性溝通",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "句子組織",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "句子表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "叫爸爸媽媽",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "命名書中物品",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "咕咕聲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "咿呀發聲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "問 why/how",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "單字表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "四詞以上句子",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "回應表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "回應說話聲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "多樣化手勢",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "多樣化發聲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "多樣母音與子音組合",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "對聲音警覺",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "尖叫發聲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "帶動詞的短句",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "常用詞組",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "所有格表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "指、揮手、展示或給物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "指點求助",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "描述圖片中的動作",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "提問",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "提問 who/what/where/why",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "揮手再見",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "故事結構",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "敘事",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "敘說熟悉兒歌故事詞句",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "早期詞彙表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "模仿聲音",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "比較詞",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "片語表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "用語言求助",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "社交手勢",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "社交溝通",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "約50個詞",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "維持對話",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "聽到人聲安靜或微笑",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "至少50個詞彙",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "舉手求抱",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "複數詞",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "複雜句表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "詞彙提取",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "詞彙表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "語法變化",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "語言延展",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "說出名字",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "說出字的音節",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "說出理由",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "說出詞首中尾音",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "談論當天發生的事",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "講兩事件故事",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "講故事",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "輪替發聲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "遊戲中發聲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "重複音節咿呀",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "長串咿呀",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "雙向對話",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "需求表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語表達",
+    "to": "點頭搖頭",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "共鳴",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "動作計畫",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "嗓音品質",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "大多可被理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "構音",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "構音模仿",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "清晰度",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "特定音構音",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "發聲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "發聲持續",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "語暢",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "語速控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "語音清晰度",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "音量控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "說話",
+    "to": "音韻歷程",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "任務維持",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "使用時間詞",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "假裝閱讀",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "分類",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "動作排序",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "口腔探索",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "命名顏色",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "問題解決",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "啟動能力",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "執行功能",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "字母辨識與姓名書寫",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "寫名字中的一些字母",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "專注5到10分鐘",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "尋找掉落物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "工作記憶",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "找被藏起來的東西",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "把物品放進容器",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "抑制控制",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "持續注意",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "操作玩具開關旋鈕",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "數到10",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "早期書寫",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "時間詞理解與使用",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "概念形成",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "模仿做家事",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "模仿畫圓",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "正確使用物品",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "步驟執行",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "活動時能持續專注 5",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "物體恆存前驅",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "畫出人像",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "知道書的封面/書名",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "空間概念",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "簡單解決問題",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "自我手部注視",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "視知覺",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "視覺注意",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "視覺追視",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "認知彈性",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "轉換",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "辨認1到5部分數字",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "辨認一些字母",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "辨識標誌",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "辨識簡單押韻",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "配對",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "雙物對敲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "順序執行",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "順序概念",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "顏色概念",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "主動微笑",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "主動邀請同儕遊戲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "互動遊戲反應",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "依場所調整行為",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "依規則輪流",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "共同注意力",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "分享喜歡的物品",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "分離反應",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "分離後平復",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "參與拍手歌遊戲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "叫名看向對方",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "同儕互動",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "同理",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "吸引注意",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "咯咯笑",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "咯咯笑和大笑",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "喜歡當小幫手",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "回應叫名",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "回應臉部表情",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "大笑",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "安慰他人",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "對陌生人害羞/黏人",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "展示自己的能力",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "平行/簡單共同遊戲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "彈性轉換",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "情緒表情表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "情緒調節",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "指給你看有趣的東西",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "挫折容忍",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "新情境看大人反應",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "會根據場所調整行為",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "模仿同儕玩耍",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "模仿與主動手勢互動",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "注意並加入同儕遊戲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "注意他人受傷或難過",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "當你離開時會有反應",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "眼神接觸",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "社交主動性",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "社會互動",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "社會回應",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "社會微笑",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "社會規則",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "行為彈性",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "表達親暱",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "被安撫",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "認得熟悉的人或物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "輪流等待",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "辨識熟悉的人",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "避免危險",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "避免熱的東西",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "離開照顧者又回頭確認",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "難過時找依附對象",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "以母乳/配方奶進食",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "叉匙進食",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "可開始糊狀食物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "含乳頭",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "吸管喝水",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "喝開口杯",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "嘗試用湯匙",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "多樣口感接受",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "學習開口杯/學習杯",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "小杯喝水少灑出",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "手指或餐具自餵",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "手指自我進食",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "拒食表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "杯飲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "混合質地食物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "用叉子",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "耙抓食物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "自主進食",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "自助盛食或倒水",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "進食預期",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "開口杯不灑出",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "開口杯飲用",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "雙側咀嚼",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "需大量咀嚼食物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "飲食",
+    "to": "餐具使用",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "動作規劃",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "左右概念",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "扣子操作",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "扣扣子",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "拉鍊操作",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "穿衣",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "穿襪",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "穿部分衣物",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "穿鞋",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "脫衣",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "解扣子",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "穿脫衣",
+    "to": "配合穿衣",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "盥洗衛生",
+    "to": "如廁流程",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "盥洗衛生",
+    "to": "如廁表達",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "精細動作",
+    "to": "工具使用",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "盥洗衛生",
+    "to": "盥洗步驟",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "盥洗衛生",
+    "to": "自我清潔",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "自我監控",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "感覺統合",
+    "to": "身體覺察",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "盥洗衛生",
+    "to": "配合洗手",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "主動參與",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "假裝遊戲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "共同遊戲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "共讀參與",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "功能性遊戲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "唱歌跳舞表演",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "扮演角色",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "擁抱玩具",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "簡單操作玩具",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "象徵性遊戲",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "遊戲發起",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "遵循簡單生活常規",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "生活作息",
+    "to": "任務完成",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "生活作息",
+    "to": "做簡單家事",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "生活作息",
+    "to": "常規遵循",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "生活作息",
+    "to": "時間概念",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "粗大動作",
+    "to": "平衡",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "遊戲",
+    "to": "想像力",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "規則理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "口語理解",
+    "to": "對聲音有反應",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "情緒行為與社會適應",
+    "to": "社會規則理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "操作理解",
+    "type": "HAS_ABILITY"
+  },
+  {
+    "from": "認知",
+    "to": "步驟記憶",
+    "type": "HAS_ABILITY"
+  }
+]

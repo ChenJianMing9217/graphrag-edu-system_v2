@@ -1,0 +1,91 @@
+[
+  {
+    "id": "sub_2d67fa9db771",
+    "name": "情緒行為與社會適應",
+    "domain_name": "社會情緒功能",
+    "original_subdomain": "參與"
+  },
+  {
+    "id": "sub_1d81f83f2d2d",
+    "name": "口語表達",
+    "domain_name": "口語溝通功能",
+    "original_subdomain": "語意/時間概念"
+  },
+  {
+    "id": "sub_a312abde6014",
+    "name": "口語理解",
+    "domain_name": "口語溝通功能",
+    "original_subdomain": "口語理解/語用"
+  },
+  {
+    "id": "sub_3ba05ba96a28",
+    "name": "認知",
+    "domain_name": "認知功能",
+    "original_subdomain": "前讀寫/前書寫"
+  },
+  {
+    "id": "sub_57d6e3a0b008",
+    "name": "粗大動作",
+    "domain_name": "知覺動作功能",
+    "original_subdomain": "姿勢控制"
+  },
+  {
+    "id": "sub_caf3426903b0",
+    "name": "精細動作",
+    "domain_name": "知覺動作功能",
+    "original_subdomain": "精細動作/溝通手勢"
+  },
+  {
+    "id": "sub_cd45d6bb86ce",
+    "name": "飲食",
+    "domain_name": "日常生活功能",
+    "original_subdomain": "飲食"
+  },
+  {
+    "id": "sub_36973554a548",
+    "name": "遊戲",
+    "domain_name": "日常生活功能",
+    "original_subdomain": "表演性參與"
+  },
+  {
+    "id": "sub_53a70c1d9e34",
+    "name": "說話",
+    "domain_name": "口語溝通功能",
+    "original_subdomain": "說話"
+  },
+  {
+    "id": "sub_e8746638f897",
+    "name": "穿脫衣",
+    "domain_name": "日常生活功能",
+    "original_subdomain": "穿脫衣"
+  },
+  {
+    "id": "sub_81b21ef5bedb",
+    "name": "生活作息",
+    "domain_name": "日常生活功能",
+    "original_subdomain": "家事參與"
+  },
+  {
+    "id": "sub_464c834ad916",
+    "name": "感覺統合",
+    "domain_name": "知覺動作功能",
+    "original_subdomain": "聽覺反應"
+  },
+  {
+    "id": "sub_23171ea2829c",
+    "name": "口腔動作",
+    "domain_name": "吞嚥/口腔功能",
+    "original_subdomain": "口腔動作"
+  },
+  {
+    "id": "sub_68e6927cb522",
+    "name": "吞嚥",
+    "domain_name": "吞嚥/口腔功能",
+    "original_subdomain": "吞嚥功能"
+  },
+  {
+    "id": "sub_盥洗衛生",
+    "name": "盥洗衛生",
+    "description": ""
+  }
+]

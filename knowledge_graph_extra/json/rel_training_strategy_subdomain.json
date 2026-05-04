@@ -1,0 +1,607 @@
+[
+  {
+    "from": "ts_姿勢控制訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_移位能力訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_平衡訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_粗動作學習訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_粗動作計畫訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_傳接物能力訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_動作協調訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_粗動作遊戲訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_心肺耐力訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_肌力與肌耐力訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_關節活動度與柔軟度訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_社會參與動作訓練",
+    "to": "粗大動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_慣用手發展訓練",
+    "to": "精細動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_基本手功能訓練",
+    "to": "精細動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_手部肌力訓練",
+    "to": "精細動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_手部肌耐力訓練",
+    "to": "精細動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_雙手協調訓練",
+    "to": "精細動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_力量調節訓練",
+    "to": "精細動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_動作速度控制訓練",
+    "to": "精細動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_工具操作訓練",
+    "to": "精細動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_手眼協調訓練",
+    "to": "精細動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_警醒度調節訓練",
+    "to": "感覺統合",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_感覺調節訓練",
+    "to": "感覺統合",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_身體意象訓練",
+    "to": "感覺統合",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_視覺動作協調訓練",
+    "to": "感覺統合",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_平衡與兩側協調訓練",
+    "to": "感覺統合",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_動作計畫訓練",
+    "to": "感覺統合",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_口腔感覺調節訓練",
+    "to": "口腔動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_口腔動作訓練",
+    "to": "口腔動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_雙唇動作訓練",
+    "to": "口腔動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_舌部動作訓練",
+    "to": "口腔動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_下頷控制訓練",
+    "to": "口腔動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_咀嚼訓練",
+    "to": "口腔動作",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_進食姿勢調整",
+    "to": "吞嚥",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_進食量控制訓練",
+    "to": "吞嚥",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_食物材質調整",
+    "to": "吞嚥",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_食器選擇調整",
+    "to": "吞嚥",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_吞嚥安全訓練",
+    "to": "吞嚥",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_聽能訓練",
+    "to": "口語理解",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_注視說話者訓練",
+    "to": "口語理解",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_手勢理解訓練",
+    "to": "口語理解",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_單一步驟指令理解訓練",
+    "to": "口語理解",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_熟悉物品指認訓練",
+    "to": "口語理解",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_抽象詞彙理解訓練",
+    "to": "口語理解",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_多步驟指令理解訓練",
+    "to": "口語理解",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_複雜語句理解訓練",
+    "to": "口語理解",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_事件理解訓練",
+    "to": "口語理解",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_故事理解訓練",
+    "to": "口語理解",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_輔助溝通訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_語用溝通訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_主動表達訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_發聲模仿訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_單字結合手勢表達訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_詞彙表達訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_完整句表達訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_抽象詞彙表達訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_語句長度擴展訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_複雜句表達訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_事件描述訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_敘事訓練",
+    "to": "口語表達",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_興趣擴展訓練",
+    "to": "情緒行為與社會適應",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_主題維持訓練",
+    "to": "情緒行為與社會適應",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_對話輪替訓練",
+    "to": "情緒行為與社會適應",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_情境適切表達訓練",
+    "to": "情緒行為與社會適應",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_非字面語意理解訓練",
+    "to": "情緒行為與社會適應",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_對話開啟與結束訓練",
+    "to": "情緒行為與社會適應",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_語用推論訓練",
+    "to": "情緒行為與社會適應",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_構音矯正訓練",
+    "to": "說話",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_語暢訓練",
+    "to": "說話",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_嗓音復健",
+    "to": "說話",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_嗓音保健",
+    "to": "說話",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_嬰兒刺激促發活動",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_認知技能促發訓練",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_語意與基礎常識訓練",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_敘事與論述訓練",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_工作習慣建立",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_注意力訓練",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_記憶訓練",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_執行功能訓練",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_遊戲處方",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_結構化環境策略",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_生活適應訓練",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_行為強化訓練",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_教育與社區參與支持",
+    "to": "認知",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_穿脫衣配合訓練",
+    "to": "穿脫衣",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_無扣衣物穿脫訓練",
+    "to": "穿脫衣",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_自主穿脫衣物訓練",
+    "to": "穿脫衣",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_拉鍊操作訓練",
+    "to": "穿脫衣",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_鞋帶操作訓練",
+    "to": "穿脫衣",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_解扣子訓練",
+    "to": "穿脫衣",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_扣扣子訓練",
+    "to": "穿脫衣",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_進食需求表達訓練",
+    "to": "飲食",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_扶食器與抿食訓練",
+    "to": "飲食",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_吸管飲訓練",
+    "to": "飲食",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_湯匙進食訓練",
+    "to": "飲食",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_杯飲訓練",
+    "to": "飲食",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_筷子使用訓練",
+    "to": "飲食",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_進食清潔度訓練",
+    "to": "飲食",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_如廁需求表達訓練",
+    "to": "盥洗衛生",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_協助下如廁訓練",
+    "to": "盥洗衛生",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_自主如廁訓練",
+    "to": "盥洗衛生",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_鼻涕清潔訓練",
+    "to": "盥洗衛生",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_洗臉訓練",
+    "to": "盥洗衛生",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_刷牙訓練",
+    "to": "盥洗衛生",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_漱口訓練",
+    "to": "盥洗衛生",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_洗澡訓練",
+    "to": "盥洗衛生",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_洗手訓練",
+    "to": "盥洗衛生",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_功能性遊戲訓練",
+    "to": "遊戲",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_探索性遊戲訓練",
+    "to": "遊戲",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_想像性遊戲訓練",
+    "to": "遊戲",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_象徵性遊戲訓練",
+    "to": "遊戲",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_角色扮演遊戲訓練",
+    "to": "遊戲",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_建構性遊戲訓練",
+    "to": "遊戲",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_規則性遊戲訓練",
+    "to": "遊戲",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_獨立遊戲訓練",
+    "to": "遊戲",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_雙人遊戲訓練",
+    "to": "遊戲",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_團體遊戲訓練",
+    "to": "遊戲",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_規律作息訓練",
+    "to": "生活作息",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_自我管理訓練",
+    "to": "生活作息",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_家務參與訓練",
+    "to": "生活作息",
+    "type": "RELATES_TO_SUBDOMAIN"
+  },
+  {
+    "from": "ts_親子互動遊戲訓練",
+    "to": "生活作息",
+    "type": "RELATES_TO_SUBDOMAIN"
+  }
+]
