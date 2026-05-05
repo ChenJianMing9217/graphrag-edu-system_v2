@@ -339,6 +339,18 @@ class DialogueManager:
             "clarify_type": flow_result.policy_decision.clarify_type,
             "clarify_reason": flow_result.policy_decision.clarify_reason,
             "anchor_turn": flow_result.policy_decision.anchor_turn,
+            # Log instrument: Memory Agent raw 7 維特徵 + 機率（離線重訓 / ablation 用）
+            "memory_features": flow_result.policy_decision.memory_features,
+            "memory_probs": flow_result.policy_decision.memory_probs,
+            # Shadow log: 8d 新特徵 + Agent 內部狀態 + override 觸發 + 上一輪資訊
+            "memory_features_v2": flow_result.policy_decision.memory_features_v2,
+            "agent_used": flow_result.policy_decision.agent_used,
+            "agent_decision_raw": flow_result.policy_decision.agent_decision_raw,
+            "fallback_reason": flow_result.policy_decision.fallback_reason,
+            "overrides_fired": flow_result.policy_decision.overrides_fired,
+            "prev_query": flow_result.policy_decision.prev_query,
+            "prev_task": flow_result.policy_decision.prev_task,
+            "prev_task_dist": flow_result.policy_decision.prev_task_dist,
             "age_months": age_months,
             "task_entropy": _task_entropy,
             "slot_status": slot_result.slot_status,

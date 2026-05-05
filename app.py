@@ -65,6 +65,22 @@ def _write_turn_log(*, query, response, turn_state, retrieved, session_id, child
                 "detected_region": (turn_state or {}).get("detected_region"),
                 "planning_active": ((turn_state or {}).get("planning_info") or {}).get("active"),
                 "planning_probs": ((turn_state or {}).get("planning_info") or {}).get("probs"),
+                # Memory Agent 訓練/分析訊號（log instrument，不影響行為）
+                "memory_features": (turn_state or {}).get("memory_features"),
+                "memory_probs": (turn_state or {}).get("memory_probs"),
+                # Shadow log: 8d 新特徵 + Agent 內部狀態 + override 觸發 + 上一輪資訊（Phase 1+ 重訓用）
+                "memory_features_v2": (turn_state or {}).get("memory_features_v2"),
+                "agent_used": (turn_state or {}).get("agent_used"),
+                "agent_decision_raw": (turn_state or {}).get("agent_decision_raw"),
+                "fallback_reason": (turn_state or {}).get("fallback_reason"),
+                "overrides_fired": (turn_state or {}).get("overrides_fired"),
+                "prev_query": (turn_state or {}).get("prev_query"),
+                "prev_task": (turn_state or {}).get("prev_task"),
+                "prev_task_dist": (turn_state or {}).get("prev_task_dist"),
+                "topic_overlap_raw": (turn_state or {}).get("topic_overlap"),
+                "tv_distance": (turn_state or {}).get("tv_distance"),
+                "context_sim": (turn_state or {}).get("context_sim"),
+                "normalized_entropy": (turn_state or {}).get("normalized_entropy"),
             },
             "retrieved_top8": compact_retrieved,
             "n_candidates": (turn_state or {}).get("num_candidates"),
@@ -772,4 +788,4 @@ def submit_feedback():
         return jsonify({"status": "error", "message": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=False, port=5001)
+    app.run(debug=False, port=5001, host='0.0.0.0')

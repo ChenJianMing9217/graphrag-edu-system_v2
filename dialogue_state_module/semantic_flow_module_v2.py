@@ -15,6 +15,7 @@ from .multi_topic_tracker import MultiTopicTracker, MultiTopicConfig
 from .dst_policy import DSTPolicyConfig, decide_policy
 from .task_scope_classifier import TaskScopeClassifier, PredictResult
 from .utils.region_extractor import extract_region
+from .feature_v2 import extract_memory_features_v2  # Shadow log: 8d 新特徵
 
 
 # 控制 DST 模組是否輸出詳細除錯訊息
@@ -70,6 +71,17 @@ class PolicyDecision: # 策略決策結果
     clarify_type: Optional[str] = None   # None | "DOMAIN_HARD" | "TASK_SOFT" | "SLOT_REGION" | "CONTEXT_MISSING"
     clarify_reason: Optional[str] = None  # 自然語言說明，供生成層參考
     anchor_turn: Optional[int] = None     # 最近一次 REFRESH 的 turn_index（debug / 繼承追蹤）
+    # Log instrument（不影響決策；供離線重訓 / ablation 使用）
+    memory_features: Optional[Dict[str, float]] = None  # Memory Agent 看到的 7 維 raw 特徵
+    memory_probs: Optional[List[float]] = None          # [P_STAY, P_REFRESH]，Agent fallback 時為 None
+    memory_features_v2: Optional[Dict[str, float]] = None  # 8d 新特徵 + 屬性（shadow log）
+    agent_used: bool = False                             # 是否走 Memory Agent 路徑（False = fallback 規則）
+    agent_decision_raw: Optional[str] = None             # Agent 原始輸出（在 override 前）
+    fallback_reason: Optional[str] = None                # None | "low_confidence" | "exception" | "rule_path"
+    overrides_fired: Optional[Dict[str, bool]] = None    # 哪些 override 規則觸發
+    prev_query: Optional[str] = None                     # 上一輪 user query（供序列模型用）
+    prev_task: Optional[str] = None                      # 上一輪 task_pred
+    prev_task_dist: Optional[Dict[str, float]] = None    # 上一輪 task_dist
 
 
 @dataclass
@@ -130,6 +142,16 @@ class FlowResult: # 完整的語義流程分析結果
                 "clarify_type": self.policy_decision.clarify_type,
                 "clarify_reason": self.policy_decision.clarify_reason,
                 "anchor_turn": self.policy_decision.anchor_turn,
+                "memory_features": self.policy_decision.memory_features,
+                "memory_probs": self.policy_decision.memory_probs,
+                "memory_features_v2": self.policy_decision.memory_features_v2,
+                "agent_used": self.policy_decision.agent_used,
+                "agent_decision_raw": self.policy_decision.agent_decision_raw,
+                "fallback_reason": self.policy_decision.fallback_reason,
+                "overrides_fired": self.policy_decision.overrides_fired,
+                "prev_query": self.policy_decision.prev_query,
+                "prev_task": self.policy_decision.prev_task,
+                "prev_task_dist": self.policy_decision.prev_task_dist,
             },
         }
         
@@ -251,6 +273,13 @@ class SemanticFlowClassifier: # 語義流程分類器
         self._ood_clarify_cooldown: int = 0    # OOD 追問冷卻（避免連續引導）
         self._last_refresh_turn: Optional[int] = None  # 最近一次 REFRESH 的 turn_index（anchor_turn）
 
+        # 跨輪追蹤（供 v2 特徵 + 序列模型用；不影響任何決策邏輯）
+        self._prev_task: Optional[str] = None
+        self._prev_task_dist: Optional[Dict[str, float]] = None
+        self._prev_query: Optional[str] = None
+        # 每輪 _handle_memory_and_fused_distribution 內 set，供 _decide_policy 結尾抓
+        self._overrides_fired_log: Dict[str, bool] = {}
+
         # 整體意圖：向量比對（不用關鍵字）
         self._overview_anchor_vecs = overview_anchor_vecs if overview_anchor_vecs else []
         self._overview_sim_threshold = overview_sim_threshold
@@ -267,6 +296,10 @@ class SemanticFlowClassifier: # 語義流程分類器
         self._slot_clarify_cooldown = 0
         self._ood_clarify_cooldown = 0
         self._last_refresh_turn = None
+        self._prev_task = None
+        self._prev_task_dist = None
+        self._prev_query = None
+        self._overrides_fired_log = {}
         self.context_similarity.reset()
         self.topic_tracker.reset()
     
@@ -400,6 +433,14 @@ class SemanticFlowClassifier: # 語義流程分類器
         agent_decision: Optional[str] = None,  # "STAY" / "REFRESH" / "CLARIFY" / None（規則 fallback）
         user_query: str = "",
     ) -> Tuple[bool, float, Optional[Dict[str, float]]]:
+        # 重置本輪的 overrides 觸發追蹤（供 log 寫出 / ablation 分析使用，不影響決策）
+        self._overrides_fired_log = {
+            "rule_a_overview_high_entropy": False,
+            "rule_b_prev_overview_continued": False,
+            "short_followup_lock": False,
+            "override_a_strong_shift_stay_to_refresh": False,
+            "top_sticky_weak_signal": False,
+        }
         """
         根據 agent_decision（或規則 fallback）決定本輪使用哪一輪的 active_domains / fused_distribution。
         已移除 is_ambiguous 參數，整體概況規則改用 entropy 直接判斷。
@@ -421,11 +462,13 @@ class SemanticFlowClassifier: # 語義流程分類器
         if _high_entropy and domain.top_domain == "整體概況" and not self._prev_was_overview:
             self.topic_tracker.reset()
             domain_handled = True
+            self._overrides_fired_log["rule_a_overview_high_entropy"] = True
             if DST_DEBUG_VERBOSE:
                 print("  [整體查詢] 規則A：高熵+整體概況領域，清除記憶、啟用新對話")
 
         elif _high_entropy and self._prev_was_overview:
             domain_handled = True
+            self._overrides_fired_log["rule_b_prev_overview_continued"] = True
             if DST_DEBUG_VERBOSE:
                 print("  [整體查詢] 規則B：高熵+上一輪整體，沿用整體意圖")
 
@@ -457,6 +500,7 @@ class SemanticFlowClassifier: # 語義流程分類器
                 and (any(ind in _q for ind in _FOLLOWUP_INDICATORS) or len(_q) <= 4)
             )
             if _is_short_followup and prev_active_domains and prev_top:
+                self._overrides_fired_log["short_followup_lock"] = True
                 if DST_DEBUG_VERBOSE:
                     print(
                         f"  [Short Followup 鎖定] q='{_q}' (短接續詞)："
@@ -491,6 +535,7 @@ class SemanticFlowClassifier: # 語義流程分類器
                     and domain.top_domain not in prev_active_domains
                     and float(domain.top_prob) >= _STRONG_DOMAIN_SHIFT_TOP_PROB
                     and float(topic.tv_distance or 0) >= _STRONG_DOMAIN_SHIFT_TV):
+                self._overrides_fired_log["override_a_strong_shift_stay_to_refresh"] = True
                 if DST_DEBUG_VERBOSE:
                     print(
                         f"  [Override STAY→REFRESH] domain 強切換："
@@ -526,6 +571,7 @@ class SemanticFlowClassifier: # 語義流程分類器
                             and domain.top_domain not in prev_active_domains
                             and prev_top != "整體概況"
                             and float(domain.top_prob) < _STRONG_TOP_PROB_TH):
+                        self._overrides_fired_log["top_sticky_weak_signal"] = True
                         if DST_DEBUG_VERBOSE:
                             print(f"  [Agent STAY] top_domain 弱信號漂移：{domain.top_domain}({domain.top_prob:.2f}) → 沿用 {prev_top}（不在 active 內）")
                         domain.top_domain = prev_top
@@ -702,6 +748,8 @@ class SemanticFlowClassifier: # 語義流程分類器
         agent_decision: Optional[str] = None  # "STAY" / "REFRESH" / "CLARIFY" / None
         _agent_probs_log = None
         _agent_state_log = None
+        _agent_decision_raw_log: Optional[str] = None  # Override 前的原始 Agent 決策
+        _fallback_reason_log: Optional[str] = None     # Agent 為何 fallback
 
         if self.policy_cfg.enable_memory_agent and self.memory_agent is not None:
             try:
@@ -717,14 +765,40 @@ class SemanticFlowClassifier: # 語義流程分類器
                 }
                 result = self.memory_agent.select_action(_agent_state_log, deterministic=True)
                 _agent_probs_log = result["probs"]
+                _agent_decision_raw_log = result["action_str"]  # 保留 raw 供 log
 
                 # 信心門檻：max prob < 0.5 → 回退規則，避免冷啟動時不確定的決策影響域選擇
                 if max(_agent_probs_log) >= 0.5:
                     agent_decision = result["action_str"]
-                # else: agent_decision stays None → fallback
+                else:
+                    _fallback_reason_log = "low_confidence"  # agent_decision stays None → fallback
             except Exception as e:
                 print(f"  [Memory Agent] ⚠️ 推論失敗，回退到 Threshold 規則: {e}")
                 agent_decision = None
+                _fallback_reason_log = "exception"
+        else:
+            _fallback_reason_log = "agent_disabled"
+
+        # ========================================================================
+        # 🆕 Shadow log: 8d 新特徵（不影響任何決策；供 Phase 1 ablation / 重訓使用）
+        # ========================================================================
+        try:
+            _top3_pairs = sorted(domain.distribution.items(), key=lambda kv: -kv[1])[:3]
+            _top3_domains = [d for d, _ in _top3_pairs]
+            _memory_features_v2_log = extract_memory_features_v2(
+                user_query=user_query,
+                domain_entropy=float(domain.entropy),
+                cur_top_domain=domain.top_domain,
+                cur_top3_domains=_top3_domains,
+                prev_top_domain=topic.prev_top_domain,
+                cur_task_dist=task_dist or {},
+                prev_task_dist=self._prev_task_dist,
+                prev_task=self._prev_task,
+                tv_distance_raw=float(topic.tv_distance) if topic.tv_distance is not None else 0.0,
+            )
+        except Exception as _e:
+            print(f"  [feature_v2] ⚠️ 抽取失敗: {_e}")
+            _memory_features_v2_log = None
 
         # ========================================================================
         # 1. 根據 agent_decision 統一決定記憶與 fused_distribution
@@ -875,6 +949,8 @@ class SemanticFlowClassifier: # 語義流程分類器
         if clarify_type:
             policy_case += f"_{clarify_type}"
 
+        # 規則 fallback 路徑也補一個 reason
+        _final_fallback_reason = _fallback_reason_log if not agent_used else None
         return PolicyDecision(
             context_level=C_level,
             is_ambiguous=ambig,
@@ -885,6 +961,16 @@ class SemanticFlowClassifier: # 語義流程分類器
             clarify_type=clarify_type,
             clarify_reason=clarify_reason,
             anchor_turn=anchor_turn,
+            memory_features=_agent_state_log,
+            memory_probs=_agent_probs_log,
+            memory_features_v2=_memory_features_v2_log,
+            agent_used=agent_used,
+            agent_decision_raw=_agent_decision_raw_log,
+            fallback_reason=_final_fallback_reason,
+            overrides_fired=dict(self._overrides_fired_log) if self._overrides_fired_log else None,
+            prev_query=self._prev_query,
+            prev_task=self._prev_task,
+            prev_task_dist=self._prev_task_dist,
         )
 
     def _classify_scope(
@@ -1046,6 +1132,11 @@ class SemanticFlowClassifier: # 語義流程分類器
             self._slot_clarify_cooldown -= 1
         if self._ood_clarify_cooldown > 0:
             self._ood_clarify_cooldown -= 1
+
+        # 更新跨輪追蹤（供下一輪 v2 特徵 + 序列模型使用；不影響任何決策）
+        self._prev_task = task_label
+        self._prev_task_dist = task_dist
+        self._prev_query = user_query
 
         self.turn_index += 1
         return result
