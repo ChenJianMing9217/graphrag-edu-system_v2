@@ -340,6 +340,7 @@ def upload_file():
 def chat():
     data = request.get_json()
     user_input = data.get('message', '')
+    response_length = data.get('response_length', 'standard')  # concise / standard / detailed
 
     # 判斷當前兒童 ID (若未登入則為 None)
     child_id = session.get('active_child_id')
@@ -381,13 +382,14 @@ def chat():
                         age_months = max(1, int(delta.days / 30.436875))
             
         response_text, msg_uuid, turn_state, retrieved_context = dialogue_mgr.get_response(
-            user_input, 
-            child_id, 
-            session, 
+            user_input,
+            child_id,
+            session,
             all_reports=all_reports,
-            age_months=age_months
+            age_months=age_months,
+            response_length=response_length,
         )
-        
+
         # [NEW] 儲存提問與回覆至 SQL (供未來 RL 訓練用)
         try:
             # 取得當前真實登入使用者的 ID (如果有登入的話)
@@ -486,6 +488,7 @@ def chat():
 def chat_stream():
     data = request.get_json() or {}
     user_input = data.get('message', '')
+    response_length = data.get('response_length', 'standard')
     child_id = session.get('active_child_id')
     chat_session_id = session.get('chat_session_id') or uuid.uuid4().hex
     session['chat_session_id'] = chat_session_id
@@ -537,6 +540,7 @@ def chat_stream():
                     all_reports=all_reports,
                     age_months=age_months,
                     on_delta=on_delta,
+                    response_length=response_length,
                 )
 
                 result_holder['response_text'] = response_text

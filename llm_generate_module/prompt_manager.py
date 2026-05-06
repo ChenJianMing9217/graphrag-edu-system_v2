@@ -156,6 +156,48 @@ class LLMPromptManager:
         # 對話歷史濃縮提示詞（用於 Contextualization）
         self.QUERY_CONDENSE_PROMPT: str = cfg["query_condense_prompt"]
 
+    # 使用者回應長度偏好的倍率（套在 max_tokens 上，base=1200 tokens）
+    # auto: 1500 tokens 給 LLM 自由空間 / concise: 600 / standard: 1200 / detailed: 2160
+    LENGTH_MULTIPLIER = {
+        "auto":     1.25,
+        "concise":  0.5,
+        "standard": 1.0,
+        "detailed": 1.8,
+    }
+
+    # 給 LLM 的長度指引（塞進 system prompt 末段）
+    # 強硬措辭 + 絕對上限（中文 1 字 ≈ 1.5 token，buffer 預留 10-15% 確保不被 max_tokens 截斷）
+    LENGTH_GUIDE = {
+        "auto": (
+            "【回答長度規範】\n"
+            "- **絕對上限:1000 字**（請務必嚴守,不論問題多複雜都不可超過）\n"
+            "- 自適應原則:\n"
+            "  · 簡單事實 / 定義 -> 150-250 字\n"
+            "  · 評估解讀 / 觀察說明 -> 300-500 字\n"
+            "  · 訓練建議 / 多步驟方法 -> 500-800 字\n"
+            "  · 全面解讀 / 多領域整合 -> 800-1000 字\n"
+            "- 篇幅控制策略:用條列、表格代替冗長段落；避免客套、過多強調；"
+            "短追問請延續上輪深度但**不重複**已答內容。"
+        ),
+        "concise": (
+            "【回答長度規範】\n"
+            "- **絕對上限:350 字**（請務必嚴守）\n"
+            "- 目標:200-300 字精簡回答\n"
+            "- 重點清楚即可,不展開細節,不舉例,避免客套。"
+        ),
+        "standard": (
+            "【回答長度規範】\n"
+            "- **絕對上限:700 字**（請務必嚴守）\n"
+            "- 目標:400-600 字\n"
+            "- 結構清楚、重點分明,不過度展開。"
+        ),
+        "detailed": (
+            "【回答長度規範】\n"
+            "- **絕對上限:1300 字**（請務必嚴守）\n"
+            "- 目標:800-1200 字深入回答\n"
+            "- 含完整脈絡、舉例與建議。"
+        ),
+    }
     def get_config(
         self,
         semantic_flow: str,
@@ -169,6 +211,7 @@ class LLMPromptManager:
         domain_distribution: Optional[Dict[str, float]] = None,
         clarify_type: Optional[str] = None,
         clarify_reason: Optional[str] = None,
+        response_length: str = "standard",
     ) -> LLMGenerationConfig:
         """
         根據 DST 和 Task 獲取配置
@@ -236,6 +279,18 @@ class LLMPromptManager:
         # 新設計 (Phase D)：附加 clarify 屬性，生成層根據此決定追問策略
         final_config.clarify_type = clarify_type
         final_config.clarify_reason = clarify_reason
+
+        # [NEW] 套用使用者回應長度偏好
+        rl_key = response_length if response_length in self.LENGTH_MULTIPLIER else "standard"
+        mult = self.LENGTH_MULTIPLIER[rl_key]
+        if final_config.max_tokens:
+            final_config.max_tokens = max(256, int(final_config.max_tokens * mult))
+        # system prompt 末尾加上長度軟指引（讓 LLM 行為配合 max_tokens）
+        guide = self.LENGTH_GUIDE[rl_key]
+        if final_config.system_prompt_template:
+            final_config.system_prompt_template += f"\n\n{guide}"
+        else:
+            final_config.system_prompt_template = guide
 
         return final_config
 
@@ -370,21 +425,9 @@ class LLMPromptManager:
         )
 
         language_requirement = (
-            "【語言與用語規範】\n"
-            "1. **務必使用繁體中文回答**，嚴禁使用簡體中文。\n"
-            "2. **必須使用台灣在地用語**，嚴禁使用中國大陸用語，若違反將視為失職。請參考以下對比（左側為禁用，右側為優先）：\n"
-            "   - 禁用：打印 $\rightarrow$ 優先：列印\n"
-            "   - 禁用：信息 $\rightarrow$ 優先：訊息、資訊\n"
-            "   - 禁用：視頻 $\rightarrow$ 優先：影片\n"
-            "   - 禁用：鏈接 $\rightarrow$ 優先：連結\n"
-            "   - 禁用：水平 $\rightarrow$ 優先：程度、能力、發展水準\n"
-            "   - 禁用：項目 $\rightarrow$ 優先：項次、計畫、項目 (視情境使用)\n"
-            "   - 禁用：設置 $\rightarrow$ 優先：設定\n"
-            "   - 禁用：康復 $\rightarrow$ 優先：復健、療育\n"
-            "   - 禁用：質量 $\rightarrow$ 優先：品質\n"
-            "   - 禁用：操作 $\rightarrow$ 優先：操作 (維持) / 實作\n"
-            "   - 禁用：支持 $\rightarrow$ 優先：支持 (維持) / 支援\n"
-            "   - 禁用：早上好/下午好 $\rightarrow$ 優先：您好、早安\n\n"
+            "【語言規範】務必繁體中文 + 台灣在地用語（醫護/早療專業語境）。"
+            "常見替換：信息→訊息、視頻→影片、質量→品質、康復→復健/療育、水平→程度/能力。"
+            "嚴禁簡體字與大陸用語。\n\n"
         )
 
         style_guidance = (

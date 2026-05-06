@@ -25,6 +25,8 @@ services:
 
     volumes:
       - hf_cache_v7:/root/.cache/huggingface
+      # 持久化 logs 到部署機 host filesystem，避免 container 重建丟失
+      - /home/csie/edu_sys_v7_logs:/app/logs
 
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000"]

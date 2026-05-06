@@ -369,3 +369,209 @@ body {
     border-radius: 6px;
     color: white;
 }
+
+/* ============ NEW: Bot tag (取代原 inline style) ============ */
+.bot-tag {
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 8px;
+    color: var(--accent);
+    letter-spacing: 0.4px;
+}
+
+/* ============ NEW: 美化 — assistant message accent bar ============ */
+.message.assistant .message-content {
+    border-left: 3px solid var(--accent);
+    padding-left: 14px;
+}
+
+/* Splash 卡片懸浮效果 */
+.option-card {
+    transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+.option-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(16,163,127,0.15);
+    border-color: var(--accent);
+}
+
+/* input focus 時的 accent 邊框 */
+.input-container:focus-within {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(16,163,127,0.2);
+}
+
+/* input footer 抽出來，方便 RWD */
+.input-footer {
+    text-align: center;
+    font-size: 11px;
+    color: var(--text-secondary);
+    margin-top: 12px;
+}
+
+/* ============ NEW: 回應長度切換 pill ============ */
+.length-switch {
+    max-width: 800px;
+    margin: 0 auto 8px auto;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    pointer-events: auto;
+}
+.length-pill {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 4px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+}
+.length-pill:hover {
+    background: rgba(255,255,255,0.08);
+    color: var(--text-primary);
+}
+.length-pill.is-active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
+/* ============ NEW: 引用標註區塊 ============ */
+.message-sources-mount:empty { display: none; }
+.message-sources {
+    margin-top: 14px;
+    padding: 10px 14px;
+    background: rgba(16,163,127,0.07);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    font-size: 13px;
+    color: var(--text-primary);
+}
+.sources-title {
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 6px;
+    font-size: 12.5px;
+    letter-spacing: 0.3px;
+}
+.sources-title i { margin-right: 6px; }
+.sources-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sources-list li {
+    padding: 2px 0;
+    color: var(--text-secondary);
+    font-size: 12.5px;
+}
+.src-domain { color: var(--text-primary); font-weight: 500; }
+.src-section { color: var(--text-secondary); }
+.src-sep { color: var(--accent); margin: 0 6px; opacity: 0.7; }
+.sources-sub {
+    margin-top: 8px;
+    color: var(--text-secondary);
+    font-size: 12px;
+}
+.sources-note {
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* ============ NEW: RWD ============ */
+/* 平板 (≤1024px) — 縮小左右 padding */
+@media (max-width: 1024px) {
+    .message {
+        padding: 20px 8% 20px 8%;
+    }
+    .input-area {
+        padding: 10px 8% 24px 8%;
+    }
+}
+
+/* 手機 (≤768px) — 大幅縮小、splash 卡片改 1 欄 */
+@media (max-width: 768px) {
+    .message {
+        padding: 16px 4% 16px 4%;
+        font-size: 14.5px;
+    }
+    .input-area {
+        padding: 8px 4% 16px 4%;
+    }
+    .splash-options {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .splash h1 {
+        font-size: 24px;
+    }
+    .top-nav {
+        height: 52px;
+        padding: 0 12px;
+    }
+    .auth-btn-top {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+    .modal-content {
+        max-width: 90vw !important;
+        width: auto;
+        padding: 28px 22px;
+    }
+    .length-pill {
+        padding: 4px 11px;
+        font-size: 11.5px;
+    }
+    .message-sources {
+        padding: 8px 12px;
+        font-size: 12.5px;
+    }
+    .chat-messages {
+        padding-bottom: 160px;
+    }
+}
+
+/* 小手機 (≤480px) */
+@media (max-width: 480px) {
+    .message {
+        padding: 14px 3% 14px 3%;
+        font-size: 14px;
+    }
+    .input-area {
+        padding: 6px 3% 14px 3%;
+    }
+    .splash h1 {
+        font-size: 20px;
+    }
+    .auth-btn-top {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .input-footer {
+        font-size: 10.5px;
+        margin-top: 8px;
+    }
+    .length-switch {
+        gap: 4px;
+        margin-bottom: 6px;
+    }
+    .length-pill {
+        padding: 3px 9px;
+        font-size: 11px;
+    }
+    .chat-input {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .upload-icon, .send-icon {
+        padding: 6px;
+        font-size: 14px;
+    }
+    .nav-brand {
+        font-size: 16px;
+    }
+}

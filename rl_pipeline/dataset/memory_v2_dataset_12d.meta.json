@@ -1,0 +1,35 @@
+{
+  "csv_path": "C:\\Users\\88696\\Desktop\\edu_sys\\app_v7\\rl_pipeline\\dataset\\memory_decision_final_combined_1758.csv",
+  "out_path": "C:\\Users\\88696\\Desktop\\edu_sys\\app_v7\\rl_pipeline\\dataset\\memory_v2_dataset_12d.jsonl",
+  "total_rows": 1758,
+  "written": 1723,
+  "skipped_empty": 0,
+  "skipped_clarify": 35,
+  "label_counts_orig": {
+    "STAY": 615,
+    "REFRESH": 831,
+    "HYBRID": 277,
+    "CLARIFY": 35,
+    "OTHER": 0
+  },
+  "label_map": {
+    "STAY": 0,
+    "REFRESH": 1,
+    "HYBRID": 0
+  },
+  "feature_keys_12d": [
+    "prev_top_eq_current_raw_top",
+    "prev_top_in_current_top3",
+    "ambiguous_followup_score",
+    "followup_kw_present",
+    "switch_kw_present",
+    "tv_distance_raw",
+    "task_top1_drop",
+    "query_len_norm",
+    "domain_kw_present",
+    "query_len_chars",
+    "has_question_mark",
+    "domain_entropy_raw"
+  ],
+  "elapsed_sec": 566.3609092235565
+}

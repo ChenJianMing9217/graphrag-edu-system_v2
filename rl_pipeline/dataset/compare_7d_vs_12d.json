@@ -1,0 +1,38 @@
+{
+  "n_test": 351,
+  "agreement": 155,
+  "disagreement": 196,
+  "d_12d_right_7d_wrong": 173,
+  "d_7d_right_12d_wrong": 23,
+  "models": {
+    "7d": {
+      "accuracy": 0.45014245014245013,
+      "precision_REFRESH": 0.45014245014245013,
+      "recall_REFRESH": 1.0,
+      "f1_REFRESH": 0.6208251473477407,
+      "cm": {
+        "TN": 0,
+        "FP": 193,
+        "FN": 0,
+        "TP": 158
+      },
+      "model": "7d_legacy",
+      "loaded_weights": true,
+      "note": "topic_overlap/context_sim/is_multi_domain 缺值用 0 代入 → 比線上實際略差"
+    },
+    "12d": {
+      "accuracy": 0.8774928774928775,
+      "precision_REFRESH": 0.8709677419354839,
+      "recall_REFRESH": 0.8544303797468354,
+      "f1_REFRESH": 0.8626198083067093,
+      "cm": {
+        "TN": 173,
+        "FP": 20,
+        "FN": 23,
+        "TP": 135
+      },
+      "model": "12d_v2",
+      "loaded_weights": true
+    }
+  }
+}

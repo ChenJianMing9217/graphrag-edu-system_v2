@@ -22,21 +22,21 @@
     "semantic_flow_config": {
         "continue": {
             "temperature": 0.2,
-            "max_tokens": 1500,
+            "max_tokens": 900,
             "response_style": "professional",
             "frequency_penalty": 0.4,
             "presence_penalty": 0.15
         },
         "shift_soft": {
             "temperature": 0.25,
-            "max_tokens": 2000,
+            "max_tokens": 1200,
             "response_style": "friendly",
             "frequency_penalty": 0.3,
             "presence_penalty": 0.1
         },
         "shift_hard": {
             "temperature": 0.3,
-            "max_tokens": 2500,
+            "max_tokens": 1500,
             "response_style": "detailed",
             "frequency_penalty": 0.25,
             "presence_penalty": 0.05
@@ -72,90 +72,90 @@
     "task_config": {
         "A": {
             "temperature": 0.25,
-            "max_tokens": 2500,
+            "max_tokens": 1500,
             "response_style": "comprehensive",
             "max_context_items": 15
         },
         "B": {
             "temperature": 0.2,
-            "max_tokens": 2000,
+            "max_tokens": 1200,
             "response_style": "explanatory",
             "include_caution": true
         },
         "C": {
             "temperature": 0.2,
-            "max_tokens": 2000,
+            "max_tokens": 1200,
             "response_style": "explanatory",
             "include_caution": true
         },
         "D": {
             "temperature": 0.2,
-            "max_tokens": 2000,
+            "max_tokens": 1200,
             "response_style": "structured"
         },
         "E": {
             "temperature": 0.15,
-            "max_tokens": 2000,
+            "max_tokens": 1300,
             "response_style": "step_by_step",
             "max_context_items": 20
         },
         "F": {
             "temperature": 0.15,
-            "max_tokens": 2000,
+            "max_tokens": 1300,
             "response_style": "step_by_step",
             "max_context_items": 20
         },
         "G": {
             "temperature": 0.2,
-            "max_tokens": 2000,
+            "max_tokens": 1200,
             "response_style": "professional"
         },
         "L": {
             "temperature": 0.2,
-            "max_tokens": 2000,
+            "max_tokens": 1200,
             "response_style": "professional"
         },
         "H": {
             "temperature": 0.2,
-            "max_tokens": 1500,
+            "max_tokens": 1000,
             "response_style": "concise"
         },
         "I": {
             "temperature": 0.2,
-            "max_tokens": 1500,
+            "max_tokens": 900,
             "response_style": "concise"
         },
         "J": {
             "temperature": 0.2,
-            "max_tokens": 1500,
+            "max_tokens": 1000,
             "response_style": "concise"
         },
         "K": {
             "temperature": 0.2,
-            "max_tokens": 1500,
+            "max_tokens": 1000,
             "response_style": "concise"
         },
         "M": {
             "temperature": 0.2,
-            "max_tokens": 1500,
+            "max_tokens": 1000,
             "response_style": "concise"
         },
         "_default": {
             "temperature": 0.2,
-            "max_tokens": 2000,
+            "max_tokens": 1200,
             "response_style": "professional"
         }
     },
     "scope_config": {
         "S_overview": {
-            "max_tokens": 2500,
+            "max_tokens": 1500,
             "response_style": "comprehensive"
         },
         "S_domain": {
-            "max_tokens": 2000
+            "max_tokens": 1200
         },
         "S_multi_domain": {
-            "max_tokens": 2200,
+            "max_tokens": 1400,
             "context_format_style": "structured"
         }
     },

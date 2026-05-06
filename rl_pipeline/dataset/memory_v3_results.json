@@ -1,0 +1,265 @@
+{
+  "dataset": "C:\\Users\\88696\\Desktop\\edu_sys\\app_v7\\rl_pipeline\\dataset\\memory_v3_full_signals.jsonl",
+  "n_train": 1372,
+  "n_test": 351,
+  "feature_sets": {
+    "7d_legacy": [
+      "entropy",
+      "tv_distance",
+      "topic_overlap",
+      "context_sim",
+      "turn_index_norm",
+      "query_len_norm",
+      "is_multi_domain"
+    ],
+    "12d_v2": [
+      "prev_top_eq_current_raw_top",
+      "prev_top_in_current_top3",
+      "ambiguous_followup_score",
+      "followup_kw_present",
+      "switch_kw_present",
+      "tv_distance_raw",
+      "task_top1_drop",
+      "query_len_norm",
+      "domain_kw_present",
+      "query_len_chars",
+      "has_question_mark",
+      "domain_entropy_raw"
+    ],
+    "19d_combined": [
+      "entropy",
+      "tv_distance",
+      "topic_overlap",
+      "context_sim",
+      "turn_index_norm",
+      "query_len_norm",
+      "is_multi_domain",
+      "prev_top_eq_current_raw_top",
+      "prev_top_in_current_top3",
+      "ambiguous_followup_score",
+      "followup_kw_present",
+      "switch_kw_present",
+      "tv_distance_raw",
+      "task_top1_drop",
+      "domain_kw_present",
+      "query_len_chars",
+      "has_question_mark",
+      "domain_entropy_raw"
+    ]
+  },
+  "table": [
+    {
+      "accuracy": 0.8290598290598291,
+      "precision_REFRESH": 0.8450704225352113,
+      "recall_REFRESH": 0.759493670886076,
+      "f1_REFRESH": 0.8,
+      "cm": {
+        "TN": 171,
+        "FP": 22,
+        "FN": 38,
+        "TP": 120
+      },
+      "model": "LogReg",
+      "features": "7d_legacy",
+      "coefficients": {
+        "entropy": -0.14987646642921446,
+        "tv_distance": -0.9455464969750097,
+        "topic_overlap": -1.2250312095360527,
+        "context_sim": -0.4339947352846049,
+        "turn_index_norm": 0.03503155148272014,
+        "query_len_norm": 0.39024949586806995,
+        "is_multi_domain": -0.12558047619441048
+      }
+    },
+    {
+      "accuracy": 0.8774928774928775,
+      "precision_REFRESH": 0.891156462585034,
+      "recall_REFRESH": 0.8291139240506329,
+      "f1_REFRESH": 0.8590163934426229,
+      "cm": {
+        "TN": 177,
+        "FP": 16,
+        "FN": 27,
+        "TP": 131
+      },
+      "model": "GBDT",
+      "features": "7d_legacy",
+      "feature_importance": {
+        "topic_overlap": 0.5835845504206929,
+        "query_len_norm": 0.10848231388379632,
+        "context_sim": 0.10043316909347409,
+        "entropy": 0.08413774569299948,
+        "tv_distance": 0.07654463449550608,
+        "turn_index_norm": 0.040049332458549095,
+        "is_multi_domain": 0.006768253954982183
+      }
+    },
+    {
+      "accuracy": 0.8831908831908832,
+      "precision_REFRESH": 0.9148936170212766,
+      "recall_REFRESH": 0.8164556962025317,
+      "f1_REFRESH": 0.862876254180602,
+      "cm": {
+        "TN": 181,
+        "FP": 12,
+        "FN": 29,
+        "TP": 129
+      },
+      "model": "MLP",
+      "features": "7d_legacy"
+    },
+    {
+      "accuracy": 0.8148148148148148,
+      "precision_REFRESH": 0.7627118644067796,
+      "recall_REFRESH": 0.8544303797468354,
+      "f1_REFRESH": 0.8059701492537314,
+      "cm": {
+        "TN": 151,
+        "FP": 42,
+        "FN": 23,
+        "TP": 135
+      },
+      "model": "LogReg",
+      "features": "12d_v2",
+      "coefficients": {
+        "prev_top_eq_current_raw_top": -0.41541084575340687,
+        "prev_top_in_current_top3": -0.6657044094906247,
+        "ambiguous_followup_score": -0.10706729345885914,
+        "followup_kw_present": 0.15221855762328354,
+        "switch_kw_present": -0.028361408051986822,
+        "tv_distance_raw": -0.4530060839987481,
+        "task_top1_drop": -0.08442446350984979,
+        "query_len_norm": 1.4181548831784772,
+        "domain_kw_present": 0.6658109096781645,
+        "query_len_chars": -1.1630337868745066,
+        "has_question_mark": -0.6126281135838371,
+        "domain_entropy_raw": -0.2624626289816314
+      }
+    },
+    {
+      "accuracy": 0.886039886039886,
+      "precision_REFRESH": 0.86875,
+      "recall_REFRESH": 0.879746835443038,
+      "f1_REFRESH": 0.8742138364779874,
+      "cm": {
+        "TN": 172,
+        "FP": 21,
+        "FN": 19,
+        "TP": 139
+      },
+      "model": "GBDT",
+      "features": "12d_v2",
+      "feature_importance": {
+        "tv_distance_raw": 0.5867644379889295,
+        "ambiguous_followup_score": 0.1585711892089535,
+        "domain_entropy_raw": 0.06251225517175693,
+        "query_len_chars": 0.041672064306303026,
+        "task_top1_drop": 0.03908052202936001,
+        "prev_top_in_current_top3": 0.029265768262816308,
+        "prev_top_eq_current_raw_top": 0.026770045257903143,
+        "followup_kw_present": 0.025924213613546455,
+        "query_len_norm": 0.018368429105952915,
+        "has_question_mark": 0.010144251875358643,
+        "domain_kw_present": 0.0007164435386031537,
+        "switch_kw_present": 0.00021037964051653026
+      }
+    },
+    {
+      "accuracy": 0.8774928774928775,
+      "precision_REFRESH": 0.8709677419354839,
+      "recall_REFRESH": 0.8544303797468354,
+      "f1_REFRESH": 0.8626198083067093,
+      "cm": {
+        "TN": 173,
+        "FP": 20,
+        "FN": 23,
+        "TP": 135
+      },
+      "model": "MLP",
+      "features": "12d_v2"
+    },
+    {
+      "accuracy": 0.8717948717948718,
+      "precision_REFRESH": 0.834319526627219,
+      "recall_REFRESH": 0.8924050632911392,
+      "f1_REFRESH": 0.8623853211009175,
+      "cm": {
+        "TN": 165,
+        "FP": 28,
+        "FN": 17,
+        "TP": 141
+      },
+      "model": "LogReg",
+      "features": "19d_combined",
+      "coefficients": {
+        "entropy": -0.11228098198751112,
+        "tv_distance": -1.1337913915565723,
+        "topic_overlap": -0.9616038957784242,
+        "context_sim": -0.2342936177605785,
+        "turn_index_norm": -0.14542621134603784,
+        "query_len_norm": 1.6823470970459389,
+        "is_multi_domain": -0.1965390729821917,
+        "prev_top_eq_current_raw_top": -0.34585319803660186,
+        "prev_top_in_current_top3": -0.25342495247306474,
+        "ambiguous_followup_score": 0.03380351277351732,
+        "followup_kw_present": 0.2574958265391316,
+        "switch_kw_present": -0.024697663592634343,
+        "tv_distance_raw": 0.46911347693546734,
+        "task_top1_drop": -0.25960164147748055,
+        "domain_kw_present": 0.7088163511547781,
+        "query_len_chars": -1.567467746269696,
+        "has_question_mark": -0.4619967205392102,
+        "domain_entropy_raw": -0.11228098198750974
+      }
+    },
+    {
+      "accuracy": 0.8945868945868946,
+      "precision_REFRESH": 0.8853503184713376,
+      "recall_REFRESH": 0.879746835443038,
+      "f1_REFRESH": 0.8825396825396825,
+      "cm": {
+        "TN": 175,
+        "FP": 18,
+        "FN": 19,
+        "TP": 139
+      },
+      "model": "GBDT",
+      "features": "19d_combined",
+      "feature_importance": {
+        "topic_overlap": 0.5039182220662535,
+        "ambiguous_followup_score": 0.08016293508432845,
+        "domain_kw_present": 0.06794522547926524,
+        "context_sim": 0.06515890812271226,
+        "tv_distance": 0.04551948505822981,
+        "query_len_chars": 0.03421735211176372,
+        "tv_distance_raw": 0.032211730945149564,
+        "entropy": 0.027327278378307104,
+        "task_top1_drop": 0.026074674887567723,
+        "turn_index_norm": 0.023953675609460646,
+        "prev_top_in_current_top3": 0.021306522610029407,
+        "domain_entropy_raw": 0.01793604113234947,
+        "query_len_norm": 0.017489157097140835,
+        "prev_top_eq_current_raw_top": 0.012680872153758837,
+        "followup_kw_present": 0.011746973606729638,
+        "has_question_mark": 0.008103193453221927,
+        "is_multi_domain": 0.003732336309155042,
+        "switch_kw_present": 0.0005154158945769501
+      }
+    },
+    {
+      "accuracy": 0.8917378917378918,
+      "precision_REFRESH": 0.9,
+      "recall_REFRESH": 0.8544303797468354,
+      "f1_REFRESH": 0.8766233766233766,
+      "cm": {
+        "TN": 178,
+        "FP": 15,
+        "FN": 23,
+        "TP": 135
+      },
+      "model_path": "C:\\Users\\88696\\Desktop\\edu_sys\\app_v7\\rl_pipeline\\agents\\memory\\models\\memory_agent_v3_19d.pth",
+      "model": "MLP",
+      "features": "19d_combined"
+    }
+  ]
+}

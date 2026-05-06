@@ -116,7 +116,27 @@ class LLMGenerator:
         
         # 正規化訊息列表，確保符合 vLLM 的交替順序要求
         messages = self._normalize_messages(messages)
-        
+
+        # [NEW] 動態調整 max_tokens 避免 context overflow
+        # 模型 context 上限（從 config 讀；fallback 8192 = 與目前 vLLM 設定一致）
+        _CONTEXT_LIMIT = getattr(self.config, "context_limit", None) or 8192
+        _SAFETY_BUFFER = 400  # role overhead + heuristic 誤差緩衝
+        # 估算 input tokens：用偏保守的 char/token 比例（1.2，傾向多估）
+        # 中文 1 字 ≈ 0.6 token，英文 1 詞 ≈ 1 token，整體 1 char ≈ 0.8 token
+        _est_input = sum(int(len(m.get("content", "")) / 1.2) + 6 for m in messages)
+        _orig_max = generation_config.max_tokens or 1200
+        _avail = max(256, _CONTEXT_LIMIT - _est_input - _SAFETY_BUFFER)
+        _capped_max = min(_orig_max, _avail)
+        if _capped_max < _orig_max:
+            print(f"[LLM] context cap: input≈{_est_input}, requested={_orig_max} → capped={_capped_max} "
+                  f"(limit={_CONTEXT_LIMIT}, buffer={_SAFETY_BUFFER})")
+        if _est_input + _SAFETY_BUFFER >= _CONTEXT_LIMIT:
+            # 輸入已經超過 context，截 chat history 救
+            print(f"[LLM] WARNING: input tokens {_est_input} too large, trimming chat history")
+            messages = self._trim_messages_to_fit(messages, _CONTEXT_LIMIT - _SAFETY_BUFFER - 512)
+            _est_input = sum(int(len(m.get("content", "")) / 1.2) + 6 for m in messages)
+            _capped_max = max(256, _CONTEXT_LIMIT - _est_input - _SAFETY_BUFFER)
+
         try:
             # Streaming 模式（提供 on_delta callback 時啟用）
             if on_delta is not None:
@@ -124,7 +144,7 @@ class LLMGenerator:
                     model=self.config.model,
                     messages=messages,
                     temperature=generation_config.temperature,
-                    max_completion_tokens=generation_config.max_tokens,
+                    max_completion_tokens=_capped_max,
                     top_p=generation_config.top_p,
                     frequency_penalty=generation_config.frequency_penalty,
                     presence_penalty=generation_config.presence_penalty,
@@ -151,7 +171,7 @@ class LLMGenerator:
                 model=self.config.model,
                 messages=messages,
                 temperature=generation_config.temperature,
-                max_completion_tokens=generation_config.max_tokens,
+                max_completion_tokens=_capped_max,
                 top_p=generation_config.top_p,
                 frequency_penalty=generation_config.frequency_penalty,
                 presence_penalty=generation_config.presence_penalty
@@ -165,6 +185,47 @@ class LLMGenerator:
             traceback.print_exc()
             return f"抱歉，生成回應時發生錯誤：{str(e)}"
     
+    def _trim_messages_to_fit(self, messages: List[Dict], target_input_tokens: int) -> List[Dict]:
+        """
+        當 input 已超 context 時的緊急救援：保留 system + 最後一個 user，逐筆從中間刪除舊歷史。
+        target_input_tokens: 想壓到的目標 token 預算。
+        估算公式：len(content)/1.4 + 4
+        """
+        def est(msgs):
+            return sum(int(len(m.get("content", "")) / 1.2) + 6 for m in msgs)
+
+        if est(messages) <= target_input_tokens:
+            return messages
+
+        # 分系統/最後 user/中間
+        system_msgs = [m for m in messages if m["role"] == "system"]
+        non_system = [m for m in messages if m["role"] != "system"]
+        if len(non_system) <= 1:
+            # 只有最後一個 user — 可能是 user prompt 本身太長，截 content
+            if non_system:
+                last = non_system[-1]
+                budget = max(512, target_input_tokens - est(system_msgs) - 4)
+                # tokens → chars 反推：char 約 token*1.4
+                max_chars = int(budget * 1.4)
+                if len(last["content"]) > max_chars:
+                    last["content"] = last["content"][:max_chars] + "\n...(內容過長已截斷)"
+            return system_msgs + non_system
+
+        last_user = non_system[-1]
+        middle = non_system[:-1]
+        # 從前往後丟 (保留越近的歷史)
+        while middle and est(system_msgs + middle + [last_user]) > target_input_tokens:
+            middle.pop(0)
+
+        # 還是過大就截最後 user 內容
+        out = system_msgs + middle + [last_user]
+        if est(out) > target_input_tokens:
+            budget = max(512, target_input_tokens - est(system_msgs + middle) - 4)
+            max_chars = int(budget * 1.4)
+            if len(last_user["content"]) > max_chars:
+                last_user["content"] = last_user["content"][:max_chars] + "\n...(內容過長已截斷)"
+        return out
+
     def _normalize_messages(self, messages: List[Dict]) -> List[Dict]:
         """
         正規化訊息列表，確保符合 vLLM/OpenAI 的交替順序要求：

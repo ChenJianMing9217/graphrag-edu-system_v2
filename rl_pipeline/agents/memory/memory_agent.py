@@ -31,35 +31,86 @@ class DialoguePolicyNet(nn.Module):
 class MemoryAgent:
     """
     Memory Agent using Policy Gradient (REINFORCE) logic for discrete actions.
+
+    支援兩種版本（透過環境變數 MEMORY_AGENT_VERSION 切換）：
+      v1（預設）: 7d MLP, hidden=32, dropout=0.2
+                  特徵：entropy / tv_distance / topic_overlap / context_sim /
+                       turn_index_norm / query_len_norm / is_multi_domain
+      v3        : 18d MLP, hidden=64, dropout=0.25  (test acc 0.892)
+                  = v1 7d 全部 + v2 11d (扣掉重複的 query_len_norm)
+
+    切換：
+      Linux/Mac: export MEMORY_AGENT_VERSION=v3   (回 v1: unset 或 =v1)
+      Windows  : set MEMORY_AGENT_VERSION=v3
     """
-    def __init__(self, model_path=None, lr=0.001, gamma=0.95, epsilon=0.1):
-        if model_path is None:
-            model_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models/memory_agent.pth")
-        self.model_path = model_path
+
+    KEYS_7D = [
+        "entropy", "tv_distance", "topic_overlap", "context_sim",
+        "turn_index_norm", "query_len_norm", "is_multi_domain",
+    ]
+    # 與 train_memory_agent_v3.py KEYS_19D 完全一致（命名沿用，實際 18d）
+    KEYS_18D = KEYS_7D + [
+        "prev_top_eq_current_raw_top", "prev_top_in_current_top3",
+        "ambiguous_followup_score", "followup_kw_present",
+        "switch_kw_present", "tv_distance_raw", "task_top1_drop",
+        "domain_kw_present", "query_len_chars",
+        "has_question_mark", "domain_entropy_raw",
+    ]
+
+    def __init__(self, model_path=None, version=None, lr=0.001, gamma=0.95, epsilon=0.1):
+        if version is None:
+            version = os.environ.get("MEMORY_AGENT_VERSION", "v1").lower()
+        self.version = version
+
+        models_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
+        if version == "v3":
+            self.input_dim = 18
+            self.feature_keys = self.KEYS_18D
+            self.policy_net = DialoguePolicyNet(
+                input_dim=18, hidden_dim=64, output_dim=2, dropout=0.25
+            )
+            default_path = os.path.join(models_dir, "memory_agent_v3_19d.pth")
+        else:
+            self.input_dim = 7
+            self.feature_keys = self.KEYS_7D
+            self.policy_net = DialoguePolicyNet(
+                input_dim=7, hidden_dim=32, output_dim=2, dropout=0.2
+            )
+            default_path = os.path.join(models_dir, "memory_agent.pth")
+
+        # 若呼叫端傳入 model_path 但版本是 v3 → 強制改用 v3 預設路徑（避免維度不符）
+        if version == "v3" and model_path and "memory_agent.pth" in str(model_path) \
+                and "v3" not in str(model_path):
+            model_path = default_path
+        self.model_path = model_path or default_path
+
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.policy_net = DialoguePolicyNet().to(self.device)
+        self.policy_net = self.policy_net.to(self.device)
         self.optimizer = optim.Adam(self.policy_net.parameters(), lr=lr)
         self.gamma = gamma
         self.epsilon = epsilon
-        
+
         self.action_space = ["STAY", "REFRESH"]
         self.load()
+        print(f"[Memory Agent] active version={self.version}, input_dim={self.input_dim}, model={os.path.basename(self.model_path)}")
 
     def _extract_features(self, state_dict: dict) -> torch.Tensor:
         """
-        Converts the state dictionary from DST into a normalized tensor (7-dim).
-        Keys: 'entropy', 'tv_distance', 'topic_overlap', 'context_sim', 'turn_index_norm', 'query_len_norm', 'is_multi_domain'
+        v1: 7 keys。v3: 18 keys（v3 多出來的鍵若缺則 0；query_len_chars 做歸一化）。
+        state_dict 可同時包含兩版鍵，自動依 self.feature_keys 取。
         """
-        features = [
-            float(state_dict.get('entropy', 0.0)),
-            float(state_dict.get('tv_distance', 0.0)),
-            float(state_dict.get('topic_overlap', 0.0)),
-            float(state_dict.get('context_sim', 0.0)),
-            float(state_dict.get('turn_index_norm', 0.0)),
-            float(state_dict.get('query_len_norm', 0.0)),
-            float(1.0 if state_dict.get('is_multi_domain') else 0.0),
-        ]
-        return torch.tensor(features, dtype=torch.float32).unsqueeze(0).to(self.device)
+        feats = []
+        for k in self.feature_keys:
+            v = state_dict.get(k, 0.0)
+            if k == "is_multi_domain":
+                v = 1.0 if v else 0.0
+            elif k == "query_len_chars":
+                # 訓練時做了 v/50 歸一化
+                v = min(float(v) / 50.0, 1.0)
+            else:
+                v = float(v) if v is not None else 0.0
+            feats.append(v)
+        return torch.tensor(feats, dtype=torch.float32).unsqueeze(0).to(self.device)
 
     def select_action(self, state_dict: dict, deterministic=False) -> dict:
         """

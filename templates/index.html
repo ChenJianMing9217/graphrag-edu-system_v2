@@ -72,13 +72,20 @@
 
         <!-- Input Area -->
         <div class="input-area">
+            <!-- 回應長度切換 -->
+            <div class="length-switch" role="tablist" aria-label="回應長度">
+                <button class="length-pill is-active" data-length="auto"     type="button" title="LLM 自動依問題複雜度判斷（預設）">自動</button>
+                <button class="length-pill"           data-length="concise"  type="button" title="精簡 ≦350 字">簡短</button>
+                <button class="length-pill"           data-length="standard" type="button" title="標準 ≦700 字">標準</button>
+                <button class="length-pill"           data-length="detailed" type="button" title="詳細 ≦1300 字">詳細</button>
+            </div>
             <div class="input-container">
                 <input type="file" id="fileInput" style="display:none">
                 <i class="fa-solid fa-paperclip upload-icon" onclick="document.getElementById('fileInput').click()"></i>
                 <textarea class="chat-input" id="chatInput" placeholder="輸入訊息或上傳檔案..." rows="1"></textarea>
                 <i class="fa-solid fa-paper-plane send-icon" id="sendBtn"></i>
             </div>
-            <div style="text-align: center; font-size: 11px; color: var(--text-secondary); margin-top: 12px;">
+            <div class="input-footer">
                 EduBot v7 可能會產生錯誤資訊，請結合臨床醫師專業意見參考。
             </div>
         </div>
@@ -104,6 +111,61 @@
         }
         function setInput(text) {
             document.getElementById('chatInput').value = text;
+        }
+
+        // ============ 回應長度切換 ============
+        function getResponseLength() {
+            return localStorage.getItem('response_length') || 'auto';
+        }
+        function setResponseLength(v) {
+            localStorage.setItem('response_length', v);
+            document.querySelectorAll('.length-pill').forEach(b => {
+                b.classList.toggle('is-active', b.dataset.length === v);
+            });
+        }
+        // 初始化（從 localStorage 還原使用者上次選擇）
+        document.addEventListener('DOMContentLoaded', () => {
+            const cur = getResponseLength();
+            setResponseLength(cur);
+            document.querySelectorAll('.length-pill').forEach(b => {
+                b.addEventListener('click', () => setResponseLength(b.dataset.length));
+            });
+        });
+
+        // ============ 引用標註渲染 ============
+        function renderSources(sources) {
+            if (!sources) return '';
+            const report = (sources.report || []).filter(s => s && s.domain);
+            const local = (sources.local_resources || []);
+            const ext = !!sources.external_required;
+            if (report.length === 0 && local.length === 0 && !ext) return '';
+
+            let html = '<div class="message-sources">';
+            html += '<div class="sources-title"><i class="fa-solid fa-book"></i> 資料來源</div>';
+            if (report.length) {
+                html += '<ul class="sources-list">';
+                for (const s of report) {
+                    const domain = escapeHtml(s.domain || '');
+                    const section = escapeHtml(s.section || '');
+                    html += `<li><span class="src-domain">${domain}</span><span class="src-sep">›</span><span class="src-section">${section}</span></li>`;
+                }
+                html += '</ul>';
+            }
+            if (local.length) {
+                html += '<div class="sources-sub">在地資源 / 補助：</div><ul class="sources-list">';
+                for (const r of local) {
+                    html += `<li><span class="src-domain">${escapeHtml(r.category||'')}</span><span class="src-sep">›</span><span class="src-section">${escapeHtml(r.title||'')}</span></li>`;
+                }
+                html += '</ul>';
+            }
+            if (ext && report.length === 0 && local.length === 0) {
+                html += '<div class="sources-note">外部資料來源：請見回答末段。</div>';
+            }
+            html += '</div>';
+            return html;
+        }
+        function escapeHtml(s) {
+            return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
         }
 
         // Auto-resize textarea & Enter to Send
@@ -179,7 +241,10 @@
                     const response = await fetch('/api/chat_stream', {
                         method: 'POST',
                         headers: {'Content-Type': 'application/json'},
-                        body: JSON.stringify({message: msg})
+                        body: JSON.stringify({
+                            message: msg,
+                            response_length: getResponseLength()
+                        })
                     });
                     if (!response.ok || !response.body) {
                         hideThinking();
@@ -195,6 +260,7 @@
                     let msgId = null;
                     let firstDeltaSeen = false;
 
+                    let sourcesEl = null;
                     function ensureBubble() {
                         if (bubble) return;
                         const container = document.getElementById('chatMessages');
@@ -202,13 +268,15 @@
                         bubble.className = 'message assistant';
                         bubble.innerHTML = `
                             <div class="message-content">
-                                <div style="font-weight: 600; font-size: 12px; margin-bottom: 8px; color: #10A37F">EduBot</div>
+                                <div class="bot-tag">EduBot</div>
                                 <div class="message-body"></div>
+                                <div class="message-sources-mount"></div>
                                 <div class="feedback-actions" style="margin-top: 8px; font-size: 13px; display: none; gap: 16px;"></div>
                             </div>
                         `;
                         container.appendChild(bubble);
                         bodyEl = bubble.querySelector('.message-body');
+                        sourcesEl = bubble.querySelector('.message-sources-mount');
                         fbEl = bubble.querySelector('.feedback-actions');
                         container.scrollTop = container.scrollHeight;
                     }
@@ -250,6 +318,13 @@
                                     hideThinking();
                                     ensureBubble();
                                 }
+                                // 渲染資料來源
+                                try {
+                                    const sources = (ev.flow_state && ev.flow_state.sources) || null;
+                                    if (sources && sourcesEl) {
+                                        sourcesEl.innerHTML = renderSources(sources);
+                                    }
+                                } catch (e) { console.warn('renderSources failed', e); }
                                 if (msgId && fbEl) {
                                     fbEl.id = `feedback-${msgId}`;
                                     fbEl.style.display = 'flex';
@@ -284,7 +359,7 @@
             div.id = 'thinkingMsg';
             div.innerHTML = `
                 <div class="message-content">
-                    <div style="font-weight: 600; font-size: 12px; margin-bottom: 8px; color: #10A37F">EduBot</div>
+                    <div class="bot-tag">EduBot</div>
                     <div class="message-body">正在思考中</div>
                 </div>
             `;
@@ -341,7 +416,7 @@
 
             div.innerHTML = `
                 <div class="message-content">
-                    <div style="font-weight: 600; font-size: 12px; margin-bottom: 8px; color: ${role === 'user' ? '#fff' : '#10A37F'}">
+                    <div class="bot-tag" style="${role === 'user' ? 'color: var(--text-primary);' : ''}">
                         ${role === 'user' ? '你' : 'EduBot'}
                     </div>
                     <div class="message-body">${content}</div>

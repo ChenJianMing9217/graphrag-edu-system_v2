@@ -1,0 +1,111 @@
+{
+  "dataset": "C:\\Users\\88696\\Desktop\\edu_sys\\app_v7\\rl_pipeline\\dataset\\memory_v2_dataset_12d.jsonl",
+  "feature_keys_12d": [
+    "prev_top_eq_current_raw_top",
+    "prev_top_in_current_top3",
+    "ambiguous_followup_score",
+    "followup_kw_present",
+    "switch_kw_present",
+    "tv_distance_raw",
+    "task_top1_drop",
+    "query_len_norm",
+    "domain_kw_present",
+    "query_len_chars",
+    "has_question_mark",
+    "domain_entropy_raw"
+  ],
+  "n_train": 1372,
+  "n_test": 351,
+  "train_label_dist": {
+    "REFRESH": 673,
+    "STAY": 699
+  },
+  "test_label_dist": {
+    "REFRESH": 158,
+    "STAY": 193
+  },
+  "models": {
+    "logreg": {
+      "accuracy": 0.8148148148148148,
+      "precision_REFRESH": 0.7627118644067796,
+      "recall_REFRESH": 0.8544303797468354,
+      "f1_REFRESH": 0.8059701492537314,
+      "confusion_matrix": {
+        "true_STAY_pred_STAY": 151,
+        "true_STAY_pred_REFRESH": 42,
+        "true_REFRESH_pred_STAY": 23,
+        "true_REFRESH_pred_REFRESH": 135
+      },
+      "support": {
+        "STAY": 193,
+        "REFRESH": 158
+      },
+      "model": "LogisticRegression",
+      "coefficients": {
+        "prev_top_eq_current_raw_top": -0.41541084575340687,
+        "prev_top_in_current_top3": -0.6657044094906247,
+        "ambiguous_followup_score": -0.10706729345885914,
+        "followup_kw_present": 0.15221855762328354,
+        "switch_kw_present": -0.028361408051986822,
+        "tv_distance_raw": -0.4530060839987481,
+        "task_top1_drop": -0.08442446350984979,
+        "query_len_norm": 1.4181548831784772,
+        "domain_kw_present": 0.6658109096781645,
+        "query_len_chars": -1.1630337868745066,
+        "has_question_mark": -0.6126281135838371,
+        "domain_entropy_raw": -0.2624626289816314
+      },
+      "intercept": 0.13333861841109287
+    },
+    "gbdt": {
+      "accuracy": 0.886039886039886,
+      "precision_REFRESH": 0.86875,
+      "recall_REFRESH": 0.879746835443038,
+      "f1_REFRESH": 0.8742138364779874,
+      "confusion_matrix": {
+        "true_STAY_pred_STAY": 172,
+        "true_STAY_pred_REFRESH": 21,
+        "true_REFRESH_pred_STAY": 19,
+        "true_REFRESH_pred_REFRESH": 139
+      },
+      "support": {
+        "STAY": 193,
+        "REFRESH": 158
+      },
+      "model": "GradientBoosting",
+      "feature_importance": {
+        "tv_distance_raw": 0.5867644379889295,
+        "ambiguous_followup_score": 0.1585711892089535,
+        "domain_entropy_raw": 0.06251225517175693,
+        "query_len_chars": 0.041672064306303026,
+        "task_top1_drop": 0.03908052202936001,
+        "prev_top_in_current_top3": 0.029265768262816308,
+        "prev_top_eq_current_raw_top": 0.026770045257903143,
+        "followup_kw_present": 0.025924213613546455,
+        "query_len_norm": 0.018368429105952915,
+        "has_question_mark": 0.010144251875358643,
+        "domain_kw_present": 0.0007164435386031537,
+        "switch_kw_present": 0.00021037964051653026
+      }
+    },
+    "mlp_12d": {
+      "accuracy": 0.8774928774928775,
+      "precision_REFRESH": 0.8709677419354839,
+      "recall_REFRESH": 0.8544303797468354,
+      "f1_REFRESH": 0.8626198083067093,
+      "confusion_matrix": {
+        "true_STAY_pred_STAY": 173,
+        "true_STAY_pred_REFRESH": 20,
+        "true_REFRESH_pred_STAY": 23,
+        "true_REFRESH_pred_REFRESH": 135
+      },
+      "support": {
+        "STAY": 193,
+        "REFRESH": 158
+      },
+      "model": "MLP_12d",
+      "epochs": 150,
+      "model_path": "C:\\Users\\88696\\Desktop\\edu_sys\\app_v7\\rl_pipeline\\agents\\memory\\models\\memory_agent_v2.pth"
+    }
+  }
+}

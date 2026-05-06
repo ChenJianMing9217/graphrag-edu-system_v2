@@ -526,10 +526,25 @@ class SemanticFlowClassifier: # 語義流程分類器
             #   3. 本輪 top_prob >= 0.32（query 信號明確）
             #   4. tv_distance >= 0.40（domain 分布有顯著變化）
             #   5. 有歷史（非 T0）
+            #
+            # [NEW 2026-05-06] v3 Memory Agent 已大幅內化此規則，誤觸風險高於救援價值。
+            # 當 MEMORY_AGENT_VERSION=v3 時自動關閉此 override；v1 維持原本行為。
+            # 強制關閉：DISABLE_OVERRIDE_A=1（任何版本都關）
+            # 強制啟用：ENABLE_OVERRIDE_A=1（即使 v3 也開）
             _STRONG_DOMAIN_SHIFT_TOP_PROB = 0.32
             _STRONG_DOMAIN_SHIFT_TV = 0.40
             _override_to_refresh = False
-            if (has_history
+
+            import os as _os
+            _mem_ver = _os.environ.get("MEMORY_AGENT_VERSION", "v1").lower()
+            _force_disable = _os.environ.get("DISABLE_OVERRIDE_A", "0") == "1"
+            _force_enable = _os.environ.get("ENABLE_OVERRIDE_A", "0") == "1"
+            _override_a_active = (
+                (_mem_ver != "v3" and not _force_disable) or _force_enable
+            )
+
+            if (_override_a_active
+                    and has_history
                     and agent_decision == "STAY"
                     and prev_active_domains
                     and domain.top_domain not in prev_active_domains
@@ -559,34 +574,25 @@ class SemanticFlowClassifier: # 語義流程分類器
                     if prev_active_domains:
                         domain.active_domains = list(prev_active_domains)
                         domain.is_multi_domain = len(domain.active_domains) >= 2
-                    # STAY 時 top_domain 沿用（避免短 query 漂移到不相關 domain）
-                    # 條件：
-                    #   (1) 本輪 top_domain 不在上輪 active 內（漂移到陌生 domain）
-                    #   (2) 本輪 top_prob 不夠強（< 0.35），表示 query 本身對 domain 的信號不確定
-                    #   (3) prev_top 不是「整體概況」（避免硬鎖）
-                    # 若本輪 top_prob >= 0.35（用戶明確切 domain，如「粗大功能有問題嗎」），不沿用，相信本輪 DST。
-                    _STRONG_TOP_PROB_TH = 0.35
+                    # [REVISED 2026-05-06] STAY 路徑：top_domain 無條件沿用 prev_top，
+                    # 與 active_domains 保持一致。
+                    # 原本的「強信號(prob >= 0.35)時保留本輪 top」分支已移除，
+                    # 因為若用戶真的明確切 domain，應該由 Memory Agent 判 REFRESH，
+                    # 而不是進入 STAY 分支。STAY 就代表「延續前文」，top 不該漂移。
                     if (prev_top
-                            and prev_active_domains
-                            and domain.top_domain not in prev_active_domains
                             and prev_top != "整體概況"
-                            and float(domain.top_prob) < _STRONG_TOP_PROB_TH):
-                        self._overrides_fired_log["top_sticky_weak_signal"] = True
+                            and domain.top_domain != prev_top):
+                        # 紀錄 override 觸發（保留 flag 名稱 top_sticky_weak_signal 給離線分析）
+                        if domain.top_domain not in prev_active_domains:
+                            self._overrides_fired_log["top_sticky_weak_signal"] = True
                         if DST_DEBUG_VERBOSE:
-                            print(f"  [Agent STAY] top_domain 弱信號漂移：{domain.top_domain}({domain.top_prob:.2f}) → 沿用 {prev_top}（不在 active 內）")
+                            print(f"  [Agent STAY] top_domain 沿用：{domain.top_domain}(prob={domain.top_prob:.2f}) → {prev_top}")
                         domain.top_domain = prev_top
-                        # 同步 topic_tracker，讓下一輪的 prev_top 沿用「修正後」的值，
-                        # 避免 raw_top 漂移值在多輪累積。
+                        # 同步 topic_tracker，避免 raw_top 漂移值在多輪累積。
                         try:
                             self.topic_tracker.state.prev_raw_top_domain = prev_top
                         except Exception:
                             pass
-                    elif (prev_top
-                            and prev_active_domains
-                            and domain.top_domain not in prev_active_domains
-                            and float(domain.top_prob) >= _STRONG_TOP_PROB_TH):
-                        if DST_DEBUG_VERBOSE:
-                            print(f"  [Agent STAY] top_domain 強切換：{domain.top_domain}({domain.top_prob:.2f}) 信號明確，不沿用 prev_top")
                     # 記憶狀態回退，讓下一輪的 TV 計算以上一輪為基準
                     self.topic_tracker.state.memory_dist = dict(prev_dist)
                     self.topic_tracker.state.prev_dist = dict(prev_dist)
@@ -751,37 +757,10 @@ class SemanticFlowClassifier: # 語義流程分類器
         _agent_decision_raw_log: Optional[str] = None  # Override 前的原始 Agent 決策
         _fallback_reason_log: Optional[str] = None     # Agent 為何 fallback
 
-        if self.policy_cfg.enable_memory_agent and self.memory_agent is not None:
-            try:
-                # 組裝 DST 7維特徵向量（使用原始 overlap，讓 Agent 看到未經規則調整的信號）
-                _agent_state_log = {
-                    "entropy": float(domain.entropy),
-                    "tv_distance": float(topic.tv_distance) if topic.tv_distance is not None else 0.0,
-                    "topic_overlap": float(topic.overlap_score),  # RAW，未經規則調整
-                    "context_sim": float(context.similarity_score),
-                    "turn_index_norm": min(float(self.turn_index) / 10.0, 1.0),
-                    "query_len_norm": q_len_norm,
-                    "is_multi_domain": domain.is_multi_domain,
-                }
-                result = self.memory_agent.select_action(_agent_state_log, deterministic=True)
-                _agent_probs_log = result["probs"]
-                _agent_decision_raw_log = result["action_str"]  # 保留 raw 供 log
-
-                # 信心門檻：max prob < 0.5 → 回退規則，避免冷啟動時不確定的決策影響域選擇
-                if max(_agent_probs_log) >= 0.5:
-                    agent_decision = result["action_str"]
-                else:
-                    _fallback_reason_log = "low_confidence"  # agent_decision stays None → fallback
-            except Exception as e:
-                print(f"  [Memory Agent] ⚠️ 推論失敗，回退到 Threshold 規則: {e}")
-                agent_decision = None
-                _fallback_reason_log = "exception"
-        else:
-            _fallback_reason_log = "agent_disabled"
-
         # ========================================================================
-        # 🆕 Shadow log: 8d 新特徵（不影響任何決策；供 Phase 1 ablation / 重訓使用）
+        # 🆕 v2 新特徵抽取（先算好；v3 agent 會用，shadow log 也會記）
         # ========================================================================
+        _memory_features_v2_log = None
         try:
             _top3_pairs = sorted(domain.distribution.items(), key=lambda kv: -kv[1])[:3]
             _top3_domains = [d for d, _ in _top3_pairs]
@@ -799,6 +778,40 @@ class SemanticFlowClassifier: # 語義流程分類器
         except Exception as _e:
             print(f"  [feature_v2] ⚠️ 抽取失敗: {_e}")
             _memory_features_v2_log = None
+
+        if self.policy_cfg.enable_memory_agent and self.memory_agent is not None:
+            try:
+                # 組裝 7d 基礎特徵（使用原始 overlap，讓 Agent 看到未經規則調整的信號）
+                _agent_state_log = {
+                    "entropy": float(domain.entropy),
+                    "tv_distance": float(topic.tv_distance) if topic.tv_distance is not None else 0.0,
+                    "topic_overlap": float(topic.overlap_score),  # RAW，未經規則調整
+                    "context_sim": float(context.similarity_score),
+                    "turn_index_norm": min(float(self.turn_index) / 10.0, 1.0),
+                    "query_len_norm": q_len_norm,
+                    "is_multi_domain": domain.is_multi_domain,
+                }
+                # v3 18d 額外鍵：把 v2 features 併進來（v1 agent 會自動忽略多餘鍵）
+                if _memory_features_v2_log:
+                    for _k, _v in _memory_features_v2_log.items():
+                        if _k not in _agent_state_log:
+                            _agent_state_log[_k] = _v
+
+                result = self.memory_agent.select_action(_agent_state_log, deterministic=True)
+                _agent_probs_log = result["probs"]
+                _agent_decision_raw_log = result["action_str"]  # 保留 raw 供 log
+
+                # 信心門檻：max prob < 0.5 → 回退規則，避免冷啟動時不確定的決策影響域選擇
+                if max(_agent_probs_log) >= 0.5:
+                    agent_decision = result["action_str"]
+                else:
+                    _fallback_reason_log = "low_confidence"  # agent_decision stays None → fallback
+            except Exception as e:
+                print(f"  [Memory Agent] ⚠️ 推論失敗，回退到 Threshold 規則: {e}")
+                agent_decision = None
+                _fallback_reason_log = "exception"
+        else:
+            _fallback_reason_log = "agent_disabled"
 
         # ========================================================================
         # 1. 根據 agent_decision 統一決定記憶與 fused_distribution

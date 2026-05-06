@@ -104,7 +104,155 @@ class DialogueManager:
 
         print("[INIT] DialogueManager RAG 與 DST 組件初始化完成")
 
-    def get_response(self, user_input, child_id, session_data, all_reports=None, age_months=None, on_delta=None):
+    @staticmethod
+    def _compress_assistant_message(content: str, max_chars: int = 500) -> str:
+        """
+        壓縮歷史 assistant 訊息，盡量保留重點（不丟關鍵數字、領域、條列）。
+
+        策略（按優先度）：
+          1. 砍 markdown 標題符號（### 留標題文字、---/=== 砍掉）
+          2. 段落評分：含數字/PR/百分等級/月齡 +2、含粗體 +1、條列 +2、純客套 -2
+          3. 高分段優先保留至 max_chars
+          4. 若篩太少，fallback 頭+尾（保留結論）
+        """
+        import re
+        if not content or len(content) <= max_chars:
+            return content
+
+        # 預處理：拿掉 markdown 分隔線、emoji 標題前綴
+        text = re.sub(r'^[-=]{3,}$', '', content, flags=re.MULTILINE)
+        text = re.sub(r'^#{1,6}\s*', '', text, flags=re.MULTILINE)  # 只留標題文字
+        # 拆段
+        paragraphs = [p.strip() for p in text.split('\n\n') if p.strip()]
+        if not paragraphs:
+            return content[:max_chars] + '...(壓縮)'
+
+        # 客套關鍵詞（檢測到大幅扣分）
+        FLUFF = ('希望這對您', '請放心', '加油', '辛苦了', '溫馨提醒', '別擔心',
+                 '相信', '一起努力', '我們可以', '這樣的話')
+
+        def score(p):
+            s = 0
+            if re.search(r'\d', p): s += 2
+            if re.search(r'PR\s*\d|百分等級|個月|歲|分數|程度|遲緩', p): s += 2
+            if '**' in p or '「' in p: s += 1
+            if p.count('- ') >= 2 or p.count('* ') >= 2: s += 2
+            if any(kw in p for kw in FLUFF): s -= 2
+            if len(p) < 25: s -= 1
+            return s
+
+        scored = [(score(p), i, p) for i, p in enumerate(paragraphs)]
+        # 排序：分高優先，同分時保留先出現的（前段通常結論）
+        scored.sort(key=lambda x: (-x[0], x[1]))
+
+        budget = max_chars - 30  # 預留 "...(壓縮)" 標記空間
+        selected = []
+        used = 0
+        for s, i, p in scored:
+            seg_len = len(p) + 2
+            if used + seg_len > budget:
+                continue
+            selected.append((i, p))
+            used += seg_len
+            if used >= budget * 0.85:
+                break
+
+        # 按原順序組回
+        if selected:
+            selected.sort(key=lambda x: x[0])
+            result = '\n\n'.join(p for _, p in selected)
+            if len(content) > len(result) + 50:
+                result += '\n\n_(歷史回應已摘要)_'
+            return result
+
+        # fallback：頭+尾（評分機制完全失效時）
+        head = content[:max_chars // 2]
+        tail = content[-(max_chars // 3):]
+        return f'{head}\n...(中段省略)...\n{tail}'
+
+    @classmethod
+    def _compress_chat_history(cls, chat_history, keep_last_full: int = 1, max_old_chars: int = 500):
+        """
+        壓縮 chat history：保留所有 user message 全文（短）；
+        最近 N 輪 assistant 保留全文，更早的 assistant 摘要至 max_old_chars。
+
+        chat_history 格式: [{role, content, ...}, ...]
+        """
+        if not chat_history:
+            return chat_history
+
+        # 找出 assistant 訊息的索引
+        assistant_indices = [i for i, m in enumerate(chat_history) if m.get('role') == 'assistant']
+        # 最近 N 個 assistant index 不壓縮
+        keep_idx = set(assistant_indices[-keep_last_full:]) if keep_last_full > 0 else set()
+
+        out = []
+        for i, m in enumerate(chat_history):
+            if m.get('role') == 'assistant' and i not in keep_idx:
+                compressed = cls._compress_assistant_message(m.get('content', ''), max_chars=max_old_chars)
+                new_m = dict(m)
+                new_m['content'] = compressed
+                out.append(new_m)
+            else:
+                out.append(m)
+        return out
+
+    @staticmethod
+    def _build_sources(retrieved_context):
+        """
+        從 retrieved_context 抽出資料來源清單供前端顯示。
+        - 報告類 (label != ExternalGPT)：以 (subdomain, section) 去重
+        - 外部 GPT (label == ExternalGPT 或 subdomain 含「外部知識」/「在地資源」)：external_required=True
+          → 由 LLM 在回答末尾自行列來源（prompt_manager 會加指引）
+        回傳：
+          {
+            "report":   [{"domain": "粗大動作", "section": "行為觀察"}, ...],
+            "external_required": bool,
+            "local_resources": [...]   # 機構/補助 命中時的清單
+          }
+        """
+        report_seen = set()
+        report_list = []
+        external_required = False
+        local_resources = []
+
+        for c in (retrieved_context or [])[:12]:
+            label = (c.get("label") or "").strip()
+            path = c.get("path") or {}
+            subdomain = path.get("subdomain") or "未分類"
+            section = path.get("section_name") or path.get("section_type") or "—"
+
+            # 在地資源 / 補助
+            if label in ("LocalResource", "SubsidyInfo"):
+                props = c.get("properties") or {}
+                title = props.get("unit_name") or props.get("city") or "資源"
+                category = props.get("category") or ("補助方案" if label == "SubsidyInfo" else "在地資源")
+                key = ("local", title)
+                if key not in report_seen:
+                    report_seen.add(key)
+                    local_resources.append({"title": title, "category": category, "label": label})
+                continue
+
+            # 外部 GPT
+            if label == "ExternalGPT" or subdomain == "外部知識":
+                external_required = True
+                continue
+
+            # 報告類（含臨床常模）
+            key = (subdomain, section)
+            if key in report_seen:
+                continue
+            report_seen.add(key)
+            report_list.append({"domain": subdomain, "section": section, "label": label})
+
+        return {
+            "report": report_list,
+            "local_resources": local_resources,
+            "external_required": external_required,
+        }
+
+    def get_response(self, user_input, child_id, session_data, all_reports=None,
+                     age_months=None, on_delta=None, response_length="standard"):
         """
         處理使用者輸入並生成回覆核心邏輯
         """
@@ -458,6 +606,9 @@ class DialogueManager:
         turn_state["semantic_section_scores"] = semantic_section_scores
         turn_state["num_candidates"] = len(candidates)
 
+        # [NEW] 引用標註：從 retrieved_context 抽出 (subdomain, section) 給前端顯示
+        turn_state["sources"] = self._build_sources(retrieved_context)
+
         # E2. 判斷是否帶入上一輪 context 作為參考背景
         #   - continue: 同主題延續 → 帶入 top-5, 權重作為參考
         #   - switch + context_sim >= 0.45: 跨主題但有語義關聯（如「這跟粗大動作有關嗎」）→ 帶入
@@ -497,12 +648,23 @@ class DialogueManager:
             is_ambiguous = True
 
         # 新設計 (Phase D)：傳遞 clarify_type / reason 供 prompt 層使用
+        # [NEW] 套用使用者回應長度偏好（concise / standard / detailed）
+        from llm_generate_module.prompt_manager import LLMPromptManager
+        _length_key = response_length if response_length in LLMPromptManager.LENGTH_MULTIPLIER else "standard"
+        _length_mult = LLMPromptManager.LENGTH_MULTIPLIER[_length_key]
+        # 預設 standard 對應 1200 tokens（之前 default 是 2000）
+        _base_max_tokens = 1200
+        _final_max_tokens = max(256, int(_base_max_tokens * _length_mult))
+
         gen_config = LLMGenerationConfig(
             is_ambiguous=is_ambiguous,
             active_domains=flow_result.domain_analysis.active_domains,
             clarify_type=flow_result.policy_decision.clarify_type,
             clarify_reason=flow_result.policy_decision.clarify_reason,
+            max_tokens=_final_max_tokens,
         )
+        # 把長度軟指引留著，下面塞進 custom_system_prompt
+        _length_guide = LLMPromptManager.LENGTH_GUIDE[_length_key]
 
         # 決定系統提示詞 (根據資料缺失狀況動態調整)
         custom_system_prompt = None
@@ -541,6 +703,29 @@ class DialogueManager:
                 "請根據您的醫學知識給予一般性建議，並主動詢問家長是否在日常生活中觀察到這方面的困難，引導家長提供更多生活細節以便分析。"
             )
 
+        # [NEW] 外部來源引用要求：當 retrieval 含 ExternalGPT/在地資源時，要求 LLM 在末尾列來源
+        _ext_required = (turn_state.get("sources") or {}).get("external_required")
+        if _ext_required:
+            _citation_instruction = (
+                "\n\n【外部來源引用】"
+                "本次回答中若引用了報告以外的外部知識（如政府機構、醫療指引、學術文獻、新聞網站等），"
+                "請務必於回答**最末段**以下列格式條列來源："
+                "\n```"
+                "\n## 資料來源"
+                "\n- 衛福部社會及家庭署（https://...）"
+                "\n- 教育部特殊教育通報網（https://...）"
+                "\n- 其他官方/學術出處名稱"
+                "\n```"
+                "若僅引用了報告內容（領域 > 段落），則不需此區塊（前端已自動顯示）。"
+            )
+            if custom_system_prompt:
+                custom_system_prompt += _citation_instruction
+            else:
+                custom_system_prompt = (
+                    f"你是一位專業的早療系統助手，正在回答使用者的問題。"
+                    f"請根據檢索到的資料回答，並注意以下指引：{_citation_instruction}"
+                )
+
         # Slot 追問：缺槽時附加追問提示（不覆蓋已有的 system_prompt，而是補充）
         if slot_result.followup_hint and slot_result.slot_status == "has_missing":
             _slot_instruction = (
@@ -556,10 +741,25 @@ class DialogueManager:
                     f"{_slot_instruction}"
                 )
 
+        # [NEW] 不論有無 custom_system_prompt，都把長度指引附在最末（軟限制）
+        if custom_system_prompt:
+            custom_system_prompt += f"\n\n{_length_guide}"
+        # 沒 custom prompt 時，generator 會用內建 default，這時把指引推到 user prompt 之前透過 system_prompt
+        else:
+            custom_system_prompt = (
+                "你是一位專業的早療系統助手，能夠根據評估報告和檢索到的相關資訊，"
+                "為家長和治療師提供專業的建議和回答。請用友善、專業的語氣回答問題。"
+                f"\n\n{_length_guide}"
+            )
+
+        # [NEW] 壓縮歷史 assistant 訊息以省 token：保留最近 1 輪完整、舊輪摘要至 500 字
+        compressed_history = self._compress_chat_history(
+            chat_history, keep_last_full=1, max_old_chars=500
+        )
         response = self.generator.generate_response(
             user_query=user_input,
             retrieved_context=retrieved_context,
-            conversation_history=chat_history, # 傳遞給 Prompt 生成
+            conversation_history=compressed_history, # 傳遞給 Prompt 生成（已壓縮）
             system_prompt=custom_system_prompt,
             generation_config=gen_config,
             prev_context=prev_context_for_llm,

@@ -9,24 +9,30 @@ class MySQLResourceClient:
     def __init__(self, sql_db):
         self.sql_db = sql_db
 
+    @staticmethod
+    def _normalize_region(region: str) -> str:
+        """把『台』正規化為『臺』，對齊 SQL 表內存的正體字（sfaa_units / community / subsidy 都用「臺」）。"""
+        return (region or "").replace("台", "臺")
+
     def fetch_resources_by_region(self, region: str, keywords: str = None) -> List[CandidateNode]:
         if not region or not self.sql_db:
             return []
-        
-        print(f"[MySQLClient] Fetching Resources for region: {region}, keywords: {keywords}")
-        
+
+        region_n = self._normalize_region(region)
+        print(f"[MySQLClient] Fetching Resources for region: {region} (normalized: {region_n}), keywords: {keywords}")
+
         candidates = []
         kw_pattern = f"%{keywords}%" if keywords else "%%"
-        
+
         # 1. 查詢 sfaa_units (社會局/社政單位)
         sfaa_query = text("""
-            SELECT id, unit_name, category, address, phone, service_area 
-            FROM sfaa_units 
+            SELECT id, unit_name, category, address, phone, service_area
+            FROM sfaa_units
             WHERE (address LIKE :region OR service_area LIKE :region)
             AND (unit_name LIKE :kw OR category LIKE :kw OR service_area LIKE :kw)
             LIMIT 10
         """)
-        
+
         # 2. 查詢 community_intervention_units (療育據點/社區單位)
         community_query = text("""
             SELECT id, city, location_name, service_address, contact_phone, service_scope, service_unit
@@ -35,10 +41,10 @@ class MySQLResourceClient:
             AND (location_name LIKE :kw OR service_scope LIKE :kw OR service_unit LIKE :kw)
             LIMIT 10
         """)
-        
+
         try:
             # 處理 sfaa_units 結果
-            sfaa_result = self.sql_db.session.execute(sfaa_query, {"region": f"%{region}%", "kw": kw_pattern})
+            sfaa_result = self.sql_db.session.execute(sfaa_query, {"region": f"%{region_n}%", "kw": kw_pattern})
             sfaa_count = 0
             for row in sfaa_result:
                 sfaa_count += 1
@@ -63,7 +69,7 @@ class MySQLResourceClient:
                 ))
             
             # 處理 community_intervention_units 結果
-            community_result = self.sql_db.session.execute(community_query, {"region": f"%{region}%", "kw": kw_pattern})
+            community_result = self.sql_db.session.execute(community_query, {"region": f"%{region_n}%", "kw": kw_pattern})
             community_count = 0
             for row in community_result:
                 community_count += 1
@@ -99,10 +105,9 @@ class MySQLResourceClient:
         if not region or not self.sql_db:
             return []
 
-        print(f"[MySQLClient] Fetching Subsidy for region: {region}")
-
-        # 支援簡稱：台北 → 臺北, 台中 → 臺中 等
-        region_normalized = region.replace("台", "臺")
+        # 支援簡稱：台北 → 臺北, 台中 → 臺中 等（與 fetch_resources_by_region 共用 helper）
+        region_normalized = self._normalize_region(region)
+        print(f"[MySQLClient] Fetching Subsidy for region: {region} (normalized: {region_normalized})")
 
         subsidy_query = text("""
             SELECT city, eligibility, subsidy_items, transport_fee,
