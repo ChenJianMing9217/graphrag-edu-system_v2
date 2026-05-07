@@ -192,22 +192,62 @@ class StrategyMapper:
         elif _skip_subdomain:
             reasons.append(f"SUBDOMAIN_FETCH skipped (retrieval_action={retrieval_action}, graph_sections={use_sections})")
 
-        # 4. MySQL Local Resource Fetch（若 Planning Agent 已加過 MYSQL_RESOURCE_FETCH 則跳過）
-        _already_has_mysql = any(op.op_type == SearchOperationType.MYSQL_RESOURCE_FETCH for op in strategy.operations)
-        if retrieval_action == "LOCAL_RESOURCE_SEARCH" and not _already_has_mysql:
-            region = turn_state.get("detected_region")
-            if region:
-                keywords = None
-                for kw in ["物理治療", "語言治療", "職能治療", "心理治療", "療育", "評估"]:
-                    if kw in user_query:
-                        keywords = kw
-                        break
+        # 4. MySQL Local Resource Fetch
+        # [REVISED 2026-05-07 v3] 三層保護:
+        #   (1) 補強既有 MYSQL op 的空 region (Planning Agent 加進來時可能 region="")
+        #   (2) 還沒有效 MYSQL op + 觸發條件成立 → 加新的
+        #   (3) 永遠印診斷 log
+        _detected_region = turn_state.get("detected_region")
+        _resource_intent_keywords = (
+            "哪裡", "哪邊", "推薦", "找", "做", "去哪", "在哪", "機構",
+            "治療所", "診所", "醫院", "中心", "診療", "輔導",
+            "補助", "申請", "費用", "資源", "服務", "課程",
+        )
+        _query_has_resource_intent = any(kw in (user_query or "") for kw in _resource_intent_keywords)
+        _should_trigger_mysql = (
+            retrieval_action == "LOCAL_RESOURCE_SEARCH"
+            or (_detected_region and _query_has_resource_intent)
+        )
 
-                strategy.operations.append(SearchOperation(
-                    op_type=SearchOperationType.MYSQL_RESOURCE_FETCH,
-                    params={"region": region, "keywords": keywords}
-                ))
-                reasons.append(f"Added MYSQL_RESOURCE_FETCH for region: {region}, keywords: {keywords}")
+        # 抽取 keywords (語言治療 / 物理治療 等)
+        _keywords_match = None
+        for _kw in ["物理治療", "語言治療", "職能治療", "心理治療", "療育", "評估"]:
+            if _kw in (user_query or ""):
+                _keywords_match = _kw
+                break
+
+        # (1) 補強既有空 region 的 MYSQL op
+        for _op in [op for op in strategy.operations if op.op_type == SearchOperationType.MYSQL_RESOURCE_FETCH]:
+            if not _op.params.get("region") and _detected_region:
+                _op.params["region"] = _detected_region
+                if _op.params.get("keywords") is None:
+                    _op.params["keywords"] = _keywords_match
+                reasons.append(f"[MYSQL Patched] empty region → {_detected_region}")
+
+        # (2) 沒任何有效 MYSQL op 就新增
+        _has_valid_mysql = any(
+            op.params.get("region")
+            for op in strategy.operations
+            if op.op_type == SearchOperationType.MYSQL_RESOURCE_FETCH
+        )
+        if _should_trigger_mysql and not _has_valid_mysql and _detected_region:
+            strategy.operations.append(SearchOperation(
+                op_type=SearchOperationType.MYSQL_RESOURCE_FETCH,
+                params={"region": _detected_region, "keywords": _keywords_match}
+            ))
+            reasons.append(
+                f"[MYSQL Added] region={_detected_region}, keywords={_keywords_match}, "
+                f"action={retrieval_action}, intent_kw={_query_has_resource_intent}"
+            )
+
+        # (3) 永遠印診斷 log
+        _final_mysql_ops = [op for op in strategy.operations if op.op_type == SearchOperationType.MYSQL_RESOURCE_FETCH]
+        print(
+            f"[StrategyMapper] MYSQL 決策: should_trigger={_should_trigger_mysql}, "
+            f"region={_detected_region!r}, intent={_query_has_resource_intent}, "
+            f"action={retrieval_action}, "
+            f"final={len(_final_mysql_ops)} op(s)={[op.params for op in _final_mysql_ops]}"
+        )
 
         # 5. LOCAL_RESOURCE_SEARCH 強制保底：必有 GPT_FETCH（external_gpt）+ 強制 web_search
         #    避免 planning agent 對短 query（如「台中市」）勾錯 sections，

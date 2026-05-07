@@ -159,7 +159,7 @@ body {
 .message {
     padding: 24px 15% 24px 15%;
     font-size: 15px;
-    line-height: 1.625;
+    line-height: 1.7;
     position: relative;
 }
 
@@ -292,6 +292,16 @@ body {
     color: white;
 }
 
+/* 生成中：送出鍵變灰失效 */
+.send-icon.is-disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.send-icon.is-disabled:hover {
+    color: var(--text-secondary);
+}
+
 /* Splash View */
 .splash {
     display: flex;
@@ -370,19 +380,168 @@ body {
     color: white;
 }
 
-/* ============ NEW: Bot tag (取代原 inline style) ============ */
-.bot-tag {
-    font-weight: 600;
-    font-size: 12px;
-    margin-bottom: 8px;
-    color: var(--accent);
-    letter-spacing: 0.4px;
+/* ============ NEW v2: Avatar + 訊息 layout 現代化 ============ */
+.bot-tag { display: none; } /* 舊 text tag 不再使用，由 avatar 取代 */
+
+.message-content {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+.message-main {
+    flex: 1;
+    min-width: 0;
 }
 
-/* ============ NEW: 美化 — assistant message accent bar ============ */
-.message.assistant .message-content {
-    border-left: 3px solid var(--accent);
-    padding-left: 14px;
+.message-avatar {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.avatar-bot {
+    background: linear-gradient(135deg, #10A37F 0%, #1A7F64 100%);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(16, 163, 127, 0.25);
+}
+.avatar-user {
+    background: #3E3F4B;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+}
+
+/* 訊息 hover 反饋 */
+.message {
+    transition: background-color 0.18s ease;
+}
+.message.user:hover {
+    background-color: rgba(255, 255, 255, 0.015);
+}
+.message.assistant:hover {
+    background-color: #353535;
+}
+
+/* fade-in 動畫 */
+@keyframes msgFadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.message {
+    animation: msgFadeIn 0.22s ease-out;
+}
+
+/* ============ NEW v2: hover-revealed toolbar ============ */
+.message-toolbar {
+    margin-top: 10px;
+    display: flex;
+    gap: 4px;
+    opacity: 0;
+    transition: opacity 0.18s ease;
+}
+.message.assistant:hover .message-toolbar,
+.message-toolbar:focus-within {
+    opacity: 1;
+}
+.msg-action {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-secondary);
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+    padding: 0;
+    font-size: 13px;
+}
+.msg-action:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+.msg-action.is-copied {
+    color: var(--accent);
+    background: rgba(16, 163, 127, 0.1);
+}
+.msg-action.is-active-up {
+    color: var(--accent);
+}
+.msg-action.is-active-down {
+    color: #E25C5C;
+}
+
+/* ============ NEW v2: code block header + copy ============ */
+.code-block-wrapper {
+    margin: 14px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #1B1B1B;
+    border: 1px solid #3A3A3A;
+}
+.code-block-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 12px;
+    background: #262626;
+    border-bottom: 1px solid #3A3A3A;
+    font-size: 12px;
+    color: var(--text-secondary);
+}
+.code-block-lang {
+    font-family: 'SF Mono', Consolas, Monaco, monospace;
+    font-weight: 500;
+    text-transform: lowercase;
+    letter-spacing: 0.3px;
+}
+.code-block-copy {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all 0.15s;
+    font-family: inherit;
+}
+.code-block-copy:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+}
+.code-block-copy i {
+    margin-right: 4px;
+}
+.code-block-wrapper pre {
+    margin: 0;
+    padding: 12px 14px;
+    background: transparent;
+    border: none;
+    overflow-x: auto;
+    font-family: 'SF Mono', Consolas, Monaco, monospace;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.code-block-wrapper code {
+    background: transparent;
+    color: #E0E0E0;
+}
+
+/* inline code 維持原樣 */
+.message-body code:not(.code-block-wrapper code) {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: 'SF Mono', Consolas, Monaco, monospace;
 }
 
 /* Splash 卡片懸浮效果 */
@@ -499,6 +658,21 @@ body {
         padding: 16px 4% 16px 4%;
         font-size: 14.5px;
     }
+    .message-avatar {
+        width: 28px;
+        height: 28px;
+        font-size: 12px;
+    }
+    .message-content {
+        gap: 10px;
+    }
+    .code-block-wrapper {
+        margin: 10px 0;
+    }
+    .code-block-wrapper pre {
+        padding: 10px;
+        font-size: 12.5px;
+    }
     .input-area {
         padding: 8px 4% 16px 4%;
     }
@@ -540,6 +714,18 @@ body {
     .message {
         padding: 14px 3% 14px 3%;
         font-size: 14px;
+    }
+    .message-avatar {
+        width: 26px;
+        height: 26px;
+        font-size: 11px;
+    }
+    .message-toolbar {
+        opacity: 1;  /* 手機上沒 hover, 直接顯示 toolbar */
+    }
+    .msg-action {
+        width: 26px;
+        height: 26px;
     }
     .input-area {
         padding: 6px 3% 14px 3%;

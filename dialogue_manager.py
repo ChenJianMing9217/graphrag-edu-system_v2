@@ -20,7 +20,10 @@ except ImportError:
     PlanningAgent = None
 
 class DialogueManager:
-    def __init__(self):
+    def __init__(self, sql_db=None):
+        # sql_db (Flask-SQLAlchemy db 物件) 用於 MySQL 在地資源/補助查詢
+        # 若不傳 → MySQLResourceClient 不會被建立，SQL 路徑會 silent return
+        self.sql_db = sql_db
         # 0. 基本配置
         neo4j_uri = get_neo4j_uri()
         user, password = get_neo4j_auth()
@@ -88,12 +91,17 @@ class DialogueManager:
         )
         
         # 4. 初始化核心 RAG 檢索器與 RL Agent
+        # [FIX 2026-05-07] 傳入 sql_db 讓 MYSQL_RESOURCE_FETCH 能用 — 之前漏傳導致 mysql_client=None,
+        # 所有 SQL 查詢被 silent return,只剩 GPT_FETCH 路徑能用。
         self.retriever = RetrievalModuleV2(
             graph_client=self.graph_client,
+            sql_db=self.sql_db,
             text_encoder=self.encoder,
             llm_generator=self.generator,
             planning_agent=self.planning_agent
         )
+        if self.sql_db is None:
+            print("[DialogueManager] ⚠️ sql_db 未注入,MYSQL 在地資源/補助查詢將完全失效")
         
         model_path = os.path.join(os.path.dirname(__file__), "rl_pipeline/agents/reranker/models/rerank_agent.pth")
         self.rl_agent = RLAgentManager(model_path=model_path)
@@ -709,13 +717,15 @@ class DialogueManager:
             _citation_instruction = (
                 "\n\n【外部來源引用】"
                 "本次回答中若引用了報告以外的外部知識（如政府機構、醫療指引、學術文獻、新聞網站等），"
-                "請務必於回答**最末段**以下列格式條列來源："
+                "請務必於回答**最末段**以下列**標準 Markdown 連結格式**條列來源："
                 "\n```"
                 "\n## 資料來源"
-                "\n- 衛福部社會及家庭署（https://...）"
-                "\n- 教育部特殊教育通報網（https://...）"
-                "\n- 其他官方/學術出處名稱"
+                "\n- [衛福部社會及家庭署](https://www.sfaa.gov.tw)"
+                "\n- [教育部特殊教育通報網](https://www.set.edu.tw)"
+                "\n- [其他官方/學術出處名稱](URL)"
                 "\n```"
+                "**重要**：URL 必須使用 `[名稱](URL)` 的 Markdown 語法，"
+                "嚴禁使用「（https://...）」這種全形括號包 URL 的寫法（會破壞前端連結）。"
                 "若僅引用了報告內容（領域 > 段落），則不需此區塊（前端已自動顯示）。"
             )
             if custom_system_prompt:
@@ -777,7 +787,15 @@ class DialogueManager:
         # 更新並保存對話歷史
         msg_uuid = str(uuid.uuid4())
         chat_history.append({"role": "user", "content": user_input})
-        chat_history.append({"role": "assistant", "content": response, "id": msg_uuid, "feedback": 0})
+        # [NEW] 把 sources 一起存進 assistant 訊息，重整頁面也能還原引用區塊
+        _sources_for_history = (turn_state.get("sources") if turn_state else None) or {}
+        chat_history.append({
+            "role": "assistant",
+            "content": response,
+            "id": msg_uuid,
+            "feedback": 0,
+            "sources": _sources_for_history,
+        })
         if len(chat_history) > 10: # 保留最近 5 輪 (10 筆)
             chat_history = chat_history[-10:]
 

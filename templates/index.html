@@ -168,6 +168,98 @@
             return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
         }
 
+        // ============ 智慧捲動：使用者捲離底部時不強制拉回 ============
+        const _SCROLL_BOTTOM_THRESHOLD = 80;  // 距底部 80px 內視為「貼近底部」
+        function isNearBottom() {
+            const c = document.getElementById('chatMessages');
+            if (!c) return true;
+            return (c.scrollHeight - c.scrollTop - c.clientHeight) <= _SCROLL_BOTTOM_THRESHOLD;
+        }
+        function scrollToBottomIfFollowing() {
+            const c = document.getElementById('chatMessages');
+            if (c && isNearBottom()) c.scrollTop = c.scrollHeight;
+        }
+        function forceScrollToBottom() {
+            const c = document.getElementById('chatMessages');
+            if (c) c.scrollTop = c.scrollHeight;
+        }
+
+        // ============ 生成狀態鎖：avoid 重複送訊息 ============
+        let isGenerating = false;
+        function setGenerating(state) {
+            isGenerating = state;
+            const sendBtn = document.getElementById('sendBtn');
+            const input   = document.getElementById('chatInput');
+            if (sendBtn) {
+                sendBtn.classList.toggle('is-disabled', state);
+            }
+            if (input) {
+                // 允許繼續打字（可先草擬下一題），只是按不到送出
+                input.placeholder = state
+                    ? '回應生成中，送出鍵已暫停（生成完成後恢復）…'
+                    : '輸入訊息或上傳檔案...';
+            }
+        }
+
+        // ============ 複製整則訊息 ============
+        function copyMessage(btn) {
+            const main = btn.closest('.message-main') || btn.closest('.message-content');
+            const body = main && main.querySelector('.message-body');
+            if (!body) return;
+            const text = body.innerText.trim();
+            navigator.clipboard.writeText(text).then(() => {
+                const icon = btn.querySelector('i');
+                const orig = icon.className;
+                icon.className = 'fa-solid fa-check';
+                btn.classList.add('is-copied');
+                setTimeout(() => {
+                    icon.className = orig;
+                    btn.classList.remove('is-copied');
+                }, 1400);
+            }).catch(e => console.warn('copy failed', e));
+        }
+
+        // ============ 複製單個 code block ============
+        function copyCodeBlock(btn) {
+            const wrapper = btn.closest('.code-block-wrapper');
+            const pre = wrapper && wrapper.querySelector('pre');
+            if (!pre) return;
+            navigator.clipboard.writeText(pre.innerText).then(() => {
+                btn.innerHTML = '<i class="fa-solid fa-check"></i> 已複製';
+                setTimeout(() => {
+                    btn.innerHTML = '<i class="fa-regular fa-copy"></i> 複製';
+                }, 1400);
+            });
+        }
+
+        // ============ 為 markdown 渲染後的 code blocks 加 header + copy ============
+        function enhanceCodeBlocks(container) {
+            if (!container) return;
+            const pres = container.querySelectorAll('pre');
+            pres.forEach(pre => {
+                if (pre.parentElement && pre.parentElement.classList.contains('code-block-wrapper')) return;
+                const code = pre.querySelector('code');
+                let lang = '';
+                if (code && code.className) {
+                    const m = code.className.match(/language-([\w+-]+)/);
+                    if (m) lang = m[1];
+                }
+                const wrapper = document.createElement('div');
+                wrapper.className = 'code-block-wrapper';
+                const header = document.createElement('div');
+                header.className = 'code-block-header';
+                header.innerHTML = `
+                    <span class="code-block-lang">${escapeHtml(lang || 'code')}</span>
+                    <button class="code-block-copy" onclick="copyCodeBlock(this)">
+                        <i class="fa-regular fa-copy"></i> 複製
+                    </button>
+                `;
+                pre.parentNode.insertBefore(wrapper, pre);
+                wrapper.appendChild(header);
+                wrapper.appendChild(pre);
+            });
+        }
+
         // Auto-resize textarea & Enter to Send
         const tx = document.getElementById('chatInput');
         if (tx) {
@@ -185,7 +277,8 @@
             tx.addEventListener("keydown", function(e) {
                 if (e.key === "Enter" && !e.shiftKey) {
                     e.preventDefault();
-                    sendBtn.click();
+                    if (isGenerating) return;  // 生成中不准 Enter 送
+                    document.getElementById('sendBtn').click();
                 }
             });
         }
@@ -224,6 +317,7 @@
         const sendBtn = document.getElementById('sendBtn');
         if (sendBtn) {
             sendBtn.onclick = async function() {
+                if (isGenerating) return;  // 生成中不准重複發送
                 const input = document.getElementById('chatInput');
                 const msg = input.value.trim();
                 if(!msg) return;
@@ -236,6 +330,7 @@
                 input.style.height = "auto";
 
                 showThinking();
+                setGenerating(true);
 
                 try {
                     const response = await fetch('/api/chat_stream', {
@@ -268,17 +363,24 @@
                         bubble.className = 'message assistant';
                         bubble.innerHTML = `
                             <div class="message-content">
-                                <div class="bot-tag">EduBot</div>
-                                <div class="message-body"></div>
-                                <div class="message-sources-mount"></div>
-                                <div class="feedback-actions" style="margin-top: 8px; font-size: 13px; display: none; gap: 16px;"></div>
+                                <div class="message-avatar avatar-bot"><i class="fa-solid fa-graduation-cap"></i></div>
+                                <div class="message-main">
+                                    <div class="message-body"></div>
+                                    <div class="message-sources-mount"></div>
+                                    <div class="message-toolbar">
+                                        <button class="msg-action" title="複製" onclick="copyMessage(this)">
+                                            <i class="fa-regular fa-copy"></i>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         `;
                         container.appendChild(bubble);
                         bodyEl = bubble.querySelector('.message-body');
                         sourcesEl = bubble.querySelector('.message-sources-mount');
-                        fbEl = bubble.querySelector('.feedback-actions');
-                        container.scrollTop = container.scrollHeight;
+                        fbEl = bubble.querySelector('.message-toolbar');
+                        // 第一次建 bubble 強制拉到底（這是新訊息）
+                        forceScrollToBottom();
                     }
 
                     const reader = response.body.getReader();
@@ -309,8 +411,8 @@
                                 }
                                 accText += ev.text;
                                 bodyEl.innerHTML = renderMarkdownSafe(accText);
-                                const c = document.getElementById('chatMessages');
-                                c.scrollTop = c.scrollHeight;
+                                // 只在使用者貼近底部時才自動拉，避免使用者往上看時被打斷
+                                scrollToBottomIfFollowing();
                             } else if (ev.type === 'done') {
                                 msgId = ev.message_id;
                                 if (!firstDeltaSeen) {
@@ -327,16 +429,18 @@
                                 } catch (e) { console.warn('renderSources failed', e); }
                                 if (msgId && fbEl) {
                                     fbEl.id = `feedback-${msgId}`;
-                                    fbEl.style.display = 'flex';
-                                    fbEl.innerHTML = `
-                                        <span style="cursor: pointer; transition: color 0.2s;" onclick="submitFeedback('${msgId}', 1, this)">
-                                            <i class="fa-regular fa-thumbs-up"></i> 有幫助
-                                        </span>
-                                        <span style="cursor: pointer; transition: color 0.2s;" onclick="submitFeedback('${msgId}', -1, this)">
-                                            <i class="fa-regular fa-thumbs-down"></i> 無幫助
-                                        </span>
-                                    `;
+                                    // 已有複製鈕，附加 thumbs up/down
+                                    fbEl.insertAdjacentHTML('beforeend', `
+                                        <button class="msg-action" title="有幫助" onclick="submitFeedback('${msgId}', 1, this)">
+                                            <i class="fa-regular fa-thumbs-up"></i>
+                                        </button>
+                                        <button class="msg-action" title="無幫助" onclick="submitFeedback('${msgId}', -1, this)">
+                                            <i class="fa-regular fa-thumbs-down"></i>
+                                        </button>
+                                    `);
                                 }
+                                // streaming 結束後，code block 加 copy 按鈕
+                                try { enhanceCodeBlocks(bodyEl); } catch (e) {}
                             } else if (ev.type === 'error') {
                                 hideThinking();
                                 addMessage('錯誤：' + (ev.error || '未知錯誤'), 'assistant');
@@ -348,6 +452,10 @@
                     hideThinking();
                     console.error('Error:', error);
                     addMessage('連線失敗，請確認伺服器是否正常運作。', 'assistant');
+                } finally {
+                    setGenerating(false);
+                    const inp = document.getElementById('chatInput');
+                    if (inp) inp.focus();
                 }
             };
         }
@@ -359,8 +467,10 @@
             div.id = 'thinkingMsg';
             div.innerHTML = `
                 <div class="message-content">
-                    <div class="bot-tag">EduBot</div>
-                    <div class="message-body">正在思考中</div>
+                    <div class="message-avatar avatar-bot"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="message-main">
+                        <div class="message-body">正在思考中</div>
+                    </div>
                 </div>
             `;
             container.appendChild(div);
@@ -378,7 +488,11 @@
             try {
                 if (window.marked) {
                     marked.setOptions({ gfm: true, breaks: true });
-                    const rawHtml = marked.parse(text);
+                    let rawHtml = marked.parse(text);
+                    // [Fix] marked auto-link 會把全形 ）／中文括號吃進 URL
+                    // 例如「（https://www.mohw.gov.tw）」變成連結 https://www.mohw.gov.tw）
+                    // post-process 把 href / link text 末尾的非 URL 字元剝掉
+                    rawHtml = sanitizeAutoLinks(rawHtml);
                     if (window.DOMPurify) {
                         return DOMPurify.sanitize(rawHtml);
                     }
@@ -391,39 +505,88 @@
             }
         }
 
-        function addMessage(text, role, msgId = null, feedbackVal = 0) {
+        // 把 auto-link 後跑進 URL 的中文標點 / 全形括號 / 句末符號剝掉，移到連結外面
+        function sanitizeAutoLinks(html) {
+            // URL 結尾不該包的字元（中文括號、引號、句末符號）
+            const TRAIL = /[）)】」』,。、！？:;\]>]+$/;
+            return html.replace(/<a([^>]*?)href="([^"]+)"([^>]*)>([^<]*)<\/a>/g, function(_, pre, href, post, label) {
+                let trailingHref = '';
+                let trailingLabel = '';
+                let m;
+                while ((m = href.match(TRAIL))) {
+                    trailingHref = m[0] + trailingHref;
+                    href = href.slice(0, -m[0].length);
+                }
+                while ((m = label.match(TRAIL))) {
+                    trailingLabel = m[0] + trailingLabel;
+                    label = label.slice(0, -m[0].length);
+                }
+                // 取兩者末尾相同部分作為「真的要剝掉的尾巴」
+                const trail = trailingHref || trailingLabel || '';
+                return `<a${pre}href="${href}"${post}>${label}</a>${trail}`;
+            });
+        }
+
+        function addMessage(text, role, msgId = null, feedbackVal = 0, sources = null) {
             const container = document.getElementById('chatMessages');
             const div = document.createElement('div');
             div.className = `message ${role}`;
-            
-            const content = role === 'assistant' ? renderMarkdownSafe(text) : text;
-            
-            let feedbackHtml = '';
-            if (role === 'assistant' && msgId) {
-                const upActive = feedbackVal === 1 ? 'color: #10A37F;' : '';
-                const downActive = feedbackVal === -1 ? 'color: #E25C5C;' : '';
-                feedbackHtml = `
-                    <div class="feedback-actions" id="feedback-${msgId}" style="margin-top: 8px; font-size: 13px; display: flex; gap: 16px;">
-                        <span style="cursor: pointer; transition: color 0.2s; ${upActive}" onclick="submitFeedback('${msgId}', 1, this)">
-                            <i class="fa-regular fa-thumbs-up"></i> 有幫助
-                        </span>
-                        <span style="cursor: pointer; transition: color 0.2s; ${downActive}" onclick="submitFeedback('${msgId}', -1, this)">
-                            <i class="fa-regular fa-thumbs-down"></i> 無幫助
-                        </span>
-                    </div>
-                `;
+
+            const content = role === 'assistant' ? renderMarkdownSafe(text) : escapeHtml(text);
+
+            // 引用區塊（assistant 才會有 sources）
+            let sourcesHtml = '';
+            if (role === 'assistant') {
+                try {
+                    const html = renderSources(sources);
+                    if (html) sourcesHtml = html;
+                } catch (e) { console.warn('renderSources failed', e); }
             }
+
+            // Toolbar (assistant 才有)
+            let toolbarHtml = '';
+            if (role === 'assistant') {
+                const upActive  = feedbackVal === 1  ? 'is-active-up'   : '';
+                const downActive= feedbackVal === -1 ? 'is-active-down' : '';
+                let fbButtons = '';
+                if (msgId) {
+                    fbButtons = `
+                        <button class="msg-action ${upActive}" title="有幫助" onclick="submitFeedback('${msgId}', 1, this)">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                        </button>
+                        <button class="msg-action ${downActive}" title="無幫助" onclick="submitFeedback('${msgId}', -1, this)">
+                            <i class="fa-regular fa-thumbs-down"></i>
+                        </button>`;
+                }
+                toolbarHtml = `
+                    <div class="message-toolbar"${msgId ? ` id="feedback-${msgId}"` : ''}>
+                        <button class="msg-action" title="複製" onclick="copyMessage(this)">
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                        ${fbButtons}
+                    </div>`;
+            }
+
+            // Avatar
+            const avatarHtml = role === 'assistant'
+                ? `<div class="message-avatar avatar-bot"><i class="fa-solid fa-graduation-cap"></i></div>`
+                : `<div class="message-avatar avatar-user"><i class="fa-solid fa-user"></i></div>`;
 
             div.innerHTML = `
                 <div class="message-content">
-                    <div class="bot-tag" style="${role === 'user' ? 'color: var(--text-primary);' : ''}">
-                        ${role === 'user' ? '你' : 'EduBot'}
+                    ${avatarHtml}
+                    <div class="message-main">
+                        <div class="message-body">${content}</div>
+                        <div class="message-sources-mount">${sourcesHtml}</div>
+                        ${toolbarHtml}
                     </div>
-                    <div class="message-body">${content}</div>
-                    ${feedbackHtml}
                 </div>
             `;
             container.appendChild(div);
+            // assistant 訊息渲染後，code block 加 copy 按鈕
+            if (role === 'assistant') {
+                try { enhanceCodeBlocks(div.querySelector('.message-body')); } catch (e) {}
+            }
             container.scrollTop = container.scrollHeight;
         }
 
@@ -432,48 +595,56 @@
             const container = document.getElementById('chatMessages');
             const div = document.createElement('div');
             div.className = `message ${role}`;
-            
-            let feedbackHtml = '';
-            if (role === 'assistant' && msgId) {
-                feedbackHtml = `
-                    <div class="feedback-actions" id="feedback-${msgId}" style="margin-top: 8px; font-size: 13px; display: none; gap: 16px;">
-                        <span style="cursor: pointer; transition: color 0.2s;" onclick="submitFeedback('${msgId}', 1, this)">
-                            <i class="fa-regular fa-thumbs-up"></i> 有幫助
-                        </span>
-                        <span style="cursor: pointer; transition: color 0.2s;" onclick="submitFeedback('${msgId}', -1, this)">
-                            <i class="fa-regular fa-thumbs-down"></i> 無幫助
-                        </span>
-                    </div>
-                `;
+
+            let toolbarHtml = '';
+            if (role === 'assistant') {
+                let fbButtons = '';
+                if (msgId) {
+                    fbButtons = `
+                        <button class="msg-action" title="有幫助" onclick="submitFeedback('${msgId}', 1, this)">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                        </button>
+                        <button class="msg-action" title="無幫助" onclick="submitFeedback('${msgId}', -1, this)">
+                            <i class="fa-regular fa-thumbs-down"></i>
+                        </button>`;
+                }
+                toolbarHtml = `
+                    <div class="message-toolbar"${msgId ? ` id="feedback-${msgId}"` : ''}>
+                        <button class="msg-action" title="複製" onclick="copyMessage(this)">
+                            <i class="fa-regular fa-copy"></i>
+                        </button>
+                        ${fbButtons}
+                    </div>`;
             }
+
+            const avatarHtml = role === 'assistant'
+                ? `<div class="message-avatar avatar-bot"><i class="fa-solid fa-graduation-cap"></i></div>`
+                : `<div class="message-avatar avatar-user"><i class="fa-solid fa-user"></i></div>`;
 
             div.innerHTML = `
                 <div class="message-content">
-                    <div style="font-weight: 600; font-size: 12px; margin-bottom: 8px; color: #10A37F">
-                        EduBot
+                    ${avatarHtml}
+                    <div class="message-main">
+                        <div class="message-body"></div>
+                        ${toolbarHtml}
                     </div>
-                    <div class="message-body"></div>
-                    ${feedbackHtml}
                 </div>
             `;
             container.appendChild(div);
             const body = div.querySelector('.message-body');
-            const fbDiv = div.querySelector('.feedback-actions');
-            
+
             let currentIndex = 0;
-            const speed = 20; // ms per chunk
+            const speed = 20;
 
             function type() {
                 if (currentIndex < fullText.length) {
-                    currentIndex += 3; // 每次跑 3 個字
-                    const partialText = fullText.slice(0, currentIndex);
-                    body.innerHTML = renderMarkdownSafe(partialText);
+                    currentIndex += 3;
+                    body.innerHTML = renderMarkdownSafe(fullText.slice(0, currentIndex));
                     container.scrollTop = container.scrollHeight;
                     setTimeout(type, speed);
                 } else {
-                    // 結束後重新渲染完整內容以確保 Markdown 閉合正確
                     body.innerHTML = renderMarkdownSafe(fullText);
-                    if(fbDiv) fbDiv.style.display = 'flex'; // 打出完畢後顯示回饋鈕
+                    try { enhanceCodeBlocks(body); } catch (e) {}
                     container.scrollTop = container.scrollHeight;
                 }
             }
@@ -485,9 +656,15 @@
                 // UI update originally
                 const container = document.getElementById(`feedback-${msgId}`);
                 if (container) {
-                    const spans = container.querySelectorAll('span');
-                    spans[0].style.color = value === 1 ? '#10A37F' : '';
-                    spans[1].style.color = value === -1 ? '#E25C5C' : '';
+                    // 新版 toolbar：button.msg-action（複製鈕在第 1 個，thumbs up/down 在 2/3）
+                    const btns = container.querySelectorAll('button.msg-action');
+                    btns.forEach(b => {
+                        b.classList.remove('is-active-up', 'is-active-down');
+                    });
+                    if (btns.length >= 3) {
+                        if (value === 1) btns[1].classList.add('is-active-up');
+                        if (value === -1) btns[2].classList.add('is-active-down');
+                    }
                 }
 
                 await fetch('/api/feedback', {
@@ -528,7 +705,7 @@
                     container.innerHTML = ''; 
                     
                     data.history.forEach(turn => {
-                        addMessage(turn.content, turn.role, turn.id, turn.feedback);
+                        addMessage(turn.content, turn.role, turn.id, turn.feedback, turn.sources);
                     });
                 } else {
                     // 若無歷史紀錄，顯示歡迎提示

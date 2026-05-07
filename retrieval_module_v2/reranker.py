@@ -68,6 +68,16 @@ class Reranker:
             if cand.label == "ClinicalNorm":
                 cand.score += 0.4
 
+            # 6. [NEW 2026-05-07] 多來源並存策略：SQL 與 GPT 同等高權重
+            #    SubsidyInfo (官方補助公告) 最高 → LocalResource (sfaa/社區)、ExternalGPT (即時 web)
+            #    與 ClinicalNorm (常模) 形成 4 大互補來源,確保都進得了 prompt
+            if cand.label == "SubsidyInfo":
+                cand.score += 0.6   # 官方補助文件,金額/條件具體
+            elif cand.label == "LocalResource":
+                cand.score += 0.5   # SQL 在地機構/據點
+            elif cand.label == "ExternalGPT":
+                cand.score += 0.5   # 即時 web search,常含治療所名單(SQL 沒有)
+
         candidates.sort(key=lambda x: x.score, reverse=True)
         return candidates
 
@@ -80,7 +90,11 @@ class Reranker:
             "E": ["TrainingDirection", "Recommendation"],
             "F": ["TrainingDirection", "Observation"],
             "G": ["Assessment", "Recommendation"],
+            # [NEW] H/K 任務 boost SQL 在地資源節點（與第 6 步骤的 label boost 互補）
+            "H": ["LocalResource", "SubsidyInfo"],
+            "K": ["SubsidyInfo", "LocalResource"],
             "L": ["Assessment", "TrainingDirection"],
+            "M": ["Recommendation", "GeneralRecommendation"],
             "N": ["Assessment", "Score"],
         }
         return mapping.get(task_label, [])

@@ -9,9 +9,9 @@ from datetime import datetime
 
 from config import get_mysql_uri, SECRET_KEY, get_neo4j_uri, get_neo4j_auth, UPLOAD_FOLDER
 
-# 導入對話大腦
+# 導入對話大腦（實際 instance 在 db 建立之後創建，見下方 dialogue_mgr = DialogueManager(sql_db=db)）
 from dialogue_manager import DialogueManager
-dialogue_mgr = DialogueManager()
+dialogue_mgr = None  # 延遲初始化
 
 # ============================================================================
 # Turn Log（每輪對話寫一行 JSON 到 logs/turns_YYYYMMDD.jsonl）
@@ -108,6 +108,10 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 db = SQLAlchemy(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
+
+# [FIX 2026-05-07] db 建好後才初始化 DialogueManager，把 sql_db 注入給 RetrievalModuleV2，
+# 才能讓 MySQL 在地資源/補助查詢正常運作。
+dialogue_mgr = DialogueManager(sql_db=db)
 
 # ============================================================================
 # 資料庫模型 (v2: 以兒童為中心)
