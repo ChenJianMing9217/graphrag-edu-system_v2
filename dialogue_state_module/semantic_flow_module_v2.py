@@ -574,19 +574,24 @@ class SemanticFlowClassifier: # 語義流程分類器
                     if prev_active_domains:
                         domain.active_domains = list(prev_active_domains)
                         domain.is_multi_domain = len(domain.active_domains) >= 2
-                    # [REVISED 2026-05-06] STAY 路徑：top_domain 無條件沿用 prev_top，
-                    # 與 active_domains 保持一致。
-                    # 原本的「強信號(prob >= 0.35)時保留本輪 top」分支已移除，
-                    # 因為若用戶真的明確切 domain，應該由 Memory Agent 判 REFRESH，
-                    # 而不是進入 STAY 分支。STAY 就代表「延續前文」，top 不該漂移。
+                    # [REVISED 2026-05-13] STAY 路徑：信號強度 gated sticky。
+                    # 舊版「無條件沿用 + 整體概況例外」會被低 prob 邊界預測污染（v2 評估發現：
+                    # T1 整體概況 → T2 「說話」prob=0.17 偶然贏 → T3-T6 sticky 鎖死「說話」連鎖 bug）。
+                    # 新規則：
+                    #   - 本輪 top_prob >= _STICKY_HIGH_PROB_TH：信號明確 → 使用本輪 top（不繼承）
+                    #   - 本輪 top_prob <  _STICKY_HIGH_PROB_TH：信號弱 → 沿用 prev_top（含 整體概況）
+                    # 統一規則，移除了「prev_top 是 整體概況 就不繼承」的特例。
+                    _STICKY_HIGH_PROB_TH = 0.30
+                    _confident_shift = float(domain.top_prob) >= _STICKY_HIGH_PROB_TH
+
                     if (prev_top
-                            and prev_top != "整體概況"
-                            and domain.top_domain != prev_top):
-                        # 紀錄 override 觸發（保留 flag 名稱 top_sticky_weak_signal 給離線分析）
+                            and domain.top_domain != prev_top
+                            and not _confident_shift):
+                        # 紀錄 override 觸發（保留 flag 名稱給離線分析）
                         if domain.top_domain not in prev_active_domains:
                             self._overrides_fired_log["top_sticky_weak_signal"] = True
                         if DST_DEBUG_VERBOSE:
-                            print(f"  [Agent STAY] top_domain 沿用：{domain.top_domain}(prob={domain.top_prob:.2f}) → {prev_top}")
+                            print(f"  [Agent STAY] top_domain 低信號沿用：{domain.top_domain}(prob={domain.top_prob:.2f}) → {prev_top}")
                         domain.top_domain = prev_top
                         # 同步 topic_tracker，避免 raw_top 漂移值在多輪累積。
                         try:

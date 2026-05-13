@@ -32,6 +32,15 @@ training_dashboard.html
 # Turn log（每輪對話日誌，含使用者隱私內容）
 logs/
 
+# 評估 / 測試輸出（含家長對話、個案資訊、檢索內容）
+scripts/raw_logs/
+scripts/raw_logs_v1/
+scripts/raw_logs_*/
+scripts/cases.json
+expert_eval/治療師評分表_*.xlsx
+expert_eval/domain_analysis_*.xlsx
+expert_eval/domain_compare_*.xlsx
+
 
 # IDE
 .vscode/
